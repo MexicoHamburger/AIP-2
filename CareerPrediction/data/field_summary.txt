@@ -1,0 +1,246 @@
+[LanguageHaveWorkedWith]
+- Bash/Shell (all shells)
+- C
+- C#
+- C++
+- Dart
+- Go
+- HTML/CSS
+- Java
+- JavaScript
+- Kotlin
+- PHP
+- PowerShell
+- Python
+- Ruby
+- Rust
+- SQL
+- TypeScript
+
+[LanguageWantToWorkWith]
+- Bash/Shell (all shells)
+- C
+- C#
+- C++
+- Dart
+- Elixir
+- Go
+- HTML/CSS
+- Java
+- JavaScript
+- Kotlin
+- PHP
+- PowerShell
+- Python
+- Rust
+- SQL
+- Swift
+- TypeScript
+- Zig
+
+[DatabaseHaveWorkedWith]
+- Dynamodb
+- Elasticsearch
+- MariaDB
+- Microsoft SQL Server
+- MongoDB
+- MySQL
+- Oracle
+- PostgreSQL
+- Redis
+- SQLite
+
+[DatabaseWantToWorkWith]
+- Dynamodb
+- Elasticsearch
+- MariaDB
+- Microsoft SQL Server
+- MongoDB
+- MySQL
+- PostgreSQL
+- Redis
+- SQLite
+
+[PlatformHaveWorkedWith]
+- Amazon Web Services (AWS)
+- Cloudflare
+- Digital Ocean
+- Firebase
+- Google Cloud
+- Heroku
+- Microsoft Azure
+- Netlify
+- Vercel
+
+[PlatformWantToWorkWith]
+- Amazon Web Services (AWS)
+- Cloudflare
+- Digital Ocean
+- Firebase
+- Google Cloud
+- Microsoft Azure
+- Vercel
+
+[WebframeHaveWorkedWith]
+- ASP.NET
+- ASP.NET CORE
+- Angular
+- AngularJS
+- Django
+- Express
+- FastAPI
+- Flask
+- Laravel
+- NestJS
+- Next.js
+- Node.js
+- React
+- Spring Boot
+- Vue.js
+- WordPress
+- jQuery
+
+[WebframeWantToWorkWith]
+- ASP.NET
+- ASP.NET CORE
+- Angular
+- Blazor
+- Django
+- Express
+- FastAPI
+- Flask
+- Htmx
+- Laravel
+- NestJS
+- Next.js
+- Node.js
+- React
+- Spring Boot
+- Svelte
+- Vue.js
+- jQuery
+
+[EmbeddedHaveWorkedWith]
+- Arduino
+- CMake
+- Cargo
+- GNU GCC
+- LLVM's Clang
+- Rasberry Pi
+
+[EmbeddedWantToWorkWith]
+- Arduino
+- CMake
+- Cargo
+- GNU GCC
+- LLVM's Clang
+- Rasberry Pi
+
+[MiscTechHaveWorkedWith]
+- .NET (5+)
+- .NET Framework (1.0 - 4.8)
+- Apache Kafka
+- Flutter
+- NumPy
+- Pandas
+- RabbitMQ
+- React Native
+- Scikit-Learn
+- Spring Framework
+- TensorFlow
+- Torch/PyTorch
+
+[MiscTechWantToWorkWith]
+- .NET (5+)
+- Apache Kafka
+- CUDA
+- Flutter
+- NumPy
+- Pandas
+- RabbitMQ
+- React Native
+- Scikit-Learn
+- Spring Framework
+- TensorFlow
+- Torch/PyTorch
+
+[ToolsTechHaveWorkedWith]
+- APT
+- Ansible
+- Chocolatey
+- Composer
+- Docker
+- Gradle
+- Homebrew
+- Kubernetes
+- MSBuild
+- Make
+- Maven (build tool)
+- NuGet
+- Pip
+- Podman
+- Terraform
+- Visual Studio Solution
+- Vite
+- Webpack
+- Yarn
+- npm
+- pnpm
+
+[ToolsTechWantToWorkWith]
+- APT
+- Ansible
+- Bun
+- Composer
+- Docker
+- Godot
+- Gradle
+- Homebrew
+- Kubernetes
+- MSBuild
+- Make
+- Maven (build tool)
+- NuGet
+- Pip
+- Podman
+- Terraform
+- Visual Studio Solution
+- Vite
+- Webpack
+- Yarn
+- npm
+- pnpm
+
+[AISearchDevHaveWorkedWith]
+- Bing AI
+- ChatGPT
+- Claude
+- GitHub Copilot
+- Google Gemini
+- Visual Studio Intellicode
+
+[AISearchDevWantToWorkWith]
+- Bing AI
+- ChatGPT
+- Claude
+- GitHub Copilot
+- Google Gemini
+- Visual Studio Intellicode
+
+[ProfessionalTech]
+- AI-assisted technology tool(s)
+- Automated testing
+- Continuous integration (CI) and (more often) continuous delivery
+- DevOps function
+- Developer portal or other central places to find tools/services
+- Innersource initiative
+- Knowledge sharing community
+- Microservices
+- None of these
+- Observability tools
+
+[ProfessionalCloud]
+- Cloud only (single or multi-cloud)
+- Hybrid (on-prem and cloud)
+- On-prem
+
