@@ -24,8 +24,9 @@ multi_valued_columns = [
     "EmbeddedHaveWorkedWith", "EmbeddedWantToWorkWith",
     "MiscTechHaveWorkedWith", "MiscTechWantToWorkWith",
     "ToolsTechHaveWorkedWith", "ToolsTechWantToWorkWith",
-    "AISearchDevHaveWorkedWith", "AISearchDevWantToWorkWith",
-    "ProfessionalTech", "ProfessionalCloud"
+    #"AISearchDevHaveWorkedWith", "AISearchDevWantToWorkWith",
+    "ProfessionalTech", 
+    #"ProfessionalCloud"
 ]
 
 # 출력 순서
@@ -38,8 +39,9 @@ ordered_columns = [
     "EmbeddedHaveWorkedWith", "EmbeddedWantToWorkWith",
     "MiscTechHaveWorkedWith", "MiscTechWantToWorkWith",
     "ToolsTechHaveWorkedWith", "ToolsTechWantToWorkWith",
-    "AISearchDevHaveWorkedWith", "AISearchDevWantToWorkWith",
-    "ProfessionalTech", "ProfessionalCloud", "ProfessionalQuestion",
+    #"AISearchDevHaveWorkedWith", "AISearchDevWantToWorkWith",
+    "ProfessionalTech", "ProfessionalQuestion",
+    # "ProfessionalCloud",
     "Industry", "JobSat"
 ]
 

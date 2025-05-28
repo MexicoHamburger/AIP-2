@@ -211,22 +211,6 @@
 - npm
 - pnpm
 
-[AISearchDevHaveWorkedWith]
-- Bing AI
-- ChatGPT
-- Claude
-- GitHub Copilot
-- Google Gemini
-- Visual Studio Intellicode
-
-[AISearchDevWantToWorkWith]
-- Bing AI
-- ChatGPT
-- Claude
-- GitHub Copilot
-- Google Gemini
-- Visual Studio Intellicode
-
 [ProfessionalTech]
 - AI-assisted technology tool(s)
 - Automated testing
@@ -238,9 +222,4 @@
 - Microservices
 - None of these
 - Observability tools
-
-[ProfessionalCloud]
-- Cloud only (single or multi-cloud)
-- Hybrid (on-prem and cloud)
-- On-prem
 
