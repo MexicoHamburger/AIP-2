@@ -2,8 +2,8 @@ import pandas as pd
 from collections import Counter
 
 # 파일명
-csv_file = "source.csv"
-output_csv = "dest.csv"
+csv_file = "survey_results_public_2024.csv"
+output_csv = "SODC_2024.csv"
 
 # 허용할 DevType 목록
 allowed_devtypes = [
@@ -17,8 +17,15 @@ allowed_devtypes = [
 # 원하는 컬럼 순서
 ordered_columns = [
     "DevType", "Currency", "CompTotal",
-    "LanguageHaveWorkedWith", "DatabaseHaveWorkedWith", "PlatformHaveWorkedWith",
-    "WebframeHaveWorkedWith", "EmbeddedHaveWorkedWith", "MiscTechHaveWorkedWith", "Industry"
+    "LanguageHaveWorkedWith", "LanguageWantToWorkWith",
+    "DatabaseHaveWorkedWith", "DatabaseWantToWorkWith",
+    "PlatformHaveWorkedWith", "PlatformWantToWorkWith",
+    "WebframeHaveWorkedWith", "WebframeWantToWorkWith", 
+    "EmbeddedHaveWorkedWith", "EmbeddedWantToWorkWith",
+    "MiscTechHaveWorkedWith", "MiscTechWantToWorkWith",
+    "ToolsTechHaveWorkedWith", "ToolsTechWantToWorkWith",
+    "ProfessionalTech", "ProfessionalCloud","ProfessionalQuestion",
+    "Industry", "JobSat"
 ]
 
 allowed_industries = ["Software Development", "Computer Systems Design and Services", "Internet, Telecomm or Information Services", "Fintech", "Energy", "Government", "Banking/Financial Services", "Manufacturing", "Transportation, or Supply Chain", "Healthcare", "Retail and Consumer Services", "Higher Education", "Media & Advertising Services", "Insurance", "Advertising Services", "Business Consulting and Services", "Construction", "Financial Services", "Government Administration", "Information Services, IT, Software Development, or other Technology", "Legal Services", "Manufacturing, Transportation, or Supply Chain", "Non-profit Organizations", "Oil & Gas", "Telecommunications, Media, and Entertainment", "Wholesale"]
@@ -53,7 +60,7 @@ pattern = '|'.join([f"\\b{d}\\b" for d in allowed_devtypes])
 df = df[df["DevType"].str.contains(pattern, case=False, na=False, regex=True)]
 
 # 3️⃣ CompTotal, Currency 결측치 제거
-df = df.dropna(subset=["CompTotal", "Currency"])
+df = df.dropna(subset=["CompTotal", "Currency", "JobSat"])
 
 # 4️⃣ Currency 앞 3글자만 남기기
 df["Currency"] = df["Currency"].str.replace(r'\s{2,}', ' ', regex=True)
@@ -61,12 +68,14 @@ df["Currency"] = df["Currency"].str.slice(0, 3)
 
 # 5️⃣ 다중 필드 빈도 기반 필터링
 multi_valued_columns = [
-    "LanguageHaveWorkedWith",
-    "DatabaseHaveWorkedWith",
-    "PlatformHaveWorkedWith",
-    "WebframeHaveWorkedWith",
-    "EmbeddedHaveWorkedWith",
-    "MiscTechHaveWorkedWith"
+    "LanguageHaveWorkedWith", "LanguageWantToWorkWith",
+    "DatabaseHaveWorkedWith", "DatabaseWantToWorkWith",
+    "PlatformHaveWorkedWith", "PlatformWantToWorkWith",
+    "WebframeHaveWorkedWith", "WebframeWantToWorkWith",
+    "EmbeddedHaveWorkedWith", "EmbeddedWantToWorkWith",
+    "MiscTechHaveWorkedWith", "MiscTechWantToWorkWith",
+    "ToolsTechHaveWorkedWith", "ToolsTechWantToWorkWith",
+    "ProfessionalTech", "ProfessionalCloud"
 ]
 
 for col in multi_valued_columns:
@@ -229,6 +238,8 @@ df.drop(columns=["Currency"], inplace=True)
 
 # 6️⃣ Industry 필터링: 허용된 값이 아니면 공백 처리 (행은 유지)
 df["Industry"] = df["Industry"].apply(lambda x: x if x in allowed_industries else "")
+
+df["ProfessionalQuestion"] = df["ProfessionalQuestion"].fillna("")
 
 # 7️⃣ 저장
 df.to_csv(output_csv, index=False)
