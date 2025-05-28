@@ -1,0 +1,20 @@
+[
+  {
+    "token_sequence": [
+      "HTMLCSS",
+      "JS",
+      "React",
+      "Next",
+      "Git",
+      "Redux",
+      "TYPE_Proj|ROLE_FE|SKILL_Next",
+      "TYPE_Proj|ROLE_FE|SKILL_React",
+      "TYPE_Proj|ROLE_UXUI|SKILL_HTMLCSS",
+      "TYPE_Proj|ROLE_DEVOPS|SKILL_Git",
+      "TYPE_Intern|ROLE_UXUI|SKILL_HTMLCSS",
+      "TYPE_Intern|ROLE_DEVOPS|SKILL_Git",
+      "TYPE_Hackathon|ROLE_UXUI|SKILL_NUL",
+      "CERT_IPE"
+    ]
+  }
+]
