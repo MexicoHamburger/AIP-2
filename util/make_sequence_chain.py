@@ -45,77 +45,74 @@ async def run_general_search(param: MakeSequenceParam) -> dict:
 # main.py (또는 현재 파일 하단에 추가)
 
 import asyncio, os, json
+import pandas as pd
+
+CSV_PATH = "~/aip/jobpost_resume_only.csv"   # ← 필요하면 경로 수정
+RESULT_PATH = "result.json"                      # 결과 저장 파일
+
+# --- 유틸 함수 ---------------------------------------------------------- #
+async def process_single_resume(resume_text: str) -> dict:
+    """단일 이력서를 LLM 체인에 넘겨 결과를 반환."""
+    param = MakeSequenceParam(input_resume=resume_text)
+    return await run_general_search(param)
+
+
+async def load_existing_results(path: str) -> list:
+    """기존 JSON 결과가 있으면 불러오고, 없으면 빈 리스트 반환."""
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return data if isinstance(data, list) else [data]
+        except json.JSONDecodeError:
+            pass
+    return []
+
 
 async def main():
-    input_resume = """
-**[이력서]**  
-- 이름: 홍민수  
-- 생년월일 (나이 만 26세)  
-- 전화번호: 010-****-1234  
-- 이메일: minsu_hong@xxmail.com  
+    # 1) CSV 파일에서 resume 컬럼 읽어오기
+    df = pd.read_csv(CSV_PATH)
 
-**학력:**  
-- OO초등학교 졸업  
-- OO중학교 졸업  
-- OO고등학교 졸업  
-- YY대학교 컴퓨터공학과 (졸업)
+    # ────────────────────────────────────────────────────────────────
+    # ▶ ① 행 번호 범위로 자르기 (예: 0번째~99번째 총 100개만)
+    df_subset = df.iloc[100:1000]          # <- 원하는 범위로 수정: iloc[start:end]
 
-**경력 및 경험:**  
-- YY대학교 졸업 프로젝트: "E-commerce Platform Development"  
-  - Next.js를 활용한 웹 애플리케이션 개발  
-  - React Query로 API 데이터 통신 및 상태 관리 구현  
-  - Tailwind CSS를 사용하여 반응형 디자인 및 UI 개발  
-  - Git을 통한 버전 관리 경험  
+    # ▶ ② 특정 인덱스(리스트)만 선택 (예: 0, 3, 7, 10번째 행만)
+    # wanted_idx = [0, 3, 7, 10]
+    # df_subset = df.loc[wanted_idx]
 
-- 인턴 경험: ZZ회사 (2023년 6월 - 2023년 8월)  
-  - Agile 환경에서 웹 애플리케이션의 UI/UX 최적화 작업 수행  
-  - Git을 활용한 팀 프로젝트에서의 버전 관리 및 협업 경험  
+    # ▶ ③ 임의로 N개 샘플링 (예: 무작위 500개)
+    # df_subset = df.sample(n=500, random_state=42)
+    # ────────────────────────────────────────────────────────────────
+    resumes: list[str] = df_subset["resume"].dropna().tolist()
+    print(f"총 {len(resumes):,}개의 이력서를 처리합니다.")
 
-**기술 및 역량:**  
-- HTML, CSS, JavaScript: 숙련  
-- React.js: 프로젝트 경험 보유  
-- Next.js: 프로젝트 경험 보유  
-- Git: 능숙하게 사용 가능  
-- Tailwind CSS: 경험 보유  
-- Zustand: 사용 경험 (학교 프로젝트 상황에서)  
-- Figma: 디자인 협업 경험
+    # 2) 기존 결과 불러오기
+    aggregated: list = await load_existing_results(RESULT_PATH)
 
-**기타:**  
-- 자격증: 정보처리기사 (2023)  
-- 교육이수: "React.js 실무 과정" 수료 (2022년)  
-- Hackathon 참여: "최고의 사용자 경험을 위한 UI/UX 디지털 솔루션" 대회 수상 (2023년)
-"""
+    # 3) LLM 호출 (동시에 너무 많이 호출하면 rate-limit가 걸릴 수 있으니 주의)
+    #    → 필요 시 semaphore 로 동시 호출 수 제한 가능
+    sem = asyncio.Semaphore(5)           # 동시 5개 호출 예시 (원하면 조정)
 
-    param = MakeSequenceParam(input_resume=input_resume)
-    try:
-        result = await run_general_search(param)
-        print("\n결과:")
-        print(result)
+    async def safe_process(res_text):
+        async with sem:
+            return await process_single_resume(res_text)
 
-        # JSON 파일에 append
-        filepath = "result.json"
-        new_entry = result
+    tasks = [safe_process(r) for r in resumes]
 
-        # 파일이 존재하면 기존 내용 불러오기
-        if os.path.exists(filepath):
-            with open(filepath, "r", encoding="utf-8") as f:
-                try:
-                    data = json.load(f)
-                    if not isinstance(data, list):
-                        data = [data]
-                except json.JSONDecodeError:
-                    data = []
-        else:
-            data = []
+    for coro in asyncio.as_completed(tasks):
+        try:
+            result = await coro
+            aggregated.append(result)
+        except Exception as e:
+            print("⚠️  처리 실패:", e)
 
-        # 새 항목 추가 후 저장
-        data.append(new_entry)
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+    # 4) JSON 파일로 저장
+    with open(RESULT_PATH, "w", encoding="utf-8") as f:
+        json.dump(aggregated, f, indent=2, ensure_ascii=False)
 
-        print(f"\nresult.json에 저장 완료 (총 {len(data)}건)")
-    except Exception as e:
-        print(f"\n오류 발생: {e}")
+    print(f"\n완료! result.json에 총 {len(aggregated):,}건이 저장되었습니다.")
 
+# 스크립트 진입점
 if __name__ == "__main__":
     asyncio.run(main())
