@@ -124,7 +124,7 @@ Let's think step by step
 1. **Experience Tokens:** Must be formulated strictly according to the format and within the categories provided.
    - !!반드시 아래 형식에 맞게 작성해야 합니다. 목록에 제공되지 않더라도 아래에서 제공된 목록에서 가장 비슷한 것을 선택해 입력해야 합니다!!
    - Format: `TYPE_[type]|ROLE_[role]|SKILL_[skill]`
-   - [type] ∈ (Proj, Intern, Junior, Club, Research, Hackathon, Contest, Maintenance)
+   - [type] ∈ (Proj, Intern, Junior, Club, Research, Hackathon, Contest, Maintenance, StartUp)
    - [role] ∈ (FE, BE, AI, UXUI, GAME, DEVOPS, APP, DE, FULLSTACK)
    - [skill] ∈ (JS, TS, HTMLCSS, React, VueJS, Electron, Next, Nuxt, Angular, Redux, Java, Go, Node, SpringBoot, Express, Flask, FastAPI, Spring, Python, TensorFlow, Keras, ScikitLearn, PyTorch, ReactNative, Kotlin, Swift, Electron, SQL, PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle, Redis, Pandas, Numpy, Docker, DockerCompose, Kubernetes, Helm, Jenkins, GitLabCI, CircleCI, TravisCI, AzureDevOps, Git, AWS, Azure, GCP, Terraform, Ansible, Puppet, Chef, Packer, Vagrant, Kafka, RabbitMQ, ApacheSpark, Prometheus, Grafana, ELK, Fluentd, OAuth2, JWT, SSLTLS, Bash, PowerShell.)
    - !!반드시 위 형식에 맞게 작성해야 합니다. 목록에 제공되지 않더라도 위에서 제공된 목록에서 가장 비슷한 것을 선택해 입력해야 합니다!!
