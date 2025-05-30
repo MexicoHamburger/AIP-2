@@ -13634,6 +13634,16 @@
   },
   {
     "token_sequence": [
+      "Python",
+      "PyTorch",
+      "CERT_AWS",
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_AI|SKILL_PyTorch",
+      "TYPE_Hackathon|ROLE_AI|SKILL_NUL"
+    ]
+  },
+  {
+    "token_sequence": [
       "ReactNative",
       "Redux",
       "HTMLCSS",
