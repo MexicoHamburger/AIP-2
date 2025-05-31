@@ -1995,8 +1995,8 @@
       "JS",
       "HTMLCSS",
       "Git",
-      "CERT_IPE|2020",
-      "AWARD_UNIV|2018",
+      "CERT_IPE",
+      "AWARD_UNIV",
       "TYPE_Intern|ROLE_FE|SKILL_Git",
       "TYPE_Intern|ROLE_FE|SKILL_NUL",
       "TYPE_Proj|ROLE_FE|SKILL_React",
@@ -4717,10 +4717,10 @@
       "HTMLCSS",
       "Git",
       "CERT_IPE",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_Next",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_React",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_HTMLCSS",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_Git"
+      "TYPE_Proj|ROLE_FE|SKILL_Next",
+      "TYPE_Proj|ROLE_FE|SKILL_React",
+      "TYPE_Proj|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Proj|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -4774,13 +4774,13 @@
   },
   {
     "token_sequence": [
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Go",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Express",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_PostgreSQL",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_SQL",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Redis",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_RabbitMQ",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Git",
+      "TYPE_Proj|ROLE_BE|SKILL_Go",
+      "TYPE_Proj|ROLE_BE|SKILL_Express",
+      "TYPE_Proj|ROLE_BE|SKILL_PostgreSQL",
+      "TYPE_Proj|ROLE_BE|SKILL_SQL",
+      "TYPE_Proj|ROLE_BE|SKILL_Redis",
+      "TYPE_Proj|ROLE_BE|SKILL_RabbitMQ",
+      "TYPE_Proj|ROLE_BE|SKILL_Git",
       "Go",
       "Express",
       "PostgreSQL",
@@ -5539,13 +5539,13 @@
       "GCP",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_Python",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_Pandas",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_SQL",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Python",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_PyTorch",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Numpy",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Flask"
+      "TYPE_Junior|ROLE_DE|SKILL_Python",
+      "TYPE_Junior|ROLE_DE|SKILL_Pandas",
+      "TYPE_Junior|ROLE_DE|SKILL_SQL",
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_AI|SKILL_PyTorch",
+      "TYPE_Proj|ROLE_AI|SKILL_Numpy",
+      "TYPE_Proj|ROLE_AI|SKILL_Flask"
     ]
   },
   {
@@ -5642,14 +5642,14 @@
   },
   {
     "token_sequence": [
-      "2019.03~2021.04:TYPE_Junior|ROLE_BE|SKILL_Node",
-      "2019.03~2021.04:TYPE_Junior|ROLE_BE|SKILL_MySQL",
-      "2019.03~2021.04:TYPE_Junior|ROLE_DEVOPS|SKILL_Azure",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_Node",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_SQL",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_MySQL",
-      "2021.05~현재:TYPE_Proj|ROLE_DEVOPS|SKILL_Azure",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_Express",
+      "TYPE_Junior|ROLE_BE|SKILL_Node",
+      "TYPE_Junior|ROLE_BE|SKILL_MySQL",
+      "TYPE_Junior|ROLE_DEVOPS|SKILL_Azure",
+      "TYPE_Proj|ROLE_BE|SKILL_Node",
+      "TYPE_Proj|ROLE_BE|SKILL_SQL",
+      "TYPE_Proj|ROLE_BE|SKILL_MySQL",
+      "TYPE_Proj|ROLE_DEVOPS|SKILL_Azure",
+      "TYPE_Proj|ROLE_BE|SKILL_Express",
       "Node",
       "SQL",
       "MySQL",
@@ -8454,10 +8454,10 @@
       "Git",
       "AWS",
       "CERT_IPE",
-      "2021|TYPE_Intern|ROLE_BE|SKILL_Python",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_Python",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_Flask",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_MySQL"
+      "TYPE_Intern|ROLE_BE|SKILL_Python",
+      "TYPE_Club|ROLE_BE|SKILL_Python",
+      "TYPE_Club|ROLE_BE|SKILL_Flask",
+      "TYPE_Club|ROLE_BE|SKILL_MySQL"
     ]
   },
   {
@@ -9893,8 +9893,8 @@
       "PostgreSQL",
       "CERT_IPE",
       "TYPE_Club|ROLE_AI|SKILL_NUL",
-      "2018.03-2022.02|TYPE_Maintenance|ROLE_DEVOPS|SKILL_NUL",
-      "2022.03-2023.11|TYPE_Maintenance|ROLE_DE|SKILL_SQL"
+      "TYPE_Maintenance|ROLE_DEVOPS|SKILL_NUL",
+      "TYPE_Maintenance|ROLE_DE|SKILL_SQL"
     ]
   },
   {
@@ -13643,9 +13643,9 @@
   },
   {
     "token_sequence": [
-      "2022|CERT_IPE",
-      "2022.03-2023.02|TYPE_Club|ROLE_FE|SKILL_JS",
-      "2023|AWARD_UNIV",
+      "CERT_IPE",
+      "TYPE_Club|ROLE_FE|SKILL_JS",
+      "AWARD_UNIV",
       "JS",
       "HTMLCSS",
       "Git"

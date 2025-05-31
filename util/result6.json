@@ -392,7 +392,7 @@
       "TYPE_Club|ROLE_BE|SKILL_Python",
       "TYPE_Club|ROLE_DEVOPS|SKILL_Git",
       "TYPE_Club|ROLE_BE|SKILL_PostgreSQL",
-      "CERT_IPE|2023-06"
+      "CERT_IPE"
     ]
   },
   {
@@ -1277,10 +1277,10 @@
   },
   {
     "token_sequence": [
-      "2023|TYPE_Proj|ROLE_FE|SKILL_React",
-      "2023|TYPE_Proj|ROLE_FE|SKILL_TS",
-      "2023-06~2023-08|TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
-      "2023-06~2023-08|TYPE_Intern|ROLE_FE|SKILL_JS",
+      "TYPE_Proj|ROLE_FE|SKILL_React",
+      "TYPE_Proj|ROLE_FE|SKILL_TS",
+      "TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Intern|ROLE_FE|SKILL_JS",
       "HTMLCSS",
       "JS",
       "React",
@@ -1676,8 +1676,8 @@
       "TYPE_Club|ROLE_BE|SKILL_NUL",
       "TYPE_Hackathon|ROLE_BE|SKILL_NUL",
       "TYPE_Proj|ROLE_BE|SKILL_PHP",
-      "2020-03|TYPE_StartUp|ROLE_BE|SKILL_PHP",
-      "2020-03|TYPE_StartUp|ROLE_BE|SKILL_MySQL"
+      "TYPE_StartUp|ROLE_BE|SKILL_PHP",
+      "TYPE_StartUp|ROLE_BE|SKILL_MySQL"
     ]
   },
   {
@@ -4333,8 +4333,8 @@
       "RabbitMQ",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018.03~2023.02|TYPE_Maintenance|ROLE_FE|SKILL_HTMLCSS",
-      "2018.03~2023.02|TYPE_Maintenance|ROLE_FE|SKILL_JS"
+      "TYPE_Maintenance|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Maintenance|ROLE_FE|SKILL_JS"
     ]
   },
   {

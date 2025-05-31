@@ -4115,8 +4115,8 @@
       "TYPE_Proj|ROLE_BE|SKILL_PostgreSQL",
       "TYPE_Proj|ROLE_BE|SKILL_AWS",
       "TYPE_Proj|ROLE_BE|SKILL_RabbitMQ",
-      "AWARD_OUTER|2022",
-      "CERT_IPE|2023-08"
+      "AWARD_OUTER",
+      "CERT_IPE"
     ]
   },
   {
@@ -15780,8 +15780,8 @@
       "JS",
       "HTMLCSS",
       "Git",
-      "CERT_IPE|2020",
-      "AWARD_UNIV|2018",
+      "CERT_IPE",
+      "AWARD_UNIV",
       "TYPE_Intern|ROLE_FE|SKILL_Git",
       "TYPE_Intern|ROLE_FE|SKILL_NUL",
       "TYPE_Proj|ROLE_FE|SKILL_React",
@@ -18502,10 +18502,10 @@
       "HTMLCSS",
       "Git",
       "CERT_IPE",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_Next",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_React",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_HTMLCSS",
-      "2021.03|TYPE_Proj|ROLE_FE|SKILL_Git"
+      "TYPE_Proj|ROLE_FE|SKILL_Next",
+      "TYPE_Proj|ROLE_FE|SKILL_React",
+      "TYPE_Proj|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Proj|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -18559,13 +18559,13 @@
   },
   {
     "token_sequence": [
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Go",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Express",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_PostgreSQL",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_SQL",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Redis",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_RabbitMQ",
-      "2022-06~2024-05|TYPE_Proj|ROLE_BE|SKILL_Git",
+      "TYPE_Proj|ROLE_BE|SKILL_Go",
+      "TYPE_Proj|ROLE_BE|SKILL_Express",
+      "TYPE_Proj|ROLE_BE|SKILL_PostgreSQL",
+      "TYPE_Proj|ROLE_BE|SKILL_SQL",
+      "TYPE_Proj|ROLE_BE|SKILL_Redis",
+      "TYPE_Proj|ROLE_BE|SKILL_RabbitMQ",
+      "TYPE_Proj|ROLE_BE|SKILL_Git",
       "Go",
       "Express",
       "PostgreSQL",
@@ -19324,13 +19324,13 @@
       "GCP",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_Python",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_Pandas",
-      "2018-06|TYPE_Junior|ROLE_DE|SKILL_SQL",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Python",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_PyTorch",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Numpy",
-      "2019-07|TYPE_Proj|ROLE_AI|SKILL_Flask"
+      "TYPE_Junior|ROLE_DE|SKILL_Python",
+      "TYPE_Junior|ROLE_DE|SKILL_Pandas",
+      "TYPE_Junior|ROLE_DE|SKILL_SQL",
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_AI|SKILL_PyTorch",
+      "TYPE_Proj|ROLE_AI|SKILL_Numpy",
+      "TYPE_Proj|ROLE_AI|SKILL_Flask"
     ]
   },
   {
@@ -19427,14 +19427,14 @@
   },
   {
     "token_sequence": [
-      "2019.03~2021.04:TYPE_Junior|ROLE_BE|SKILL_Node",
-      "2019.03~2021.04:TYPE_Junior|ROLE_BE|SKILL_MySQL",
-      "2019.03~2021.04:TYPE_Junior|ROLE_DEVOPS|SKILL_Azure",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_Node",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_SQL",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_MySQL",
-      "2021.05~현재:TYPE_Proj|ROLE_DEVOPS|SKILL_Azure",
-      "2021.05~현재:TYPE_Proj|ROLE_BE|SKILL_Express",
+      "TYPE_Junior|ROLE_BE|SKILL_Node",
+      "TYPE_Junior|ROLE_BE|SKILL_MySQL",
+      "TYPE_Junior|ROLE_DEVOPS|SKILL_Azure",
+      "TYPE_Proj|ROLE_BE|SKILL_Node",
+      "TYPE_Proj|ROLE_BE|SKILL_SQL",
+      "TYPE_Proj|ROLE_BE|SKILL_MySQL",
+      "TYPE_Proj|ROLE_DEVOPS|SKILL_Azure",
+      "TYPE_Proj|ROLE_BE|SKILL_Express",
       "Node",
       "SQL",
       "MySQL",
@@ -22239,10 +22239,10 @@
       "Git",
       "AWS",
       "CERT_IPE",
-      "2021|TYPE_Intern|ROLE_BE|SKILL_Python",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_Python",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_Flask",
-      "2021-2022|TYPE_Club|ROLE_BE|SKILL_MySQL"
+      "TYPE_Intern|ROLE_BE|SKILL_Python",
+      "TYPE_Club|ROLE_BE|SKILL_Python",
+      "TYPE_Club|ROLE_BE|SKILL_Flask",
+      "TYPE_Club|ROLE_BE|SKILL_MySQL"
     ]
   },
   {
@@ -23678,8 +23678,8 @@
       "PostgreSQL",
       "CERT_IPE",
       "TYPE_Club|ROLE_AI|SKILL_NUL",
-      "2018.03-2022.02|TYPE_Maintenance|ROLE_DEVOPS|SKILL_NUL",
-      "2022.03-2023.11|TYPE_Maintenance|ROLE_DE|SKILL_SQL"
+      "TYPE_Maintenance|ROLE_DEVOPS|SKILL_NUL",
+      "TYPE_Maintenance|ROLE_DE|SKILL_SQL"
     ]
   },
   {
@@ -27428,9 +27428,9 @@
   },
   {
     "token_sequence": [
-      "2022|CERT_IPE",
-      "2022.03-2023.02|TYPE_Club|ROLE_FE|SKILL_JS",
-      "2023|AWARD_UNIV",
+      "CERT_IPE",
+      "TYPE_Club|ROLE_FE|SKILL_JS",
+      "AWARD_UNIV",
       "JS",
       "HTMLCSS",
       "Git"
@@ -32238,11 +32238,11 @@
       "Git",
       "AWARD_OUTER",
       "TYPE_Proj|ROLE_UXUI|SKILL_HTMLCSS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_Angular",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_JS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_TS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_Git"
+      "TYPE_Intern|ROLE_FE|SKILL_Angular",
+      "TYPE_Intern|ROLE_FE|SKILL_JS",
+      "TYPE_Intern|ROLE_FE|SKILL_TS",
+      "TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Intern|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -38701,7 +38701,7 @@
       "Python",
       "CERT_IPE",
       "TYPE_Proj|ROLE_BE|SKILL_Python",
-      "2022|TYPE_Club|ROLE_DE|SKILL_NUL"
+      "TYPE_Club|ROLE_DE|SKILL_NUL"
     ]
   },
   {
@@ -41834,10 +41834,10 @@
       "AWS",
       "TYPE_Intern|ROLE_AI|SKILL_NUL",
       "TYPE_Club|ROLE_AI|SKILL_NUL",
-      "2020-01|TYPE_Proj|ROLE_AI|SKILL_Python",
-      "2020-01|TYPE_Proj|ROLE_AI|SKILL_GCP",
-      "2021-06|TYPE_Proj|ROLE_GAME|SKILL_NUL",
-      "2022|AWARD_OUTER"
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_AI|SKILL_GCP",
+      "TYPE_Proj|ROLE_GAME|SKILL_NUL",
+      "AWARD_OUTER"
     ]
   },
   {
@@ -45969,7 +45969,7 @@
       "TYPE_Proj|ROLE_GAME|SKILL_React",
       "TYPE_Proj|ROLE_GAME|SKILL_Next",
       "TYPE_Proj|ROLE_DEVOPS|SKILL_Git",
-      "AWARD_OUTER|2022"
+      "AWARD_OUTER"
     ]
   },
   {
@@ -48658,8 +48658,8 @@
       "Git",
       "AWS",
       "Docker",
-      "2022|TYPE_Hackathon|ROLE_FULLSTACK|SKILL_NUL",
-      "2023|TYPE_Club|ROLE_BE|SKILL_Python"
+      "TYPE_Hackathon|ROLE_FULLSTACK|SKILL_NUL",
+      "TYPE_Club|ROLE_BE|SKILL_Python"
     ]
   },
   {
@@ -49672,7 +49672,7 @@
       "AWARD_OUTER",
       "TYPE_Club|ROLE_BE|SKILL_NUL",
       "TYPE_Hackathon|ROLE_DE|SKILL_NUL",
-      "2019-03|TYPE_Proj|ROLE_BE|SKILL_Python"
+      "TYPE_Proj|ROLE_BE|SKILL_Python"
     ]
   },
   {
@@ -51834,8 +51834,8 @@
       "Python",
       "SQL",
       "CERT_IPE",
-      "2019-03:TYPE_Junior|ROLE_DE|SKILL_NUL",
-      "2021-03:TYPE_Maintenance|ROLE_DEVOPS|SKILL_Python"
+      "TYPE_Junior|ROLE_DE|SKILL_NUL",
+      "TYPE_Maintenance|ROLE_DEVOPS|SKILL_Python"
     ]
   },
   {
@@ -54788,8 +54788,8 @@
       "Kafka",
       "Python",
       "TensorFlow",
-      "2015|TYPE_Proj|ROLE_AI|SKILL_Python",
-      "2020|TYPE_Proj|ROLE_GAME|SKILL_Kafka"
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_GAME|SKILL_Kafka"
     ]
   },
   {
@@ -54891,8 +54891,8 @@
       "Git",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2020-06~2020-12|TYPE_Intern|ROLE_APP|SKILL_NUL",
-      "2021-01~2023-06|TYPE_Maintenance|ROLE_UXUI|SKILL_HTMLCSS"
+      "TYPE_Intern|ROLE_APP|SKILL_NUL",
+      "TYPE_Maintenance|ROLE_UXUI|SKILL_HTMLCSS"
     ]
   },
   {
@@ -62102,7 +62102,7 @@
       "TYPE_Proj|ROLE_AI|SKILL_TensorFlow",
       "TYPE_Proj|ROLE_AI|SKILL_Python",
       "TYPE_Club|ROLE_AI|SKILL_NUL",
-      "AWARD_UNIV|2023"
+      "AWARD_UNIV"
     ]
   },
   {
@@ -63755,11 +63755,11 @@
       "Git",
       "CERT_IPE",
       "AWARD_OUTER",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_React",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_TS",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_Redux",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_Git"
+      "TYPE_Junior|ROLE_FE|SKILL_React",
+      "TYPE_Junior|ROLE_FE|SKILL_TS",
+      "TYPE_Junior|ROLE_FE|SKILL_Redux",
+      "TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Junior|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -68474,11 +68474,11 @@
       "SQL",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_Java",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_Spring",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_SQL",
-      "2021.02-2023.08 TYPE_StartUp|ROLE_BE|SKILL_Node",
-      "2021.02-2023.08 TYPE_StartUp|ROLE_BE|SKILL_MongoDB"
+      "TYPE_Junior|ROLE_BE|SKILL_Java",
+      "TYPE_Junior|ROLE_BE|SKILL_Spring",
+      "TYPE_Junior|ROLE_BE|SKILL_SQL",
+      "TYPE_StartUp|ROLE_BE|SKILL_Node",
+      "TYPE_StartUp|ROLE_BE|SKILL_MongoDB"
     ]
   },
   {
@@ -68942,7 +68942,7 @@
       "TYPE_Club|ROLE_BE|SKILL_Python",
       "TYPE_Club|ROLE_DEVOPS|SKILL_Git",
       "TYPE_Club|ROLE_BE|SKILL_PostgreSQL",
-      "CERT_IPE|2023-06"
+      "CERT_IPE"
     ]
   },
   {
@@ -69827,10 +69827,10 @@
   },
   {
     "token_sequence": [
-      "2023|TYPE_Proj|ROLE_FE|SKILL_React",
-      "2023|TYPE_Proj|ROLE_FE|SKILL_TS",
-      "2023-06~2023-08|TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
-      "2023-06~2023-08|TYPE_Intern|ROLE_FE|SKILL_JS",
+      "TYPE_Proj|ROLE_FE|SKILL_React",
+      "TYPE_Proj|ROLE_FE|SKILL_TS",
+      "TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Intern|ROLE_FE|SKILL_JS",
       "HTMLCSS",
       "JS",
       "React",
@@ -70226,8 +70226,8 @@
       "TYPE_Club|ROLE_BE|SKILL_NUL",
       "TYPE_Hackathon|ROLE_BE|SKILL_NUL",
       "TYPE_Proj|ROLE_BE|SKILL_PHP",
-      "2020-03|TYPE_StartUp|ROLE_BE|SKILL_PHP",
-      "2020-03|TYPE_StartUp|ROLE_BE|SKILL_MySQL"
+      "TYPE_StartUp|ROLE_BE|SKILL_PHP",
+      "TYPE_StartUp|ROLE_BE|SKILL_MySQL"
     ]
   },
   {
@@ -72883,8 +72883,8 @@
       "RabbitMQ",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018.03~2023.02|TYPE_Maintenance|ROLE_FE|SKILL_HTMLCSS",
-      "2018.03~2023.02|TYPE_Maintenance|ROLE_FE|SKILL_JS"
+      "TYPE_Maintenance|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Maintenance|ROLE_FE|SKILL_JS"
     ]
   },
   {
@@ -80117,12 +80117,12 @@
       "Redux",
       "HTMLCSS",
       "Git",
-      "2016.01-2018.05|TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
-      "2016.01-2018.05|TYPE_Junior|ROLE_FE|SKILL_Git",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_ReactNative",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_Redux",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_HTMLCSS",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_Git"
+      "TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Junior|ROLE_FE|SKILL_Git",
+      "TYPE_StartUp|ROLE_APP|SKILL_ReactNative",
+      "TYPE_StartUp|ROLE_APP|SKILL_Redux",
+      "TYPE_StartUp|ROLE_APP|SKILL_HTMLCSS",
+      "TYPE_StartUp|ROLE_APP|SKILL_Git"
     ]
   },
   {

@@ -14,8 +14,8 @@
       "Kafka",
       "Python",
       "TensorFlow",
-      "2015|TYPE_Proj|ROLE_AI|SKILL_Python",
-      "2020|TYPE_Proj|ROLE_GAME|SKILL_Kafka"
+      "TYPE_Proj|ROLE_AI|SKILL_Python",
+      "TYPE_Proj|ROLE_GAME|SKILL_Kafka"
     ]
   },
   {
@@ -117,8 +117,8 @@
       "Git",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2020-06~2020-12|TYPE_Intern|ROLE_APP|SKILL_NUL",
-      "2021-01~2023-06|TYPE_Maintenance|ROLE_UXUI|SKILL_HTMLCSS"
+      "TYPE_Intern|ROLE_APP|SKILL_NUL",
+      "TYPE_Maintenance|ROLE_UXUI|SKILL_HTMLCSS"
     ]
   },
   {
@@ -7328,7 +7328,7 @@
       "TYPE_Proj|ROLE_AI|SKILL_TensorFlow",
       "TYPE_Proj|ROLE_AI|SKILL_Python",
       "TYPE_Club|ROLE_AI|SKILL_NUL",
-      "AWARD_UNIV|2023"
+      "AWARD_UNIV"
     ]
   },
   {
@@ -8981,11 +8981,11 @@
       "Git",
       "CERT_IPE",
       "AWARD_OUTER",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_React",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_TS",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_Redux",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
-      "2020-06|TYPE_Junior|ROLE_FE|SKILL_Git"
+      "TYPE_Junior|ROLE_FE|SKILL_React",
+      "TYPE_Junior|ROLE_FE|SKILL_TS",
+      "TYPE_Junior|ROLE_FE|SKILL_Redux",
+      "TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Junior|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -13700,11 +13700,11 @@
       "SQL",
       "CERT_IPE",
       "AWARD_UNIV",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_Java",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_Spring",
-      "2018.06-2020.07 TYPE_Junior|ROLE_BE|SKILL_SQL",
-      "2021.02-2023.08 TYPE_StartUp|ROLE_BE|SKILL_Node",
-      "2021.02-2023.08 TYPE_StartUp|ROLE_BE|SKILL_MongoDB"
+      "TYPE_Junior|ROLE_BE|SKILL_Java",
+      "TYPE_Junior|ROLE_BE|SKILL_Spring",
+      "TYPE_Junior|ROLE_BE|SKILL_SQL",
+      "TYPE_StartUp|ROLE_BE|SKILL_Node",
+      "TYPE_StartUp|ROLE_BE|SKILL_MongoDB"
     ]
   },
   {

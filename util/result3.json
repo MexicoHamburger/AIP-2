@@ -4711,11 +4711,11 @@
       "Git",
       "AWARD_OUTER",
       "TYPE_Proj|ROLE_UXUI|SKILL_HTMLCSS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_Angular",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_JS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_TS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
-      "2022.03-2023.12|TYPE_Intern|ROLE_FE|SKILL_Git"
+      "TYPE_Intern|ROLE_FE|SKILL_Angular",
+      "TYPE_Intern|ROLE_FE|SKILL_JS",
+      "TYPE_Intern|ROLE_FE|SKILL_TS",
+      "TYPE_Intern|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Intern|ROLE_FE|SKILL_Git"
     ]
   },
   {
@@ -11174,7 +11174,7 @@
       "Python",
       "CERT_IPE",
       "TYPE_Proj|ROLE_BE|SKILL_Python",
-      "2022|TYPE_Club|ROLE_DE|SKILL_NUL"
+      "TYPE_Club|ROLE_DE|SKILL_NUL"
     ]
   },
   {

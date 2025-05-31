@@ -6021,12 +6021,12 @@
       "Redux",
       "HTMLCSS",
       "Git",
-      "2016.01-2018.05|TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
-      "2016.01-2018.05|TYPE_Junior|ROLE_FE|SKILL_Git",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_ReactNative",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_Redux",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_HTMLCSS",
-      "2018.06-2023.12|TYPE_StartUp|ROLE_APP|SKILL_Git"
+      "TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Junior|ROLE_FE|SKILL_Git",
+      "TYPE_StartUp|ROLE_APP|SKILL_ReactNative",
+      "TYPE_StartUp|ROLE_APP|SKILL_Redux",
+      "TYPE_StartUp|ROLE_APP|SKILL_HTMLCSS",
+      "TYPE_StartUp|ROLE_APP|SKILL_Git"
     ]
   },
   {
