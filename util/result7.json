@@ -4608,7 +4608,16 @@
       "TYPE_Club|ROLE_BE|SKILL_Java"
     ]
   },
-  null,
+  {
+    "token_sequence": [
+      "HTMLCSS",
+      "JS",
+      "Git",
+      "TYPE_Junior|ROLE_FE|SKILL_HTMLCSS",
+      "TYPE_Junior|ROLE_FE|SKILL_JS",
+      "TYPE_Junior|ROLE_FE|SKILL_Git"
+    ]
+  },
   {
     "token_sequence": [
       "Python",
