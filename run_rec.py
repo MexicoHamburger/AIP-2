@@ -204,6 +204,16 @@ def run_rec(args):
         "max_seq_length": args.max_seq_length,
         "n_items": len(token2id)
     }
+    
+    
+    # Store token2id, id2token, and config 
+    with open(os.path.join(output_path, "token2id.json"), 'w') as f:
+        json.dump(token2id, f, indent=4)
+    with open(os.path.join(output_path, "id2token.json"), 'w') as f:
+        json.dump(id2token, f, indent=4)
+    with open(os.path.join(output_path, "config.json"), 'w') as f:
+        json.dump(config, f, indent=4)
+
 
     train_seqs = []
     val_seqs   = []

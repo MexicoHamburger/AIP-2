@@ -4,3 +4,4 @@ survey_results_public*
 RecBole
 utils
 wandb/
+checkpoints/
