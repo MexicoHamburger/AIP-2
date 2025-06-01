@@ -1,5 +1,6 @@
 
-lr=(1e-03 1e-04 5e-05)
+
+lr=(1e-04)
 batch_size=(64 128 256)
 n_layers=(1 2 4 8)
 n_heads=(4 8)

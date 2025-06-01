@@ -184,7 +184,7 @@ def test_bert4rec(model_bert, test_loader, device, criterion, save_path, args):
 def run_rec(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     user_seqs, token2id, id2token = load_json(args.input_path)
-    model_name = f'head_{args.n_heads}_layers_{args.n_layers}_batch_{args.batch_size}_seed_{args.seed}'
+    model_name = f'head_{args.n_heads}_layers_{args.n_layers}_batch_{args.batch_size}_seed_{args.seed}_lr_{args.lr}'
     
     output_path = args.output_dir + '/' + model_name
     if not os.path.exists(output_path):
