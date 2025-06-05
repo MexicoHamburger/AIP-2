@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Sparkles, Target, TrendingUp, Users } from "lucide-react";
+import { ArrowRight, Sparkles, Target, TrendingUp } from "lucide-react";
+import { useNavigate } from "react-router";
 
 const Index = () => {
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/lang");
+  }
+
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Animated background elements */}
@@ -42,6 +49,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              onClick={handleClick}
             >
               진로 로드맵 받아보기
               <ArrowRight className="ml-2 h-5 w-5" />
