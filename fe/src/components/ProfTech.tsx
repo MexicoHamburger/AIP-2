@@ -20,7 +20,7 @@ const ProfTech = () => {
                 "해당 없음"
             ]}
             onSubmit={(selected) => {
-                navigate("/prof")
+                navigate("/midresult")
             }}
         />
     );

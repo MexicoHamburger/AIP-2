@@ -11,6 +11,7 @@ import EmbeddedInput from './components/EmbeddedInput'
 import DevopsInput from './components/DevopsInput'
 import MiscInput from './components/MiscInput'
 import ProfTech from './components/ProfTech'
+import MidResult from './components/MidResult'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path ="/devops-skills" element = {<DevopsInput />} />
         <Route path ="/misc-skills" element = {<MiscInput />} />
         <Route path ="/prof" element = {<ProfTech />} />
+        <Route path ="/midresult" element = {<MidResult />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
