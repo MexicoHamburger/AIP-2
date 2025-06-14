@@ -15,8 +15,10 @@ import MidResult from './components/MidResult'
 import CertInput from './components/CertInput'
 import CareerInput from './components/CareerInput'
 import AnalyzingView from './components/AnalyzingView'
+import SalaryAnalysis from './components/SalaryAnalysis'
 
 import { InputFormProvider } from './InputFormStore'
+import CareerRoadmap from './components/CareerRoadmap'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -37,6 +39,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/cert" element={<CertInput />} />
           <Route path="/career" element={<CareerInput />} />
           <Route path="/analyzing" element={<AnalyzingView />} />
+          <Route path="/results" element={<SalaryAnalysis />} />
+          <Route path="/results-2" element={<CareerRoadmap/>} />
         </Routes>
       </BrowserRouter>
     </InputFormProvider>

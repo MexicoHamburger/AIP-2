@@ -46,7 +46,6 @@ const aliasMap: Record<string, string> = Object.fromEntries(
     Object.entries(rawAlias).map(([k, v]) => [normalize(k), v])
 );
 
-const SKILLS: string[] = [];
 
 const AnalyzingView = () => {
     const navigate = useNavigate();
@@ -55,6 +54,8 @@ const AnalyzingView = () => {
 
     /* ----- 데이터 전송 & 완료 처리 ----- */
     useEffect(() => {
+
+        let navTimer: NodeJS.Timeout;   // ⏱️ 타이머 핸들
         const sendData = async () => {
             const payload = {
                 careerTokens: state.careerTokens,
@@ -78,35 +79,29 @@ const AnalyzingView = () => {
                 ...state.miscTokens,
                 ...state.toolsTokens
             ];
-            const uniqueMerged = [...new Set(mergedTokens)];
-            /* uniqueMerged에 Git이 있다면 miscTokens에서 빼는 작업이 필요함. 걔는 기능1에 넣으면 안 됨 */
-            if (uniqueMerged.includes("Git")) {
-                payload.miscTokens = payload.miscTokens.filter(token => token !== "Git");
+            if (mergedTokens.includes("Git")) {
+                payload.miscTokens = payload.miscTokens.filter(t => t !== "Git");
             }
 
-            uniqueMerged.forEach(tok => {
-                if (setSkill2.has(tok)) {
-                    // 1️⃣ SKILLSET2에 직접 있음
-                    SKILLS.push(tok);
-                } else {
-                    // 2️⃣ normalize 후 aliasMap → SKILLSET2 포함 확인
+            const skillsLocal = new Set<string>();
+            mergedTokens.forEach(tok => {
+                if (setSkill2.has(tok)) skillsLocal.add(tok);
+                else {
                     const aliased = aliasMap[normalize(tok)];
-                    if (aliased && setSkill2.has(aliased)) {
-                        SKILLS.push(aliased);
-                    }
+                    if (aliased && setSkill2.has(aliased)) skillsLocal.add(aliased);
                 }
             });
-            const SKILLS_UNIQUE = [...new Set(SKILLS)];
+            const SKILLS_UNIQUE = [...skillsLocal];
 
             const firstPayload = {
-                LanguageHaveWorkedWith: payload.langTokens ?? [],
                 DatabaseHaveWorkedWith: payload.dbTokens ?? [],
-                PlatformHaveWorkedWith: payload.platformTokens ?? [],
-                WebframeHaveWorkedWith: payload.webTokens ?? [],
                 EmbeddedHaveWorkedWith: payload.embTokens ?? [],
+                LanguageHaveWorkedWith: payload.langTokens ?? [],
                 MiscTechHaveWorkedWith: payload.miscTokens ?? [],
+                PlatformHaveWorkedWith: payload.platformTokens ?? [],
+                ProfessionalTech: payload.profTokens ?? [],
                 ToolsTechHaveWorkedWith: payload.toolsTokens ?? [],
-                ProfessionalTech: payload.profTokens ?? []
+                WebframeHaveWorkedWith: payload.webTokens ?? []
             };
 
             const secondPayload = [
@@ -114,6 +109,9 @@ const AnalyzingView = () => {
                 ...(payload.certTokens ?? []),
                 ...(payload.careerTokens ?? [])
             ];
+
+            console.log(firstPayload)
+            console.log(secondPayload)
             const res1 = await fetch("http://localhost:5000/feat1", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -125,17 +123,21 @@ const AnalyzingView = () => {
             const res2 = await fetch("http://localhost:5000/feat2/rec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ tokens: secondPayload })
+                body: JSON.stringify({ sequence: secondPayload })
             });
             const data2 = await res2.json();
             dispatch({ type: "SET_API2_RESULT", payload: data2 });
 
-            console.log("data1: " + data1)
-            console.log("data2: " + data2)
+            console.log(data1)
+            console.log(data2)
         };
 
+        setIsDone(true);
+        navTimer = setTimeout(() => {             // 1초 후 이동
+            navigate("/results");
+        }, 1000);
         sendData();
-    }, [state]);
+    }, []);
 
     /* ----- 화면 렌더 ----- */
     return (
