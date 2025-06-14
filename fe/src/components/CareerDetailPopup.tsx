@@ -43,6 +43,16 @@ const CareerDetailPopup: React.FC<CareerDetailPopupProps> = ({
           <CardTitle className="text-lg text-white flex items-center gap-2">
             {item.name}
           </CardTitle>
+                    {item.link && (
+            <a 
+              href={item.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          )}
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -75,51 +85,51 @@ const CareerDetailPopup: React.FC<CareerDetailPopupProps> = ({
           </div>
         </div>
       </CardContent>
-    </Card>
+    </Card >
   );
 
-  return (
-    <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="w-full max-w-[90vw] sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl max-h-[80vh] overflow-y-auto bg-gray-900 border-gray-700 text-white">
-        <DialogHeader>
-          <DialogTitle className="text-xl bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
-            {isLoading ? "진로 정보 분석 중..." : data?.title || "진로 세부 정보"}
-          </DialogTitle>
-        </DialogHeader>
+return (
+  <Dialog open={isOpen} onOpenChange={onClose}>
+    <DialogContent className="w-full max-w-[90vw] sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl max-h-[80vh] overflow-y-auto bg-gray-900 border-gray-700 text-white">
+      <DialogHeader>
+        <DialogTitle className="text-xl bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
+          {isLoading ? "진로 정보 분석 중..." : data?.title || "진로 세부 정보"}
+        </DialogTitle>
+      </DialogHeader>
 
-        <div className="space-y-6">
-          {isLoading ? (
-            <div className="flex items-center justify-center py-12">
-              <div className="flex flex-col items-center gap-4">
-                <Loader2 className="h-8 w-8 animate-spin text-blue-400" />
-                <p className="text-gray-400">로딩 중...</p>
-              </div>
+      <div className="space-y-6">
+        {isLoading ? (
+          <div className="flex items-center justify-center py-12">
+            <div className="flex flex-col items-center gap-4">
+              <Loader2 className="h-8 w-8 animate-spin text-blue-400" />
+              <p className="text-gray-400">로딩 중...</p>
             </div>
-          ) : data ? (
-            <>
-              <div className="grid md:grid-cols-2 gap-6">
-                {renderPracticeItem("step1", data.practice_items.step1)}
-                {renderPracticeItem("step2", data.practice_items.step2)}
-              </div>
-              
-              <Card className="bg-gray-800/30 border-gray-700">
-                <CardHeader>
-                  <CardTitle className="text-white">전체 추천 이유</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-300 leading-relaxed">{data.total_reason}</p>
-                </CardContent>
-              </Card>
-            </>
-          ) : (
-            <div className="text-center py-8">
-              <p className="text-gray-400">데이터를 불러올 수 없습니다.</p>
+          </div>
+        ) : data ? (
+          <>
+            <div className="grid md:grid-cols-2 gap-6">
+              {renderPracticeItem("step1", data.practice_items.step1)}
+              {renderPracticeItem("step2", data.practice_items.step2)}
             </div>
-          )}
-        </div>
-      </DialogContent>
-    </Dialog>
-  );
+
+            <Card className="bg-gray-800/30 border-gray-700">
+              <CardHeader>
+                <CardTitle className="text-white">전체 추천 이유</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 leading-relaxed">{data.total_reason}</p>
+              </CardContent>
+            </Card>
+          </>
+        ) : (
+          <div className="text-center py-8">
+            <p className="text-gray-400">데이터를 불러올 수 없습니다.</p>
+          </div>
+        )}
+      </div>
+    </DialogContent>
+  </Dialog>
+);
 };
 
 export default CareerDetailPopup;
