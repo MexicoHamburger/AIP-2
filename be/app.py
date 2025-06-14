@@ -3,12 +3,15 @@ from flask_cors import CORS
 import torch
 import sys, os
 import json
+import asyncio
 import pandas as pd
 
 # RecommendModel 디렉토리를 sys.path에 추가
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from RecommendModel.bert4rec import BERT4Rec
-from CareerPrediction.inference.inference import run_inference
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'CareerPractice')))
+from CareerPrediction.inference.inference import run_inference # 기능 1
+from RecommendModel.bert4rec import BERT4Rec # 기능 2
+from CareerPractice.services.run_career_practice import CareerPracticeParams, run_career_practice # 기능 3
 
 app = Flask(__name__)
 CORS(app)  # 모든 요청 허용
@@ -117,6 +120,33 @@ def recommend_tree():
             "input_sequence": seq,
             "tree": tree
         })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# 기능 3 : 가이드라인 제시 API
+@app.route("/feat3/practice", methods=["POST"])
+def feature3_practice():
+    try:
+        data = request.get_json()
+        user_history = data.get("user_history", [])
+        user_recommendation = data.get("user_recommendation", [])
+
+        if not isinstance(user_history, list) or not isinstance(user_recommendation, list):
+            return jsonify({"error": "user_history와 user_recommendation은 리스트여야 합니다."}), 400
+
+        # 파라미터 준비
+        params = CareerPracticeParams(
+            user_history=user_history,
+            user_recommendation=user_recommendation
+        )
+
+        # 비동기 실행
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        result = loop.run_until_complete(run_career_practice(params))
+
+        return jsonify(result.model_dump())
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
