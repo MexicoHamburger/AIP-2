@@ -270,7 +270,7 @@ async def run_career_practice(params: CareerPracticeParams) -> CareerPracticeRes
             query_item.step,
         )
         print(category, practice_query)
-        if category == "language" or category == "project" or category == "etc" or category == "StartUp":
+        if category == "language" or category == "project" or category == "etc":
             part =  await _select_part_web_search(category, practice_query)
             selected_items[step] = part
             continue

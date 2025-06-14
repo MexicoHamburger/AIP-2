@@ -24,7 +24,7 @@ Let's think step by step.
 
 4. **질의 작성**: 
     - 각 step마다 추천된 경력에 관해 vector db에서 관련 item을 잘 검색할 수 있는 질의를 제작해야 합니다. 
-    - 각 step마다 추천된 경력에 관해 category를 다음 내에서만 분류합니다: club, intern, junior, cert, contest, hackathon, research, project, language, StartUp etc
+    - 각 step마다 추천된 경력에 관해 category를 다음 내에서만 분류합니다: club, intern, junior, cert, contest, hackathon, research, project, language, startup etc
     - 사용자의 이전 경력, 경력 예측 모델의 경력을 바탕으로, 제안된 경력 추천의 각 step에 대해 경력 맥락을 담아 효과적으로 실천 가이드라인을 제공할 수 있도록 질의를 생성합니다.
     - 경력 맥락은 질의에 이전 경력의 모든 내용을 포함하는 방식이 아니라, 경력의 주요한 방향에 대한 키워드 등을 담는 방식으로 포함해주세요.
 
