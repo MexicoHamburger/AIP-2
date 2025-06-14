@@ -5,11 +5,13 @@ from typing import Dict, List
 
 # ───────────────── 1. 하이퍼파라미터 & 경로 ────────────────
 DEVICE   = "cuda" if torch.cuda.is_available() else "cpu"
-PT_PATH  = "best_model_silvery-sweep-1.pt"
-RAW_PATH = "raw.pkl" 
-TOK_HAVE_PATH = "tokenizer_have.pkl"
-TOK_WANT_PATH = "tokenizer_want.pkl"
-SCALER_PATH   = "scaler.pkl"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 현재 파일 기준 경로
+
+PT_PATH        = os.path.join(BASE_DIR, "best_model_silvery-sweep-1.pt")
+RAW_PATH       = os.path.join(BASE_DIR, "raw.pkl")
+TOK_HAVE_PATH  = os.path.join(BASE_DIR, "tokenizer_have.pkl")
+TOK_WANT_PATH  = os.path.join(BASE_DIR, "tokenizer_want.pkl")
+SCALER_PATH    = os.path.join(BASE_DIR, "scaler.pkl")
 
 EMBED_DIM = 128
 DEPTH     = 8
