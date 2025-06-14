@@ -4,6 +4,7 @@ import React, { createContext, useContext, useReducer } from "react";
 
 interface State {
     careerTokens: string[];
+    sequenceTokens: string[];
     certTokens: string[];
     langTokens: string[];
     dbTokens: string[];
@@ -28,12 +29,14 @@ type Action =
     | { type: "SET_MISC"; payload: string[] }
     | { type: "SET_TOOLS"; payload: string[] }
     | { type: "SET_PROF"; payload: string[] }
+    | { type: "SET_SEQUENCE"; payload: string[] }
     | { type: "SET_API1_RESULT"; payload: unknown }
     | { type: "SET_API2_RESULT"; payload: unknown }
     | { type: "RESET" };
 
 const initialState: State = {
     careerTokens: [],
+    sequenceTokens: [],
     certTokens: [],
     langTokens: [],
     dbTokens: [],
@@ -49,6 +52,8 @@ const initialState: State = {
 /* --------- 리듀서 --------- */
 function reducer(state: State, action: Action): State {
     switch (action.type) {
+        case "SET_SEQUENCE":
+            return { ...state, sequenceTokens: action.payload };
         case "SET_CAREER":
             return { ...state, careerTokens: action.payload };
         case "SET_CERTS":

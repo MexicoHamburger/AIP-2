@@ -110,6 +110,8 @@ const AnalyzingView = () => {
                 ...(payload.careerTokens ?? [])
             ];
 
+            dispatch({ type: "SET_SEQUENCE", payload: secondPayload });
+            
             console.log(firstPayload)
             console.log(secondPayload)
             const res1 = await fetch("http://localhost:5000/feat1", {
