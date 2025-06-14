@@ -1,0 +1,93 @@
+[
+    {
+        "_comment" : "1",
+        "club_name" : "SKKUDING",
+        "club_type" : "Project",
+        "club_stack" : ["React", "Next", "Vercel", "TS", "PostgreSQL", "Go"],
+        "club_main" : "Web project",
+        "club_description" : "PM, UX/UI, FE, BE, DevOps팀으로 구성되어 25년 기준 약 40명의 소프트웨어융합대학 소속 개발동아리로 학생들을 위한 코딩학습 웹 서비스 CODEDANG을 운영하고 있습니다.",
+        "link" : "https://www.instagram.com/skkuding"
+    },
+
+    {
+        "_comment" : "2",
+        "club_name" : "MAV",
+        "club_type" : "Project",
+        "club_stack" : ["Unity", "Unreal Engine", "Blender"],
+        "club_main" : "AR/VR Project",
+        "club_description" :"메타버스, 증강현실 및 가상현실 기술을 탐구하며, 더 나아가, 게임컨텐츠, XR 및 실감형 미디어 콘텐츠 등 여러분야의 프로젝트를 진행하는 동아리입니다.",
+        "link" : "https://www.instagram.com/skku_mav/"
+    },
+    {
+        "_comment" : "3",
+        "club_name" : "SIOR",
+        "club_type" : "Project",
+        "club_stack" : ["Arduino", "Rasberry Pi", "Python", "ROS", "IoT"],
+        "club_main" : "Robotics Project",
+        "club_description" :"정보통신대학 소속 최대 규모 로봇학회로 아두이노·라즈베리파이 기반 로봇 제작·자율주행 SW 대회 출전·정기 전시회를 중심으로 활동하며 초보자를 위한 세미나와 멘토링을 제공합니다.",
+        "link" : "https://www.instagram.com/skku_sior/"
+    },
+    {
+        "_comment" : "4",
+        "club_name" : "R&Dix",
+        "club_type" : "Study",
+        "club_stack" : ["Python", "PyTorch", "Linux", "Docker"],
+        "club_main" : "AI & System R&D Project & Study",
+        "club_description" :"AI와 시스템 소프트웨어 분야에서 최신 딥러닝·시스템 최적화 프로젝트를 수행하며 온라인 중심 활동과 기술 교류회를 운영하는 연합 학술 동아리입니다.",
+        "link" : "https://www.instagram.com/rndix_official/"
+    },
+    {
+        "_comment" : "5",
+        "club_name" : "NPC",
+        "club_type" : "Study",
+        "club_stack" : ["Python", "Java"],
+        "club_main" : "Algorithm PS & Contest",
+        "club_description" :"ICPC·Code Jam·Codeforces 등 국내외 알고리즘 대회 준비와 내부 모의대회를 통해 PS 역량을 기르고 코딩 테스트를 대비하는 소프트웨어융합대학 알고리즘 문제해결 동아리입니다.",
+        "link" : "https://pf.kakao.com/_liHUK"
+    },
+    {
+        "_comment" : "6",
+        "club_name" : "Synapse",
+        "club_type" : "Study",
+        "club_stack" : ["Python", "PyTorch", "TensorFlow"],
+        "club_main" : "AI study & competition",
+        "club_description" :"AI 스터디와 공모전 참여를 병행하며 팀 단위 프로젝트·주간 발표·동아리 친목 활동을 진행하는 소프트웨어융합대학 인공지능 학술 동아리입니다.",
+        "link" : "https://open.kakao.com/o/sOPUSYkh"
+    },
+    {
+        "_comment" : "7",
+        "club_name" : "HIT",
+        "club_type" : "Study",
+        "club_stack" : ["Linux", "Python", "Burp Suite", "Wireshark"],
+        "club_main" : "Information security & CTF",
+        "club_description" :"시스템·네트워크·웹 보안 스터디와 HIT 내부 CTF를 운영하며 문제 풀이·지식 공유를 통해 정보보안 역량을 기르는 소프트웨어학과 정보보안 동아리입니다.",
+        "link" : "https://forms.gle/47PLyz9sUECtHiCp8"
+    },
+    {
+        "_comment" : "8",
+        "club_name" : "VERITROSS",
+        "club_type" : "Research",
+        "club_stack" : ["Python", "PyTorch", "Linux", "Docker"],
+        "club_main" : "CS R&D project",
+        "club_description" :"DL·EDGEAI·SYSTEM 세 팀이 딥러닝 모델 연구, 엣지 추론 가속, 데이터베이스·스토리지 최적화를 수행하며 논문 발표와 오픈소스 기여를 지향하는 컴퓨터공학 학술 연합 동아리입니다.",
+        "link" : "https://veritross.org/"
+    },
+    {
+        "_comment" : "9",
+        "club_name" : "PIROGRAMMING",
+        "club_type" : "Project",
+        "club_stack" : ["HTML", "CSS", "JavaScript", "Python", "Django", "AWS"],
+        "club_main" : "Web Project",
+        "club_description" :"방학 기간 2개월 동안 HTML·CSS·JS·Python·Django·AWS를 집중 학습하고 팀 프로젝트로 웹사이트를 완성하는 전공·비전공자 대상 웹 프로그래밍 동아리입니다.",
+        "link" : "https://pirogramming.com/"
+    },
+    {
+        "_comment" : "10",
+        "club_name" : "BITAmin",
+        "club_type" : "Study",
+        "club_stack" : ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch"],
+        "club_main" : "Big data & ML/DL study",
+        "club_description" :"빅데이터 분석·머신러닝·딥러닝 세션과 프로젝트, 공모전·데이터톤 참가, 현업자 초청 강연을 통해 데이터 사이언스 실무 역량을 키우는 연합 빅데이터 동아리입니다.",
+        "link" : "https://drive.google.com/file/d/1Xe2Z0AfpjWeA2erZMKDcEqruQUGIe-ax/view?usp=sharing"
+    }
+]

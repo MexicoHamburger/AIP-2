@@ -1,0 +1,182 @@
+[
+  {
+    "_comment": "1",
+    "name": "Information Processing Engineer",
+    "domain": ["BE", "Software Engineering", "Systems Analysis", "Database"],
+    "validity": -1,
+    "format": { "written": true, "practical": true },
+    "description": "알고리즘·DB·시스템 분석 필기와 코딩 실기로 SW 개발 역량을 검증",
+    "link": "https://www.q-net.or.kr/crf005.do?id=crf00505&tmprlssCd=GI"
+  },
+  {
+    "_comment": "2",
+    "name": "Oracle Certified Professional Java SE 17 Developer",
+    "domain": ["BE", "Java", "Programming"],
+    "validity": -1,
+    "format": { "written": true, "practical": false },
+    "description": "자바 17 문법·API·OOP 설계 역량을 객관식 시험으로 평가",
+    "link": "https://education.oracle.com/java-se-17-developer/pexam_1Z0-829"
+  },
+  {
+    "_comment": "3",
+    "name": "Red Hat Certified Engineer (RHCE)",
+    "domain": ["BE", "Linux", "DevOps", "Automation"],
+    "validity": 3,
+    "format": { "written": false, "practical": true },
+    "description": "RHEL 자동화·보안·CI 파이프라인 구축 실습 시험",
+    "link": "https://www.redhat.com/ko/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9"
+  },
+  {
+    "_comment": "4",
+    "name": "AWS Certified Solutions Architect – Associate",
+    "domain": ["BE", "Cloud", "Architect"],
+    "validity": 3,
+    "format": { "written": true, "practical": false },
+    "description": "AWS 인프라 설계·배포 시나리오 기반 객관식 시험",
+    "link": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+  },
+  {
+    "_comment": "5",
+    "name": "AWS Certified DevOps Engineer – Professional",
+    "domain": ["BE", "Cloud", "DevOps", "Automation"],
+    "validity": 3,
+    "format": { "written": true, "practical": false },
+    "description": "CI/CD·모니터링·IaC 자동화 등 DevOps 전문성 검증",
+    "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+  },
+  {
+    "_comment": "6",
+    "name": "Google Cloud Professional Cloud Architect",
+    "domain": ["BE", "Cloud", "Architect"],
+    "validity": 2,
+    "format": { "written": true, "practical": false },
+    "description": "GCP 아키텍처 설계·보안·성능 최적화 역량 평가",
+    "link": "https://cloud.google.com/learn/certification/cloud-architect"
+  },
+  {
+    "_comment": "7",
+    "name": "Microsoft Azure Fundamentals (AZ-900)",
+    "domain": ["BE", "Cloud", "Fundamentals"],
+    "validity": -1,
+    "format": { "written": true, "practical": false },
+    "description": "클라우드 기본 개념·Azure 서비스 이해도 객관식 시험",
+    "link": "https://learn.microsoft.com/credentials/certifications/azure-fundamentals/"
+  },
+  {
+    "_comment": "8",
+    "name": "Oracle Cloud Infrastructure Foundations 2024",
+    "domain": ["BE", "Cloud", "Fundamentals"],
+    "validity": -1,
+    "format": { "written": true, "practical": false },
+    "description": "OCI 네트워킹·스토리지·보안 기초 지식을 검증",
+    "link": "https://education.oracle.com/oracle-cloud-infrastructure-2024-certified-architect-professional/trackp_OCI2024FNDCFA"
+  },
+  {
+    "_comment": "9",
+    "name": "Certified Kubernetes Administrator (CKA)",
+    "domain": ["BE", "Cloud", "Container", "Kubernetes", "DevOps"],
+    "validity": 2,
+    "format": { "written": false, "practical": true },
+    "description": "쿠버네티스 클러스터 설치·운영 실습 시험으로 인증",
+    "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+  },
+  {
+    "_comment": "10",
+    "name": "HashiCorp Terraform Associate (003)",
+    "domain": ["BE", "Cloud", "IaC", "DevOps"],
+    "validity": 2,
+    "format": { "written": true, "practical": false },
+    "description": "Terraform 상태 관리·모듈·워크플로우 지식 평가",
+    "link": "https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003"
+  },
+  {
+    "_comment": "11",
+    "name": "Advanced Data Analytics Professional (ADP)",
+    "domain": ["DE", "Analytics", "Statistics", "Machine Learning"],
+    "validity": -1,
+    "format": { "written": true, "practical": true },
+    "description": "통계·ML 이론 필기와 R 실기로 데이터 분석 전문성 인증",
+    "link": "https://www.dataq.or.kr/www/sub/a_04.do"
+  },
+  {
+    "_comment": "12",
+    "name": "Associate Data Analytics Professional (ADsP)",
+    "domain": ["DE", "Analytics", "Fundamentals"],
+    "validity": -1,
+    "format": { "written": true, "practical": false },
+    "description": "데이터 이해·분석 기획 중심 3과목 객관식 시험",
+    "link": "https://www.dataq.or.kr/www/sub/a_06.do"
+  },
+  {
+    "_comment": "13",
+    "name": "Tableau Desktop Specialist",
+    "domain": ["DE", "BI", "Visualization"],
+    "validity": -1,
+    "format": { "written": true, "practical": false },
+    "description": "Tableau 시각화 기초 기능·데이터 연결 역량 평가",
+    "link": "https://www.tableau.com/learn/certification/desktop-specialist"
+  },
+  {
+    "_comment": "14",
+    "name": "Microsoft Power BI Data Analyst (PL-300)",
+    "domain": ["DE", "BI", "Visualization", "Analytics"],
+    "validity": 1,
+    "format": { "written": true, "practical": false },
+    "description": "Power BI 데이터 모델링·리포트·배포 실무 능력 검증",
+    "link": "https://learn.microsoft.com/credentials/certifications/data-analyst-associate/"
+  },
+  {
+    "_comment": "15",
+    "name": "Google Data Analytics Professional Certificate",
+    "domain": ["DE", "Analytics", "Fundamentals"],
+    "validity": -1,
+    "format": { "written": false, "practical": true },
+    "description": "스프레드시트·SQL·R 프로젝트 과제로 분석 역량 인증",
+    "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+  },
+  {
+    "_comment": "16",
+    "name": "SAS Certified Advanced Analytics Professional",
+    "domain": ["DE", "Analytics", "Statistics", "Machine Learning"],
+    "validity": -1,
+    "format": { "written": true, "practical": true },
+    "description": "SAS 통계·ML·시계열 3과목 시험으로 고급 분석 인증",
+    "link": "https://www.sas.com/en_us/certification/credentials/advanced-analytics/advanced-analytics-professional.html"
+  },
+  {
+    "_comment": "17",
+    "name": "TensorFlow Developer Certificate",
+    "domain": ["AI", "Deep Learning", "TensorFlow"],
+    "validity": 3,
+    "format": { "written": false, "practical": true },
+    "description": "5시간 코딩 시험으로 CV·NLP 딥러닝 모델 구현 능력 평가",
+    "link": "https://www.tensorflow.org/certificate"
+  },
+  {
+    "_comment": "18",
+    "name": "AWS Certified Machine Learning – Specialty",
+    "domain": ["AI", "Machine Learning", "Cloud"],
+    "validity": 3,
+    "format": { "written": true, "practical": false },
+    "description": "AWS 기반 데이터 엔지니어링·ML 아키텍처 설계 역량 검증",
+    "link": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+  },
+  {
+    "_comment": "19",
+    "name": "Google Professional Machine Learning Engineer",
+    "domain": ["AI", "Machine Learning", "Cloud"],
+    "validity": 2,
+    "format": { "written": true, "practical": false },
+    "description": "GCP 환경에서 대규모 ML 시스템 구축·운영 능력 평가",
+    "link": "https://cloud.google.com/learn/certification/machine-learning-engineer"
+  },
+  {
+    "_comment": "20",
+    "name": "Microsoft Azure AI Engineer Associate (AI-102)",
+    "domain": ["AI", "Machine Learning", "Cloud"],
+    "validity": 1,
+    "format": { "written": true, "practical": false },
+    "description": "Azure AI 서비스로 음성·컴퓨터 비전·봇 앱 설계·배포 역량 검증",
+    "link": "https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/"
+  }
+]

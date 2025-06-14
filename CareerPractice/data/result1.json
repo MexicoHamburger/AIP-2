@@ -1,0 +1,1293 @@
+{
+    "1": {
+        "category": "club",
+        "name": "SKKUDING",
+        "link": "https://www.instagram.com/skkuding",
+        "field": ["FE", "BE", "UXUI", "DEVOPS"],
+        "skills": ["React", "Next", "TS", "PostgreSQL", "Go"],
+        "description": "PM, UX/UI, FE, BE, DevOps팀으로 구성되어 소프트웨어융합대학 소속 약 40명의 개발 동아리에서 코딩학습 웹 서비스 CODEDANG을 운영합니다.",
+        "text": "동아리 SKKUDING은 소프트웨어융합대학 소속으로 PM, UX/UI, 프론트엔드(FE), 백엔드(BE), DevOps 팀으로 약 40명이 활동하며 React, Next.js, TypeScript, PostgreSQL, Go를 활용해 학생 대상 코딩학습 웹 서비스 CODEDANG을 기획·개발·운영합니다."
+    },
+    "2": {
+        "category": "club",
+        "name": "MAV",
+        "link": "https://www.instagram.com/skku_mav/",
+        "field": ["AR", "VR", "XR", "게임콘텐츠"],
+        "skills": ["Unity", "Unreal Engine", "Blender"],
+        "description": "메타버스, AR, VR, XR, 게임콘텐츠 분야 프로젝트를 진행하며 실감형 미디어 기술을 탐구합니다.",
+        "text": "동아리 MAV는 메타버스와 증강현실(AR), 가상현실(VR), XR 및 게임콘텐츠 분야에서 Unity, Unreal Engine, Blender를 활용해 아이디어 기획부터 설계·구현·정기 워크숍·전시까지 수행합니다."
+    },
+    "3": {
+        "category": "club",
+        "name": "SIOR",
+        "link": "https://www.instagram.com/skku_sior/",
+        "field": ["Robotics", "Autonomous Driving", "IoT"],
+        "skills": ["Arduino", "Raspberry Pi", "Python", "ROS", "IoT"],
+        "description": "정보통신대학 최대 규모 로봇학회로 로봇 제작, 자율주행 SW 대회 출전, 초보자 세미나 및 멘토링을 제공합니다.",
+        "text": "동아리 SIOR은 정보통신대학 소속 약 50명의 회원이 Arduino·Raspberry Pi 기반 로봇 제작, ROS 자율주행 소프트웨어 개발, IoT 연동 프로젝트를 수행하며 매년 자율주행 SW 대회에 출전하고 정기 전시회·멘토링 세미나를 운영합니다."
+    },
+    "4": {
+        "category": "club",
+        "name": "R&Dix",
+        "link": "https://www.instagram.com/rndix_official/",
+        "field": ["AI", "시스템 소프트웨어", "딥러닝", "시스템 최적화"],
+        "skills": ["Python", "PyTorch", "Linux", "Docker"],
+        "description": "AI와 시스템 소프트웨어 분야 연구개발과 딥러닝, 시스템 최적화 프로젝트를 수행합니다.",
+        "text": "동아리 R&Dix은 Python·PyTorch 기반 딥러닝 모델 연구, Linux 시스템 최적화, Docker 컨테이너 배포 자동화 프로젝트를 진행하며 온라인 세미나와 기술 교류회로 연구 성과를 공유합니다."
+    },
+    "5": {
+        "category": "club",
+        "name": "NPC",
+        "link": "https://pf.kakao.com/_liHUK",
+        "field": ["Algorithm", "PS", "Contest"],
+        "skills": ["Python", "Java"],
+        "description": "국내외 알고리즘 대회(ICPC, Code Jam, Codeforces) 준비와 내부 모의대회를 통해 문제해결 역량을 강화합니다.",
+        "text": "동아리 NPC은 Python, Java를 사용해 ICPC, Google Code Jam, Codeforces 등 알고리즘 대회를 준비하고 매주 내부 모의대회를 열어 실전 감각을 기르며 정기 코드 리뷰로 효율적 설계·구현 방법을 공유합니다."
+    },
+    "6": {
+        "category": "club",
+        "name": "Synapse",
+        "link": "https://open.kakao.com/o/sOPUSYkh",
+        "field": ["AI Study", "Competition", "Project"],
+        "skills": ["Python", "PyTorch", "TensorFlow"],
+        "description": "AI 스터디, 팀 프로젝트, 공모전 참여, 주간 발표, 친목 활동을 병행합니다.",
+        "text": "동아리 Synapse은 Python, PyTorch, TensorFlow 기반 AI 모델 스터디와 팀 단위 공모전 프로젝트를 진행하며 매주 발표를 통해 연구를 공유하고 친목 활동으로 협업 문화를 조성합니다."
+    },
+    "7": {
+        "category": "club",
+        "name": "HIT",
+        "link": "https://forms.gle/47PLyz9sUECtHiCp8",
+        "field": ["System Security", "Network Security", "Web Security", "CTF"],
+        "skills": ["Linux", "Python", "Burp Suite", "Wireshark"],
+        "description": "시스템·네트워크·웹 보안 스터디와 내부 CTF를 통해 정보보안 역량을 기릅니다.",
+        "text": "동아리 HIT은 Linux 시스템 보안, 네트워크 보안, 웹 취약점 분석을 다루고 Python 스크립팅, Burp Suite·Wireshark 실습 및 정기 CTF 대회를 통해 실제 해킹 시나리오를 경험하며 학습합니다."
+    },
+    "8": {
+        "category": "club",
+        "name": "VERITROSS",
+        "link": "https://veritross.org/",
+        "field": ["Deep Learning", "Edge AI", "System Optimization"],
+        "skills": ["Python", "PyTorch", "Linux", "Docker"],
+        "description": "DL, Edge AI, 시스템 최적화 세 팀이 논문 연구와 오픈소스 기여를 지향합니다.",
+        "text": "동아리 VERITROSS은 Deep Learning, Edge AI, System Optimization 세 팀이 Python·PyTorch 딥러닝 모델 연구, 엣지 추론 가속화, Linux 기반 최적화 프로젝트를 수행하며 논문 발표와 오픈소스 기여를 통해 학계·산업계에 기여합니다."
+    },
+    "9": {
+        "category": "club",
+        "name": "PIROGRAMMING",
+        "link": "https://pirogramming.com/",
+        "field": ["Web Programming", "Team Project"],
+        "skills": ["HTML", "CSS", "JavaScript", "Python", "Django", "AWS"],
+        "description": "방학 2개월 웹 프로그래밍 학습과 팀 프로젝트로 웹사이트를 완성합니다.",
+        "text": "동아리 PIROGRAMMING은 HTML, CSS, JavaScript, Python, Django, AWS를 집중 학습하고 팀 프로젝트로 기획·디자인·개발·배포까지 수행하며 코드 리뷰로 완성도를 높입니다."
+    },
+    "10": {
+        "category": "club",
+        "name": "BITAmin",
+        "link": "https://drive.google.com/file/d/1Xe2Z0AfpjWeA2erZMKDcEqruQUGIe-ax/view?usp=sharing",
+        "field": ["Big Data", "Machine Learning", "Deep Learning", "Data Science"],
+        "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch"],
+        "description": "빅데이터 분석, ML/DL 프로젝트, 공모전·데이터톤 참가, 현업 강연으로 실무 역량을 강화합니다.",
+        "text": "동아리 BITAmin은 Python, Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch 기반 빅데이터 분석 스터디와 ML/DL 프로젝트를 진행하며 데이터톤·공모전 참여와 현업자 강연으로 최신 데이터 사이언스 기법을 학습합니다."
+    },
+    "11": {
+        "category": "intern",
+        "name": "Ringle",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50960814",
+        "field": ["Frontend Development", "UI/UX"],
+        "skills": ["React", "Redux", "JavaScript", "HTML", "CSS", "SCSS"],
+        "description": "React·Redux 기반 예습·수업·복습 웹 기능과 학습 데이터 연계 신기능을 개발합니다.",
+        "text": "인턴으로서 Ringle의 Frontend Developer 역할은 React, Redux, JavaScript, HTML, CSS, SCSS로 예습·수업·복습 웹 기능을 설계·개발하고, 학습 데이터와 연계된 신기능을 구현하여 Edu-Tech 플랫폼의 사용자 경험과 품질을 향상시키는 업무를 수행합니다."
+    },
+    "12": {
+        "category": "intern",
+        "name": "CODIT (Backend)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=48594556",
+        "field": ["Backend Development", "Data Pipeline"],
+        "skills": ["JavaScript", "Node.js", "RDBMS", "NoSQL", "HTML5", "CSS3", "TypeScript", "Python", "BeautifulSoup4", "Puppeteer", "ELK"],
+        "description": "Node.js 기반 API 서버와 웹 크롤러·데이터 파이프라인을 개발·운영합니다.",
+        "text": "인턴으로서 CODIT 백엔드 개발 업무는 Node.js로 REST API 서버를 구축하고 BeautifulSoup4, Puppeteer로 웹 크롤러를 구현하며 ELK 스택을 활용해 데이터 파이프라인을 설계·운영하여 빅데이터 서비스를 확장하는 역할을 담당합니다."
+    },
+    "13": {
+        "category": "intern",
+        "name": "CODIT (Frontend)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=49129549",
+        "field": ["Frontend Development", "Mobile App"],
+        "skills": ["ReactJS", "React Native", "JavaScript", "TypeScript", "HTML", "CSS", "Redux", "Recoil", "React Query", "Zustand"],
+        "description": "React·React Native 기반 웹·모바일 UI를 개발하고 상태 관리를 최적화합니다.",
+        "text": "인턴으로서 CODIT의 프론트엔드 업무는 ReactJS, React Native로 웹·모바일 UI를 개발하고 Redux, Recoil, React Query, Zustand로 상태 관리를 최적화하여 법·규제 빅데이터 플랫폼의 사용자 경험을 개선하는 업무를 수행합니다."
+    },
+    "14": {
+        "category": "intern",
+        "name": "GenON (구 Xenon)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50684175",
+        "field": ["AI Platform Engineering"],
+        "skills": ["Python", "PyTorch", "TensorFlow", "LangChain", "LangGraph", "Rasa", "Flowise", "Langfuse"],
+        "description": "GenOS 플랫폼 테스트 페이지 구현, 데이터셋 관리, 솔루션 구축 프로젝트를 지원합니다.",
+        "text": "인턴으로서 GenON(구 Xenon)의 AI 플랫폼 엔지니어 업무는 Python, PyTorch, TensorFlow로 테스트 페이지를 구현하고 LangChain, LangGraph, Rasa, Flowise, Langfuse를 활용해 데이터셋을 관리하며 고객 맞춤형 AI 솔루션 구축을 지원합니다."
+    },
+    "15": {
+        "category": "intern",
+        "name": "NextGround (Backend)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50955014",
+        "field": ["Backend Development"],
+        "skills": ["Java", "Spring", "MySQL", "PostgreSQL", "JUnit", "Redis", "MongoDB", "Python"],
+        "description": "Spring 기반 비즈니스 로직, DB 설계, REST API 개발 및 성능 최적화를 수행합니다.",
+        "text": "인턴으로서 NextGround 백엔드 개발 업무는 Java·Spring으로 비즈니스 로직을 구현하고 MySQL·PostgreSQL 데이터베이스를 설계하며 JUnit 테스트와 Redis·MongoDB 캐싱 전략으로 플랫폼 서비스의 성능을 최적화합니다."
+    },
+    "16": {
+        "category": "intern",
+        "name": "NextGround (Frontend)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50955053",
+        "field": ["Frontend Development", "UI/UX Optimization"],
+        "skills": ["React", "TypeScript", "Next.js", "Redux", "Recoil", "React Query", "SWR", "Tailwind CSS", "HTML", "CSS"],
+        "description": "React·Next.js 기반 웹·백오피스 UI 개발 및 리팩터링으로 사용자 경험을 향상시킵니다.",
+        "text": "인턴으로서 NextGround 프론트엔드 역할은 React, Next.js, TypeScript로 웹과 관리용 백오피스 UI를 구현·리팩터링하고 Redux, Recoil, React Query, SWR로 상태 관리와 데이터 패칭을 최적화하여 사용자 경험을 강화합니다."
+    },
+    "17": {
+        "category": "intern",
+        "name": "ALSEMI",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50812144",
+        "field": ["QA", "Maintenance"],
+        "skills": ["Java", "JavaFX", "OOP", "Git", "Debugging", "Algorithms", "Data Structures"],
+        "description": "JavaFX 레거시 소프트웨어의 품질 보증, 버그 수정, 기능 개선을 수행합니다.",
+        "text": "인턴으로서 ALSEMI QA·유지보수 업무는 JavaFX 기반 레거시 애플리케이션의 품질 보증, 버그 수정 및 기능 개선을 수행하며 Git을 통한 협업으로 소프트웨어 안정성과 성능을 향상시키는 역할을 담당합니다."
+    },
+    "18": {
+        "category": "intern",
+        "name": "Nudge Healthcare (Data Analyst)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50715242",
+        "field": ["Data Analysis", "BI"],
+        "skills": ["SQL", "Python", "Tableau", "BigQuery", "AWS DynamoDB", "AWS RDS", "Google Analytics", "A/B Testing", "Funnel Analysis", "Cohort Analysis"],
+        "description": "데이터 추출·전처리, 대시보드 제작, 지표 트래킹, 가설 검증으로 서비스 성과를 분석·개선합니다.",
+        "text": "인턴으로서 Nudge Healthcare 데이터 분석 업무는 SQL·Python으로 데이터 추출·전처리하고 Tableau로 대시보드를 제작하며 A/B 테스트 및 코호트 분석을 통해 캐시워크 서비스 주요 지표를 정의·트래킹하고 성과를 개선합니다."
+    },
+    "19": {
+        "category": "intern",
+        "name": "Nudge Healthcare (iOS)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50959836",
+        "field": ["iOS Development", "CI/CD"],
+        "skills": ["Swift", "SwiftUI", "RxSwift", "ReactorKit", "TCA", "Tuist", "Fastlane", "SwiftLint", "Xcode Cloud", "CI/CD"],
+        "description": "SwiftUI·RxSwift 기반 iOS 앱 개발과 CI/CD·테스트 자동화 개선을 담당합니다.",
+        "text": "인턴으로서 Nudge Healthcare iOS 개발 업무는 Swift, SwiftUI, RxSwift, ReactorKit으로 캐시워크 앱을 구현하고 Tuist, Fastlane, Xcode Cloud로 CI/CD 파이프라인과 테스트 자동화를 구축하여 출시 효율과 코드 품질을 향상시킵니다."
+    },
+    "20": {
+        "category": "intern",
+        "name": "Nudge Healthcare (Android)",
+        "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=50715248",
+        "field": ["Android Development"],
+        "skills": ["Kotlin", "Coroutines", "Flow", "Jetpack ViewModel", "LiveData", "Room", "MVVM"],
+        "description": "Kotlin·Jetpack 기반 Android 앱 개발, 유지보수 및 신규 기능 구현을 수행합니다.",
+        "text": "인턴으로서 Nudge Healthcare Android 개발 업무는 Kotlin과 Jetpack(ViewModel, LiveData, Room)을 활용해 캐시워크 앱을 개발·유지보수하며 Coroutines와 Flow로 비동기 로직을 최적화하고 신규 기능을 구현합니다."
+    },
+    "21": {
+        "category": "junior",
+        "name": "NAVER WEBTOON",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003402",
+        "field": ["Graphics Pipeline", "Media Encoding"],
+        "skills": ["JavaScript", "React", "React Native", "Skia", "WebGL", "OpenGL ES", "Metal", "Shader", "AVFoundation", "MediaCodec", "Swift", "Kotlin"],
+        "description": "디지털 미디어 저작 도구 개발과 이미지·영상 렌더·인코딩 파이프라인 최적화를 담당합니다.",
+        "text": "주니어로서 NAVER WEBTOON Graphics Engineer 업무는 React Native, Skia, WebGL, Metal로 고성능 프론트엔드를 구현하고 AVFoundation·MediaCodec 기반 인코딩 파이프라인을 최적화하여 이미지·영상을 효율적으로 처리하는 역할을 담당합니다."
+    },
+    "22": {
+        "category": "junior",
+        "name": "NAVER Cloud",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003422",
+        "field": ["Machine Learning", "Cloud Infrastructure"],
+        "skills": ["Python", "PyTorch", "DeepSpeed", "FSDP", "Megatron-LM", "NeMo", "vLLM", "Tensor Parallelism", "FlashAttention", "Kubernetes", "Docker"],
+        "description": "LLM 경량화와 추론 엔진 최적화를 통해 학습·서빙 비용 절감과 성능 향상을 연구·개발합니다.",
+        "text": "주니어로서 NAVER Cloud LLM Optimization Engineer 역할은 Python·PyTorch로 스크립트를 작성하고 DeepSpeed, FSDP, Megatron-LM, vLLM 병렬화 기법과 FlashAttention으로 추론 속도를 개선하며 Kubernetes·Docker 환경에서 비용 효율적인 서빙 파이프라인을 설계합니다."
+    },
+    "23": {
+        "category": "junior",
+        "name": "NAVER Cloud",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003468",
+        "field": ["Backend Development", "Security"],
+        "skills": ["Java", "Kotlin", "Spring", "Spring WebFlux", "REST API", "Linux", "MySQL", "Redis", "Kafka", "Gradle", "Jenkins", "Kubernetes"],
+        "description": "Key Management Service·Secret Manager의 고성능·고가용 백엔드와 이벤트 기반 분산 아키텍처를 설계·구현합니다.",
+        "text": "주니어로서 NAVER Cloud Backend Engineer 업무는 Spring WebFlux 기반 REST API를 개발하고 Kafka 이벤트 기반 분산 시스템을 설계합니다. MySQL·Redis 데이터 저장소를 구축하며 Jenkins·Gradle CI/CD 자동화와 Kubernetes 클러스터 운영으로 고가용성을 확보합니다."
+    },
+    "24": {
+        "category": "junior",
+        "name": "Kakao",
+        "link": "https://careers.kakao.com/jobs/P-14092",
+        "field": ["API Platform", "Frontend / Backend"],
+        "skills": ["React", "Next.js", "TypeScript", "Node.js", "Docker", "Kubernetes", "Kafka", "MongoDB"],
+        "description": "Kakao Developers 플랫폼의 프론트엔드·백엔드, JavaScript SDK, 어드민·포럼 사이트를 개발합니다.",
+        "text": "주니어로서 Kakao FE/BE 업무는 React, Next.js로 사용자 인터페이스를 구현하고 Node.js로 서버를 구축합니다. Docker·Kubernetes로 서비스 배포, Kafka·MongoDB로 데이터 흐름을 설계하며 JavaScript SDK와 관리자 포럼 사이트를 개발합니다."
+    },
+    "25": {
+        "category": "junior",
+        "name": "Kakao",
+        "link": "https://careers.kakao.com/jobs/P-14102",
+        "field": ["LLM Research", "Model Efficiency"],
+        "skills": ["Python", "PyTorch", "CUDA", "Distributed Training", "Model Parallelism", "Pruning", "Distillation", "Mixture of Experts", "Hyperparameter Tuning", "Data Engineering"],
+        "description": "Kanana LLM 시리즈의 구조 탐색, 경량화, 데이터 최적화를 통해 학습·추론 효율과 모델 품질을 향상시키는 연구를 수행합니다.",
+        "text": "주니어로서 Kakao LLM Engineer 역할은 PyTorch·CUDA로 모델 아키텍처 탐색을 진행하고 Pruning·Distillation·MoE를 활용해 경량화를 수행합니다. 분산 학습 파이프라인 구축, 하이퍼파라미터 튜닝, 데이터 전처리 자동화로 추론 효율과 모델 품질을 개선합니다."
+    },
+    "26": {
+        "category": "junior",
+        "name": "Kakao",
+        "link": "https://careers.kakao.com/jobs/P-14104",
+        "field": ["Android Development", "MVVM"],
+        "skills": ["Kotlin", "Java", "Android", "MVVM", "REST API", "Room/SQLite", "Git", "Jetpack Compose", "Multimodule", "Unit Testing"],
+        "description": "카카오톡 채널 홈·채팅방·관리자센터 앱을 Kotlin 기반 MVVM 아키텍처로 개발·운영합니다.",
+        "text": "주니어로서 Kakao Android Developer 업무는 Kotlin, MVVM 아키텍처로 채널 홈·채팅방·관리자센터 앱을 구현합니다. REST API 연동, Room/SQLite 데이터 저장 설계, Jetpack Compose UI 구성, 모듈화 구조와 단위 테스트로 안정성과 유지보수성을 확보합니다."
+    },
+    "27": {
+        "category": "junior",
+        "name": "Coupang",
+        "link": "https://www.coupang.jobs/kr/jobs/6547181/staff-back-end-engineer-ads-creative-integrity",
+        "field": ["Ads Backend", "Data Pipeline"],
+        "skills": ["Java", "Spring", "API Gateway", "gRPC", "Kafka", "Airflow", "Spark", "Hive", "Python", "React"],
+        "description": "Spring 기반 광고 데이터 서빙, Creative Optimization 백엔드와 분산 파이프라인·ML 시스템을 설계·개발합니다.",
+        "text": "주니어로서 Coupang Staff Back-end Engineer 업무는 Spring·gRPC로 광고 서비스 백엔드를 구축하고 Kafka·Airflow로 대용량 데이터 파이프라인을 설계합니다. Spark·Hive를 활용해 분석 시스템과 연동하여 광고 최적화 알고리즘의 효율과 안정성을 확보합니다."
+    },
+    "28": {
+        "category": "junior",
+        "name": "Coupang",
+        "link": "https://www.coupang.jobs/kr/jobs/6899148/ai-engineer-detection-engineering",
+        "field": ["AI Security", "Automation"],
+        "skills": ["Python", "LangChain", "LlamaIndex", "LLM Fine-tuning", "Prompt Engineering", "Airflow", "Kubernetes", "EKS", "MLOps", "Data Versioning"],
+        "description": "LLM 기반 탐지·분석 자동화 기능을 개발하고 보안 데이터셋 관리·MLOps 인프라를 구축합니다.",
+        "text": "주니어로서 Coupang AI Engineer 업무는 LangChain·LlamaIndex를 활용해 보안 탐지·분석 파이프라인을 자동화하고 Airflow·Kubernetes(EKS)로 MLOps 인프라를 구축하여 위협 대응 속도와 정확도를 개선합니다."
+    },
+    "29": {
+        "category": "junior",
+        "name": "Woowa Bros.",
+        "link": "https://career.woowahan.com/recruitment/R2505004/detail",
+        "field": ["AI Platform Engineering", "Data Infrastructure"],
+        "skills": ["Python", "Kubernetes", "AWS", "Spark", "Airflow", "Kafka", "MLflow", "BentoML", "SQL"],
+        "description": "AI 모델 학습·배포·모니터링 파이프라인과 확장형 서빙 인프라를 구축·운영합니다.",
+        "text": "주니어로서 Woowa Bros. ML Engineer 역할은 Python·Spark·Airflow로 학습 파이프라인을 설계하고 MLflow·BentoML로 모델 배포·모니터링 시스템을 구축하며 Kubernetes·AWS 기반 확장형 서빙 인프라를 운영해 AI 서비스 안정성과 비즈니스 효과를 강화합니다."
+    },
+    "30": {
+        "category": "junior",
+        "name": "Woowa Bros.",
+        "link": "https://career.woowahan.com/recruitment/R2409006/detail",
+        "field": ["Delivery Backend", "Real-Time Systems"],
+        "skills": ["Java", "Spring Boot", "Spring Cloud", "JPA", "Kafka", "Redis", "JUnit", "Git"],
+        "description": "주문부터 배달 완료까지 배차·관제·라이더 플랫폼을 Java Spring 기반 시스템으로 개발·운영합니다.",
+        "text": "주니어로서 Woowa Bros. Backend Engineer 업무는 Spring Boot·Spring Cloud로 실시간 배차·관제 API를 구현하고 Kafka·Redis로 이벤트 처리 시스템을 구축하며 JPA로 데이터 일관성을 유지, JUnit 테스트로 서비스 안정성을 보장합니다."
+    },
+    "31": {
+        "category": "cert",
+        "name": "정보처리기사",
+        "link": "https://www.q-net.or.kr/crf005.do?id=crf00505&tmprlssCd=GI",
+        "field": ["BE", "Software Engineering", "Systems Analysis", "Database"],
+        "skills": ["Algorithm design", "SQL", "System modeling", "Coding proficiency"],
+        "description": "알고리즘·DB·시스템 분석 필기와 코딩 실기로 SW 개발 역량을 검증",
+        "text": "자격증 정보처리기사는 소프트웨어 공학, 시스템 분석, 데이터베이스 분야에서 알고리즘 설계, SQL 쿼리 작성, 시스템 모델링을 필기시험으로, 코딩 과제를 실기시험으로 검증하며 유효기간은 없이 평생 활용 가능합니다."
+    },
+    "32": {
+        "category": "cert",
+        "name": "Oracle 공인 전문가 Java SE 17 개발자",
+        "link": "https://education.oracle.com/java-se-17-developer/pexam_1Z0-829",
+        "field": ["BE", "Java", "Programming"],
+        "skills": ["Java syntax", "OOP design", "Java SE APIs", "Exception handling"],
+        "description": "자바 17 문법·API·OOP 설계 역량을 객관식 시험으로 평가",
+        "text": "자격증 Oracle 공인 전문가 Java SE 17 개발자는 Java 17의 문법, 객체지향 설계, 핵심 API 활용 능력을 객관식 필기시험으로 평가하며 실기시험은 없고 유효기간은 없습니다."
+    },
+    "33": {
+        "category": "cert",
+        "name": "Red Hat 공인 엔지니어 (RHCE)",
+        "link": "https://www.redhat.com/ko/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9",
+        "field": ["BE", "Linux", "DevOps", "Automation"],
+        "skills": ["RHEL administration", "Shell scripting", "System security", "Ansible automation"],
+        "description": "RHEL 자동화·보안·CI 파이프라인 구축 실습 시험",
+        "text": "자격증 RHCE는 RHEL 환경에서 시스템 설치, 보안 설정, 네트워크 서비스 구성, Ansible 자동화 스크립트 작성과 CI/CD 파이프라인 구축을 실습형 실기시험으로 검증하며 유효기간은 3년입니다."
+    },
+    "34": {
+        "category": "cert",
+        "name": "AWS 공인 솔루션스 아키텍트 – 어소시에이트",
+        "link": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+        "field": ["BE", "Cloud", "Architect"],
+        "skills": ["AWS EC2", "VPC design", "IAM policies", "CloudFormation templates"],
+        "description": "AWS 인프라 설계·배포 시나리오 기반 객관식 시험",
+        "text": "자격증 AWS 공인 솔루션스 아키텍트 – 어소시에이트는 EC2 인스턴스 설정, VPC 설계, IAM 정책 관리, CloudFormation 템플릿 작성 능력을 시나리오 기반 객관식으로 평가하며 유효기간은 3년입니다."
+    },
+    "35": {
+        "category": "cert",
+        "name": "AWS 공인 DevOps 엔지니어 – 프로페셔널",
+        "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+        "field": ["BE", "Cloud", "DevOps", "Automation"],
+        "skills": ["CI/CD pipelines", "CloudWatch monitoring", "IaC (Terraform/CloudFormation)", "Container orchestration"],
+        "description": "CI/CD·모니터링·IaC 자동화 등 DevOps 전문성 검증",
+        "text": "자격증 AWS 공인 DevOps 엔지니어 – 프로페셔널은 CI/CD 파이프라인 설계, CloudWatch 모니터링, Terraform/CloudFormation IaC 작성, 컨테이너 오케스트레이션 능력을 객관식으로 평가하며 유효기간은 3년입니다."
+    },
+    "36": {
+        "category": "cert",
+        "name": "Google Cloud 프로페셔널 클라우드 아키텍트",
+        "link": "https://cloud.google.com/learn/certification/cloud-architect",
+        "field": ["BE", "Cloud", "Architect"],
+        "skills": ["Compute Engine", "Networking", "IAM", "Cloud Storage", "Load Balancing"],
+        "description": "GCP 아키텍처 설계·보안·성능 최적화 역량 평가",
+        "text": "자격증 Google Cloud 프로페셔널 클라우드 아키텍트는 Compute Engine 구성, 네트워킹 설계, IAM 설정, Cloud Storage 활용, 로드밸런싱 설계 능력을 객관식 필기시험으로 검증하며 유효기간은 2년입니다."
+    },
+    "37": {
+        "category": "cert",
+        "name": "Microsoft Azure 기초 (AZ-900)",
+        "link": "https://learn.microsoft.com/credentials/certifications/azure-fundamentals/",
+        "field": ["BE", "Cloud", "Fundamentals"],
+        "skills": ["Cloud concepts", "Azure services", "Pricing models", "Security basics"],
+        "description": "클라우드 기본 개념·Azure 서비스 이해도 객관식 시험",
+        "text": "자격증 Azure 기초(AZ-900)는 클라우드 컴퓨팅 개념, Azure 주요 서비스, 요금 모델, 보안 기본 지식을 필기시험으로 평가하며 유효기간은 없습니다."
+    },
+    "38": {
+        "category": "cert",
+        "name": "OCI 기초 인증",
+        "link": "https://education.oracle.com/oracle-cloud-infrastructure-2024-certified-architect-professional/trackp_OCI2024FNDCFA",
+        "field": ["BE", "Cloud", "Fundamentals"],
+        "skills": ["OCI core services", "Networking basics", "Storage concepts", "Security principles"],
+        "description": "OCI 네트워킹·스토리지·보안 기초 지식을 검증",
+        "text": "자격증 OCI 기초 인증은 OCI 핵심 서비스 이해, 네트워킹 구성, 스토리지 옵션, 보안 원칙을 필기시험으로 검증하며 유효기간은 없습니다."
+    },
+    "39": {
+        "category": "cert",
+        "name": "공인 쿠버네티스 관리자 (CKA)",
+        "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+        "field": ["BE", "Cloud", "Container", "Kubernetes", "DevOps"],
+        "skills": ["kubectl usage", "Cluster setup", "Pod scheduling", "Networking in Kubernetes"],
+        "description": "쿠버네티스 클러스터 설치·운영 실습 시험으로 인증",
+        "text": "자격증 CKA는 클러스터 설치·구성·운영 능력을 실습형 실기시험으로 평가합니다. kubectl 리소스 관리, 네트워킹 설정, 퍼시스턴트 볼륨 관리, 클러스터 보안 구성 능력을 검증하며 유효기간은 2년입니다."
+    },
+    "40": {
+        "category": "cert",
+        "name": "Terraform 어소시에이트",
+        "link": "https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003",
+        "field": ["BE", "Cloud", "IaC", "DevOps"],
+        "skills": ["Terraform syntax", "State management", "Module usage", "Provisioning workflows"],
+        "description": "Terraform 상태 관리·모듈·워크플로우 지식 평가",
+        "text": "자격증 Terraform 어소시에이트는 Terraform 코드 작성, 상태 파일 관리, 모듈 설계, 프로비저닝 워크플로우 구현 능력을 객관식 필기시험으로 검증하며 유효기간은 2년입니다."
+    },
+    "41": {
+        "category": "cert",
+        "name": "고급 데이터 분석 전문가 (ADP)",
+        "link": "https://www.dataq.or.kr/www/sub/a_04.do",
+        "field": ["DE", "Analytics", "Statistics", "Machine Learning"],
+        "skills": ["Statistical modeling", "R programming", "Regression analysis", "ML algorithm implementation"],
+        "description": "통계·ML 이론 필기와 R 실기로 데이터 분석 전문성 인증",
+        "text": "자격증 ADP는 통계 이론과 머신러닝 기법을 필기시험으로 평가하고 R 기반 실기 과제를 통해 데이터 전처리, 모델 구현, 결과 해석 능력을 검증하며 유효기간은 없습니다."
+    },
+    "42": {
+        "category": "cert",
+        "name": "준회원 데이터 분석 전문가 (ADsP)",
+        "link": "https://www.dataq.or.kr/www/sub/a_06.do",
+        "field": ["DE", "Analytics", "Fundamentals"],
+        "skills": ["Data terminology", "Analysis planning", "Descriptive statistics"],
+        "description": "데이터 이해·분석 기획 중심 3과목 객관식 시험",
+        "text": "자격증 ADsP는 데이터 용어 이해, 분석 기획, 기초 통계 이론을 객관식 필기시험으로 검증하며 유효기간은 없습니다."
+    },
+    "43": {
+        "category": "cert",
+        "name": "Tableau 데스크톱 전문가",
+        "link": "https://www.tableau.com/learn/certification/desktop-specialist",
+        "field": ["DE", "BI", "Visualization"],
+        "skills": ["Tableau interface", "Data connection", "Chart creation", "Dashboard design"],
+        "description": "Tableau 시각화 기초 기능·데이터 연결 역량 평가",
+        "text": "자격증 Tableau 데스크톱 전문가는 Tableau 인터페이스 사용, 데이터 연결, 차트 생성, 대시보드 디자인 능력을 객관식 필기시험으로 평가하며 유효기간은 없습니다."
+    },
+    "44": {
+        "category": "cert",
+        "name": "Power BI 데이터 분석가 (PL-300)",
+        "link": "https://learn.microsoft.com/credentials/certifications/data-analyst-associate/",
+        "field": ["DE", "BI", "Visualization", "Analytics"],
+        "skills": ["Power BI modeling", "DAX formulas", "Report building", "Data refresh setup"],
+        "description": "Power BI 데이터 모델링·리포트·배포 실무 능력 검증",
+        "text": "자격증 PL-300은 Power BI 데이터 모델링, DAX 수식 작성, 보고서 및 대시보드 구축, 데이터 새로고침 설정 능력을 객관식 필기시험으로 검증하며 유효기간은 1년입니다."
+    },
+    "45": {
+        "category": "cert",
+        "name": "Google 데이터 분석 전문가",
+        "link": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "field": ["DE", "Analytics", "Fundamentals"],
+        "skills": ["Spreadsheet functions", "SQL queries", "R programming", "Data cleaning"],
+        "description": "스프레드시트·SQL·R 프로젝트 과제로 분석 역량 인증",
+        "text": "자격증 Google 데이터 분석 전문가는 스프레드시트 함수, SQL 쿼리 작성, R 기반 데이터 정리 및 분석 파이프라인 구현 과제로 실습 능력을 평가하며 유효기간은 없습니다."
+    },
+    "46": {
+        "category": "cert",
+        "name": "SAS 고급 분석 전문가",
+        "link": "https://www.sas.com/en_us/certification/credentials/advanced-analytics/advanced-analytics-professional.html",
+        "field": ["DE", "Analytics", "Statistics", "Machine Learning"],
+        "skills": ["SAS programming", "Statistical analysis", "Time series", "Predictive modeling"],
+        "description": "SAS 통계·ML·시계열 3과목 시험으로 고급 분석 인증",
+        "text": "자격증 SAS 고급 분석 전문가는 SAS 프로그래밍을 통한 통계 분석, 머신러닝 기법, 시계열 예측을 필기·실기시험으로 평가하며 유효기간은 없습니다."
+    },
+    "47": {
+        "category": "cert",
+        "name": "TensorFlow 개발자 자격증",
+        "link": "https://www.tensorflow.org/certificate",
+        "field": ["AI", "Deep Learning", "TensorFlow"],
+        "skills": ["TensorFlow API", "Model building", "Computer vision", "NLP basics"],
+        "description": "5시간 코딩 시험으로 CV·NLP 딥러닝 모델 구현 능력 평가",
+        "text": "자격증 TensorFlow 개발자는 컴퓨터 비전과 자연어 처리 모델을 TensorFlow로 구현·훈련·평가하는 5시간 실기시험을 통해 딥러닝 모델 구축 능력을 검증하며 유효기간은 3년입니다."
+    },
+    "48": {
+        "category": "cert",
+        "name": "AWS 공인 머신러닝 – 스페셜리티",
+        "link": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+        "field": ["AI", "Machine Learning", "Cloud"],
+        "skills": ["Feature engineering", "Model evaluation", "SageMaker usage", "Hyperparameter tuning"],
+        "description": "AWS 기반 데이터 엔지니어링·ML 아키텍처 설계 역량 검증",
+        "text": "자격증 AWS 공인 머신러닝 – 스페셜리티는 데이터 준비, 모델 학습·배포, Amazon SageMaker 활용, 하이퍼파라미터 튜닝 능력을 객관식 필기시험으로 평가하며 유효기간은 3년입니다."
+    },
+    "49": {
+        "category": "cert",
+        "name": "Google 프로페셔널 머신러닝 엔지니어",
+        "link": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "field": ["AI", "Machine Learning", "Cloud"],
+        "skills": ["TensorFlow Extended", "Model monitoring", "Data pipelines", "MLOps"],
+        "description": "GCP 환경에서 대규모 ML 시스템 구축·운영 능력 평가",
+        "text": "자격증 Google 프로페셔널 머신러닝 엔지니어는 TensorFlow Extended로 데이터 파이프라인 설계, 모델 학습·배포·모니터링, MLOps 환경 구축 능력을 객관식 필기시험으로 검증하며 유효기간은 2년입니다."
+    },
+    "50": {
+        "category": "cert",
+        "name": "Azure AI 엔지니어 어소시에이트 (AI-102)",
+        "link": "https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/",
+        "field": ["AI", "Machine Learning", "Cloud"],
+        "skills": ["Azure Cognitive Services", "Bot Framework", "Computer Vision", "Speech services"],
+        "description": "Azure AI 서비스로 음성·컴퓨터 비전·봇 앱 설계·배포 역량 검증",
+        "text": "자격증 Azure AI 엔지니어 어소시에이트(AI-102)는 Azure Cognitive Services, Bot Framework, Computer Vision, Speech 서비스를 활용해 AI 애플리케이션을 설계·개발·배포하는 객관식 필기시험으로 평가하며 유효기간은 1년입니다."
+    },
+    "51": {
+        "category": "contest",
+        "name": "2025 오픈소스 개발자대회",
+        "link": "https://www.oss.kr/",
+        "field": [
+        "Open Source",
+        "AI",
+        "Big Data",
+        "Cloud",
+        "IoT",
+        "Blockchain",
+        "Security",
+        "Mobile",
+        "Autonomous Driving",
+        "Metaverse",
+        "Robotics",
+        "Education",
+        "Public",
+        "Industry",
+        "Social Innovation"
+        ],
+        "skills": [
+        "오픈소스 SW 개발",
+        "AI 모델 설계·개발",
+        "빅데이터 처리",
+        "클라우드 인프라 운영",
+        "IoT 연동",
+        "블록체인 구현",
+        "보안·안전 설계",
+        "모바일 앱 개발"
+        ],
+        "description": "오픈소스 소프트웨어 활용 또는 직접 개발 프로젝트로 SW 역량을 겨루는 대회로, 자유과제와 기업·사회문제형 지정과제를 선택해 참여할 수 있습니다.",
+        "text": "이벤트 2025 오픈소스 개발자대회는 과학기술정보통신부가 주관하며 ‘오픈소스와 AI로 여는 새로운 미래’를 주제로 진행됩니다. AI, 빅데이터·클라우드·IoT·블록체인·보안·모바일 등 신기술 분야 자유 프로젝트, 기업 수요 기반 지정 과제, 생활·환경·안전·교육 분야 사회문제 해결 과제 등 다양한 주제를 다룹니다. 초·중·고·대학생과 일반인 누구나 개인 또는 팀으로 참여할 수 있고, 출품작의 성능 향상 및 비즈니스화 등 지속 발전을 추구합니다. 총 6,100만원의 상금 외에 기업별 채용 혜택, 멘토링, ‘사회공헌 파트너스데이’ 발표 기회가 제공됩니다."
+    },
+    "52": {
+        "category": "contest",
+        "name": "HAI(하이)! - Hecto AI Challenge",
+        "link": "https://dacon.io/competitions/official/236493/overview/description",
+        "field": [
+        "Computer Vision",
+        "Machine Learning",
+        "Automotive",
+        "Data Science"
+        ],
+        "skills": [
+        "이미지 분류 모델링",
+        "AI 데이터 전처리",
+        "머신러닝 알고리즘",
+        "산업 응용 개발"
+        ],
+        "description": "중고차 이미지 기반 차종 분류 AI 모델을 개발해 산업 현장에 적용하는 경진대회입니다.",
+        "text": "이벤트 HAI(하이)! - Hecto AI Challenge는 헥토와 데이콘이 공동 주관하며 중고차 산업에 특화된 컴퓨터 비전 AI 모델 개발을 목표로 합니다. 참가자는 실제 중고차 이미지를 활용해 차종 분류 모델을 구현하고 성능을 겨룹니다. 누구나 참여 가능하며, 우수한 AI 모델은 헥토 채용 연계 기회를 얻을 수 있습니다. 총 상금 2,600만원(대상 1,000만원·최우수상 700만원·우수상 500만원·장려상 각 200만원)을 수여합니다."
+    },
+    "53": {
+        "category": "contest",
+        "name": "2025 게임이용자 패널 데이터 경진대회",
+        "link": "https://www.kocca.kr/gameguide",
+        "field": [
+        "Data Analysis",
+        "Behavioral Science",
+        "Game Studies",
+        "Policy Research"
+        ],
+        "skills": [
+        "패널 데이터 분석",
+        "사회관계망 분석",
+        "통계 모델링",
+        "학술 논문 작성"
+        ],
+        "description": "게임 이용 행태와 사회적 관계를 패널 데이터를 통해 분석하는 학술 경진대회입니다.",
+        "text": "이벤트 2025 게임이용자 패널 데이터 경진대회는 문화체육관광부와 한국콘텐츠진흥원이 주최하며 2020~2024년 수집된 게임이용자 패널 데이터를 활용해 이용 행태 및 사회적 관계를 분석합니다. 대학(원)생과 일반인(박사 이상 포함)이 참여 가능하며, 논문 형식의 결과물을 제출해 우수 연구를 발굴합니다. 대상 300만원 상품권 및 등재지 게재 추천, 부문별 최우수상 100만원, 우수상 각 50만원이 수여됩니다."
+    },
+    "54": {
+        "category": "contest",
+        "name": "K-디지털 챌린지: 2025 가상융합서비스 개발자 경진대회",
+        "link": "https://www.metaversedev.kr",
+        "field": [
+        "AI Service",
+        "XR/VR/AR/MR",
+        "Metaverse",
+        "Creative Coding"
+        ],
+        "skills": [
+        "융합 서비스 설계",
+        "XR 콘텐츠 개발",
+        "메타버스 구현",
+        "AI 연동 개발"
+        ],
+        "description": "AI·XR·메타버스 융합 서비스 개발 아이디어를 공모하고 멘토링·인턴십을 지원하는 대회입니다.",
+        "text": "이벤트 K-디지털 챌린지: 2025 가상융합서비스 개발자 경진대회는 과학기술정보통신부와 한국전파진흥협회가 주최하며 AI, XR, 메타버스 기반 창의적 융합 서비스·콘텐츠 개발을 목표로 합니다. 초·중·고생부터 일반인·스타트업까지 누구나 팀 단위로 참여 가능하며, 개발 장비, 교육 콘텐츠, 글로벌 기업 멘토링, 장관상·인턴십·창업 컨설팅 등 다양한 지원 혜택이 제공됩니다. 총 상금 1억 2,800만원 및 38점 시상을 진행합니다."
+    },
+    "55": {
+        "category": "contest",
+        "name": "2025 제6회 부울경 ICT 아이디어 경진대회",
+        "link": "http://www.ictcomplex.ai.kr/",
+        "field": [
+        "AI",
+        "IoT",
+        "Blockchain",
+        "Networking",
+        "Regional Innovation"
+        ],
+        "skills": [
+        "SW 개발",
+        "비즈니스 모델 기획",
+        "지역 문제 해결",
+        "창업 아이디어 발표"
+        ],
+        "description": "AI·IoT·블록체인 등 ICT 신기술을 활용한 SW 개발 및 지역 문제 해결 아이디어를 공모합니다.",
+        "text": "이벤트 2025 제6회 부울경 ICT 아이디어 경진대회는 정보통신산업진흥원과 지방 진흥원이 주최하며 AI, IoT, 블록체인, 네트워크 기반 창의적 ICT 아이디어를 SW 개발, 지역 문제 해결, 비즈니스 모델 3개 분야로 공모합니다. 전국 개인 또는 4인 이내 팀이 참여 가능하며, 총 상금 4,100만원과 지자체장 상장, 특허 출원 지원 및 멘토링을 제공합니다."
+    },
+    "56": {
+        "category": "contest",
+        "name": "문맥 기반 문장 순서 예측 AI 경진대회",
+        "link": "https://dacon.io/competitions/official/236489/overview/description",
+        "field": [
+        "NLP",
+        "Machine Learning",
+        "Text Mining",
+        "Algorithm Development"
+        ],
+        "skills": [
+        "문장 재배열 모델링",
+        "한국어 처리",
+        "순서 예측 알고리즘",
+        "데이터 전처리"
+        ],
+        "description": "뒤섞인 한국어 문장의 올바른 순서를 예측하는 AI 알고리즘을 개발하는 대회입니다.",
+        "text": "이벤트 문맥 기반 문장 순서 예측 AI 경진대회는 데이콘이 주최하며 일상문·기사 등 뒤섞인 한국어 문장을 가장 자연스러운 순서로 배열하는 AI 모델을 개발합니다. NLP 기술 향상이 목적이며, 데이콘 회원 누구나 참여할 수 있고, 1~3등 수상자에게 데이스쿨 Pro 구독권 및 수상 인증서를 제공합니다."
+    },
+    "57": {
+        "category": "contest",
+        "name": "제20회 대학(원)생 지식재산 우수논문공모전",
+        "link": "https://www.ipcontest.co.kr",
+        "field": [
+        "Intellectual Property",
+        "Policy Analysis",
+        "Economic Study",
+        "Legal Research"
+        ],
+        "skills": [
+        "논문 기획·작성",
+        "지식재산 정책 분석",
+        "국제 IP 협력 연구",
+        "경제 분석"
+        ],
+        "description": "지식재산 정책·연구에 대한 창의적 논문을 공모하고 상장 및 해외연수 기회를 제공합니다.",
+        "text": "이벤트 제20회 대학(원)생 지식재산 우수논문공모전은 특허청과 한국지식재산연구원이 주최하며 저작권을 제외한 지식재산 정책·연구 자유 주제로 논문을 모집합니다. 국내 대학(원)생 또는 휴학생(팀 참가 가능)이 참여할 수 있고, 최우수상에 산업통상자원부장관상 및 미국 연수 특전, 우수상·장려상에 상품권이 수여됩니다."
+    },
+    "58": {
+        "category": "contest",
+        "name": "2025 전국 대학생 UAM 올림피아드",
+        "link": "https://ksduo.or.kr/",
+        "field": [
+        "UAM",
+        "Mobility",
+        "Aviation Policy",
+        "Smart City"
+        ],
+        "skills": [
+        "기체 설계 아이디어",
+        "공간정보 활용",
+        "교통 정책 기획",
+        "사회적 수용성 분석"
+        ],
+        "description": "UAM 핵심 분야 기술·정책 아이디어를 제안하는 대학생 대상 공모전입니다.",
+        "text": "이벤트 2025 전국 대학생 UAM 올림피아드는 국토교통부와 한국교통안전공단 등 공공기관이 주최하며 UAM 기체, 공간정보, 버티포트, 규제혁신 등 주제로 기술적·사회적 해결방안을 제안합니다. 전국 대학(원)생 개인 또는 팀이 참가 가능하며, 분야별 수상자에게는 시상 및 특별 혜택이 제공됩니다."
+    },
+    "59": {
+        "category": "contest",
+        "name": "게임콘테스트 with BUD",
+        "link": "https://buly.kr/6MrMAfn",
+        "field": [
+        "Game Development",
+        "Game Design",
+        "UX/UI",
+        "Prototyping"
+        ],
+        "skills": [
+        "인디 게임 기획",
+        "WebGL 개발",
+        "UX/UI 설계",
+        "프로토타이핑"
+        ],
+        "description": "‘커피 한 잔 값’ 단편 게임을 개발해 발표하고 사업화 지원을 받는 콘테스트입니다.",
+        "text": "이벤트 게임콘테스트 with BUD는 BUD 커뮤니티가 주최하며 ‘커피 한 잔 값으로 유저를 사로잡자’는 주제로 WebGL 게임 파일과 기획서를 제출받습니다. 개인 또는 팀 참가 가능하며, 우승자에게는 상금과 사업화 지원, 현장 발표 및 전문가 평가 기회가 제공됩니다."
+    },
+    "60": {
+        "category": "contest",
+        "name": "제9회 개방형 클라우드 플랫폼(K-PaaS) 활용 공모전",
+        "link": "http://contest.k-paas.org",
+        "field": [
+        "Cloud Computing",
+        "DevOps",
+        "Public Sector",
+        "Service Innovation"
+        ],
+        "skills": [
+        "클라우드 네이티브 개발",
+        "서비스 기획",
+        "인프라 자동화",
+        "공공 시스템 구축"
+        ],
+        "description": "K-PaaS 기반 클라우드 서비스 개발 및 공공 활용 사례를 공모하는 전국 대회입니다.",
+        "text": "이벤트 제9회 K-PaaS 활용 공모전은 과학기술정보통신부와 NIA가 주최하며 K-PaaS를 활용한 클라우드 네이티브 서비스 개발, 공공 시스템 구축 사례를 모집합니다. 학생·예비창업자 팀과 공공기관이 참가 가능하며, 총 14점 선정, 상금 3,000만원과 클라우드 크레딧 600만원이 수여됩니다."
+    },
+    "61": {
+        "category": "hackathon",
+        "name": "사이버 공격 유형 예측 해커톤 : 트래픽 속 위협을 식별하라!",
+        "link": "https://dacon.io/competitions/official/236502/overview/description",
+        "field": ["사이버 보안", "AI 알고리즘", "분류 모델", "트래픽 분석"],
+        "skills": ["악성코드 탐지", "피싱 패턴 분류", "DDoS 탐지", "네트워크 트래픽 처리"],
+        "description": "네트워크 트래픽 데이터를 활용해 다양한 사이버 위협 유형을 예측하는 AI 알고리즘을 개발하는 해커톤입니다.",
+        "text": "해커톤 ‘사이버 공격 유형 예측 해커톤: 트래픽 속 위협을 식별하라!’는 데이콘이 주최·주관하며, 참가자는 주어진 네트워크 트래픽 정보를 기반으로 악성코드, 피싱, DDoS 등 사이버 위협 종류를 분류하는 AI 모델을 개발해야 합니다. 데이콘 회원 누구나 참여할 수 있으며, 우수 참가자에게는 수상 인증서와 데이스쿨 Pro 구독권이 수여됩니다."
+    },
+    "62": {
+        "category": "hackathon",
+        "name": "한국자율주행산업협회 2025 자율주행 해커톤 (AME Hackathon 2025)",
+        "link": "https://www.allforyoung.com/posts/65428",
+        "field": ["자율주행 기술", "경로 탐색", "AI 모델링", "임베디드 시스템"],
+        "skills": ["차량 제어 알고리즘", "센서 데이터 처리", "실시간 경로 계획", "임베디드 프로그래밍"],
+        "description": "C 모델 자율주행 차량 환경에서 자율주행 알고리즘과 AI 기반 모델을 개발·검증하는 해커톤입니다.",
+        "text": "해커톤 ‘AME Hackathon 2025’는 한국자율주행산업협회가 주최·주관하며, 국내 대학 학부 재학생 팀이 C 모델 자율주행 차량이나 이를 구현할 수 있는 환경에서 자율주행 알고리즘 및 AI 모델을 개발하여 경합합니다. 참가 팀은 예선, 해커톤 본선 미션, 시상 과정을 거치며 총 상금 500만원을 놓고 경쟁합니다."
+    },
+    "63": {
+        "category": "hackathon",
+        "name": "2025 Us:Code Hackathon in Uiseong",
+        "link": "https://uscode.kr",
+        "field": ["소프트웨어 개발", "지역문제 해결", "프로젝트 기획", "AI 응용"],
+        "skills": ["풀스택 개발", "데이터 분석", "UX/UI 설계", "클라우드 연동"],
+        "description": "의성 지역사회 문제를 IT 솔루션으로 해결하는 3일 무박 해커톤입니다.",
+        "text": "해커톤 ‘2025 Us:Code Hackathon in Uiseong’는 메이드인피플이 주최·주관하며, 전국의 개발자·기획자·디자이너 100명이 경북 의성군 지역 문제 해결을 위한 IT 아이디어와 솔루션을 3일간 집중 개발합니다. 참가자에게는 멘토링, 사전교육, 교통·식사 지원, Google Cloud·Gemini 리소스가 제공되며, 대상 500만원 등 총 800만원의 상금이 수여됩니다."
+    },
+    "64": {
+        "category": "hackathon",
+        "name": "갑상선암 진단 분류 해커톤: 양성과 악성, AI로 정확히 구분하라!",
+        "link": "https://dacon.io/competitions/official/236488/overview/description",
+        "field": ["의료 AI", "머신러닝", "이진 분류", "데이터 과학"],
+        "skills": ["이미지 전처리", "이진 분류 모델", "의료 데이터 분석", "TensorFlow/PyTorch 활용"],
+        "description": "갑상선암 관련 건강 데이터를 활용해 양성·악성 종양을 구분하는 AI 분류 모델을 개발하는 대회입니다.",
+        "text": "해커톤 ‘갑상선암 진단 분류 해커톤’은 데이콘이 주최·주관하며, 참가자는 제공된 갑상선 건강 데이터를 바탕으로 AI 기반 이진 분류 모델을 설계·훈련해 양성과 악성을 구분해야 합니다. 데이콘 회원 누구나 참여 가능하며, 1~3위 수상자에게 데이스쿨 Pro 구독권과 수상 인증서가 제공됩니다."
+    },
+    "65": {
+        "category": "hackathon",
+        "name": "제13회 K-해커톤",
+        "link": "http://www.k-hackathon.com/",
+        "field": ["SW 솔루션", "AI", "IoT", "메타버스"],
+        "skills": ["애플리케이션 개발", "융합 서비스 설계", "IoT 연동", "VR/AR 콘텐츠 제작"],
+        "description": "SW·AI·IoT·메타버스를 활용해 공공 및 지역 사회 문제를 해결하는 융합 솔루션을 개발하는 해커톤입니다.",
+        "text": "해커톤 ‘제13회 K-해커톤’은 과학기술정보통신부와 NIPA, SWKOREA가 주최·주관하며 대학생부터 일반 국민까지 2~5인 팀이 공공문제 또는 메타버스 플랫폼 활용 솔루션을 개발합니다. 결선 진출 시 특허 지원, 창업 지원 등의 후속 혜택이 제공되며, 총 상금 1,000만원을 분과별 시상합니다."
+    },
+    "66": {
+        "category": "research",
+        "name": "Natural Language Processing Laboratory",
+        "link": "https://nlplab-skku.github.io/",
+        "field": [
+        "대화 시스템",
+        "질의응답 시스템",
+        "정보 검색",
+        "제어 가능한 텍스트 생성",
+        "텍스트 마이닝",
+        "소형 언어 모델",
+        "검색 증강 생성"
+        ],
+        "skills": [
+        "Dialogue System 설계",
+        "Open-Domain QA 구현",
+        "BM25·TF-IDF 색인",
+        "Controllable Text Generation",
+        "텍스트 분류·요약·감성 분석",
+        "sLM 최적화",
+        "RAG 파이프라인"
+        ],
+        "description": "성균관대학교 인공지능학과 소속의 NLP 연구실로, 대화 시스템·QA·정보 검색·생성형 AI·텍스트 마이닝 분야를 연구합니다.",
+        "text": "Natural Language Processing Laboratory는 고영중 교수님이 이끄는 연구실로, 오픈 도메인·작업 지향·페르소나 기반 대화 시스템부터 Open-Domain QA, TF-IDF·DPR 기반 색인과 랭킹, 컨트롤 가능한 텍스트 생성, 텍스트 분류·요약·감성 분석까지 폭넓게 다룹니다. 최근에는 소형 언어 모델(sLM)과 검색 증강 생성(RAG) 연구도 활발히 진행되고 있으며, 주요 성과는 KIISE AI 소사이어티 레터와 성균웹진에 소개되었습니다."
+    },
+    
+    "67": {
+        "category": "research",
+        "name": "Computer Systems and Intelligence Lab",
+        "link": "https://sites.google.com/view/yskim525",
+        "field": [
+        "자율 AI",
+        "강화학습",
+        "제어 최적화",
+        "환경 일반화"
+        ],
+        "skills": [
+        "Reinforcement Learning 모델링",
+        "자율 제어 알고리즘",
+        "로봇 내비게이션",
+        "프로세스 자동화",
+        "환경 일반화 기법"
+        ],
+        "description": "자율 AI와 강화학습, 제어 최적화 및 일반화 기술을 제어 응용에 적용하는 연구실입니다.",
+        "text": "Computer Systems and Intelligence Lab(CSI Lab)은 김유성 교수님이 이끄는 연구실로, 자율 AI, 강화학습 및 제어 최적화·일반화 기술을 프로세스 자동화와 로봇 조작·내비게이션에 적용하기 위한 핵심 모델과 알고리즘을 개발합니다. 주요 논문은 ICML 2025, CIKM 2024, IJCAI 2023 등에 발표되었습니다."
+    },
+    "68": {
+        "category": "research",
+        "name": "SKKU Security Lab",
+        "link": "https://seclab.skku.edu/",
+        "field": [
+        "인증·사용자 보안",
+        "모바일 보안",
+        "디지털 포렌식",
+        "블록체인 보안"
+        ],
+        "skills": [
+        "인간·디바이스 인증",
+        "Usable Security 설계",
+        "모바일 취약점 분석",
+        "포렌식 기법",
+        "블록체인 취약점 평가"
+        ],
+        "description": "실전 보안 문제 해결을 위해 인증, 네트워크·웹·모바일 보안과 포렌식을 연구하는 연구실입니다.",
+        "text": "SKKU Security Lab은 김형식 교수님이 이끄는 보안 엔지니어링 연구실로, 인간·디바이스 인증, 사용성 보안, 모바일·웹 보안, 디지털 포렌식, 블록체인 보안 분야를 다룹니다. 주요 연구 성과는 IEEE TIFS, ASIACCS, USENIX Security 등에 발표되었습니다."
+    },
+    "69": {
+        "category": "research",
+        "name": "Computer Architecture Laboratory",
+        "link": "https://archlab.skku.edu/",
+        "field": [
+        "양자·극저온 컴퓨팅",
+        "프로세서 아키텍처",
+        "성능 모델링",
+        "도메인 특화 가속기"
+        ],
+        "skills": [
+        "양자 컴퓨팅 설계",
+        "Processor/Microarchitecture",
+        "시스템 성능 분석",
+        "AI·IoT 가속기 개발"
+        ],
+        "description": "고속·저전력·확장성 있는 컴퓨터 아키텍처와 특화 가속 시스템을 연구합니다.",
+        "text": "Computer Architecture Laboratory는 민동문 교수님이 이끄는 팀으로, Quantum/Cryogenic 컴퓨터 시스템, 프로세서·메모리 마이크로아키텍처, 시스템 성능 모델링, AI·IoT·로봇·XR용 도메인 특화 가속기 연구를 수행합니다. 주요 논문은 MICRO ’24, TACO ’24, ASPLOS ’24, MIDDLEWARE ’23, ISCA ’23에 게재되었습니다."
+    },
+    "70": {
+        "category": "research",
+        "name": "Machine Learning and Data Mining Research Lab",
+        "link": "https://learndatalab.github.io/",
+        "field": [
+        "그래프 학습",
+        "멀티모달 학습",
+        "질의응답",
+        "논리 추론",
+        "추천 시스템",
+        "설명 가능한 AI"
+        ],
+        "skills": [
+        "Graph Neural Networks",
+        "Self-Supervised Learning",
+        "Multi-Modal 모델링",
+        "Knowledge-Enhanced LLM",
+        "Commonsense Reasoning",
+        "XAI 기술"
+        ],
+        "description": "연결된 데이터와 NLP를 활용한 그래프/멀티모달 학습, 추천·추론·설명 AI 연구 그룹입니다.",
+        "text": "Machine Learning and Data Mining Research Lab은 박호건 교수님이 이끄는 SKKU 연구실로, 인간 상호작용·3D 객체 그래프·소셜 네트워크 등 연결된 데이터에서의 셀프 슈퍼바이즈드 그래프 학습, 이미지·텍스트 멀티모달 모델, 지식 강화 대형 언어 모델 및 논리 추론, 추천 시스템, XAI 연구를 수행합니다. 주요 논문은 ACL Findings 2025, KDD 2025, ICML 2025, PAKDD 2025, NAACL 2025에 발표되었습니다."
+    },
+    "71": {
+        "category": "research",
+        "name": "Intelligent Embedded Systems Research Laboratory",
+        "link": "http://nyx.skku.ac.kr/",
+        "field": [
+        "온디바이스 ML",
+        "시스템 최적화",
+        "지능형 저장장치",
+        "PIM/ISC"
+        ],
+        "skills": [
+        "DNN Pruning/Quantization",
+        "Efficient ML Inference",
+        "LLM Serving 최적화",
+        "NPU 아키텍처",
+        "PIM/ISC 연구"
+        ],
+        "description": "온디바이스 ML, ML 시스템 최적화, 지능형 스토리지·메모리 시스템을 연구합니다.",
+        "text": "Intelligent Embedded Systems Lab은 신동근 교수님이 이끄는 연구실로, 온디바이스 ML, ML Inference 최적화, LLM KV Cache 관리, NPU 가속, PIM·In-Storage Computing 연구를 수행합니다. FAST ’25, NVMSA ’24, AAAI ’24 등의 논문이 주요 성과입니다."
+    },
+    "72": {
+        "category": "research",
+        "name": "Data Intelligence And Learning Lab",
+        "link": "https://dial.skku.edu/",
+        "field": [
+        "추천 시스템",
+        "정보 검색",
+        "NLP",
+        "기계학습 최적화",
+        "데이터 마이닝"
+        ],
+        "skills": [
+        "세션 기반 추천",
+        "Table-Text Retrieval",
+        "Normalization 기법",
+        "Dual-Side Filtering"
+        ],
+        "description": "하이퍼 퍼스널라이제이션을 위한 추천, IR, NLP 모델과 데이터 마이닝 기법을 연구합니다.",
+        "text": "Data Intelligence And Learning Lab은 이종욱 교수님이 이끄는 연구실로, 추천 시스템, 정보 검색, 자연어 처리, 기계학습 모델 최적화, 데이터 마이닝을 연구합니다. ACL 2025, SIGIR 2025 등에 발표된 GRAM, HELIOS, DIFF 등 최신 논문이 주요 성과입니다."
+    },
+    "73": {
+        "category": "research",
+        "name": "Real-Time Computing Laboratory",
+        "link": "https://rtclskku.github.io/website/index.html",
+        "field": [
+        "실시간 스케줄링",
+        "ML for RT",
+        "RT for ML",
+        "소프트웨어 정의 배터리",
+        "모바일 시스템"
+        ],
+        "skills": [
+        "EV 배터리 스케줄링",
+        "Federated Scheduling",
+        "ML-RT 통합",
+        "배터리 시스템 최적화"
+        ],
+        "description": "실시간 시스템, ML-RT 및 RT-ML, 소프트웨어 정의 배터리, 모바일 컴퓨팅을 연구합니다.",
+        "text": "Real-Time Computing Laboratory는 이진규 교수님이 이끄는 연구실로, 실시간 스케줄링 및 시스템, 머신러닝과 실시간의 상호작용, 소프트웨어 정의 배터리, 모바일 컴퓨팅을 다룹니다. RTAS 2024, RTSS 2024/2025, IEEE Transactions on Industrial Informatics 등에 논문이 발표되었습니다."
+    },
+    "74": {
+        "category": "research",
+        "name": "SKKU Interactive Data Computing Laboratory",
+        "link": "https://idclab.skku.edu/",
+        "field": [
+        "정보 시각화",
+        "비주얼 애널리틱스",
+        "HCI"
+        ],
+        "skills": [
+        "대시보드 자동 설계",
+        "Density Plot 조명 최적화",
+        "LLM 기반 시각화 저작",
+        "불안정성 측정"
+        ],
+        "description": "인포Vis, 비주얼 애널리틱스, HCI를 통해 인간과 데이터의 상호작용을 증진합니다.",
+        "text": "SKKU Interactive Data Computing Lab은 조재민 교수님이 이끄는 연구실로, 정보 시각화, 비주얼 애널리틱스, HCI 연구를 수행합니다. PacificVis 2025, IEEE TVCG, IEEE VIS 2024 등의 논문이 주요 성과입니다."
+    },
+    "75": {
+        "category": "research",
+        "name": "Visual Computing Laboratory",
+        "link": "https://sites.google.com/site/vclabskku/intro?authuser=0",
+        "field": [
+        "컴퓨터 비전",
+        "머신러닝"
+        ],
+        "skills": [
+        "영상 초해상도",
+        "Few-Shot 영상 매칭",
+        "Temporal Action Detection",
+        "Text-Video Retrieval"
+        ],
+        "description": "컴퓨터 비전 및 머신러닝 기반 시각 컴퓨팅 연구실입니다.",
+        "text": "Visual Computing Laboratory는 허재필 교수님이 이끄는 SKKU 연구실로, 영상 초해상도, Few-Shot 영상 매칭, 행동 인식, 텍스트-영상 검색 등 컴퓨터 비전과 머신러닝 연구를 수행합니다. CVPR 2025, AAAI 2025 등에 다수 논문 발표 경력이 있습니다."
+    },
+    "76": {
+        "category": "junior",
+        "name": "[LG CNS] 로봇 분야 경력 연구원 채용",
+        "link": "https://careers.lg.com/apply/rcm-detail?id=1000522",
+        "field": [
+        "Physical AI",
+        "Intelligent Robotics",
+        "3D Simulation",
+        "Foundation Models"
+        ],
+        "skills": [
+        "휴머노이드·AMR 로봇 설계·개발",
+        "시뮬레이션 기반 모델 트레이닝 (Gazebo, Isaac Sim, Unity)",
+        "실제 로봇 적용 파이프라인 구축",
+        "로봇 비전·동작 예측·멀티모달 AI",
+        "경로 계획(Path Planning), SLAM",
+        "ROS·RTOS 기반 제어·펌웨어 설계",
+        "머신러닝·딥러닝·강화학습"
+        ],
+        "description": "Physical AI 시대를 선도할 휴머노이드·AMR 등 지능형 로보틱스 연구와 3D 시뮬레이션, Foundation Model 개발을 책임질 경력 연구원을 찾습니다.",
+        "text": "LG CNS 로봇 분야 경력 채용은 2025년 6월 5일 11:00부터 6월 30일 23:00까지 진행되며, 마곡 본사에서 Physical AI 기술 연구 및 사업화 인큐베이션 업무를 담당합니다. 지원 자격은 로봇 공학 관련 석사 학위 이상 소지자이며, AI 기반 이동 로봇·매니퓰레이션·휴머노이드 연구 성과 보유, Gazebo·Isaac Sim·Unity를 활용한 시뮬레이션 모델 트레이닝 및 실제 로봇 파이프라인 구축 경험이 필수입니다. 또한, 컴퓨터공학·인공지능·소프트웨어 전공자, 로봇 비전·동작 예측·데이터 처리 및 멀티모달 AI 경험자, 경로 계획·SLAM·제어 이론·센서 신호처리·모터 제어·RTOS 펌웨어 설계 경험자를 우대합니다. Robotics Studio에서 AMR·휴머노이드 테스트, NVIDIA Isaac SIM·LAB 활용, Agile 방식의 MVP 검증을 수행하며, 로봇 파운데이션 모델 연구·자율형 로봇 프로젝트를 리드하게 됩니다. 서류전형→One Day Interview→처우협상→채용검진 순으로 진행되며, LG 그룹 채용사이트를 통한 온라인 지원만 가능합니다. 지원 전 해외여행·병역 요건을 확인하시고, 보훈대상자·장애인·기초생활수급자 등은 법규에 의거 우대됩니다."
+    },
+    "77" : {
+        "category": "junior",
+        "name": "[LG CNS] 클라우드 스마트워크 VDI TA 모집(경력)",
+        "link": "https://careers.lg.com/apply/detail?id=1000277",
+        "field": [
+        "VDI 서비스",
+        "클라우드PC 인프라TA"
+        ],
+        "skills": [
+        "VDI 구축·운영 경험 (3년 이상)",
+        "Vmware ESXi, MS Hyper-V, Nutanix, 소만사, 틸론 운영 경험",
+        "Powershell 스크립팅",
+        "Zabbix 구축·운영",
+        "REST API 활용",
+        "OpenStack 경험",
+        "협업 및 책임감"
+        ],
+        "description": "상암 본사에서 온프레미스부터 Azure·HCI까지 모든 자원을 활용한 VDI 설계·구축·운영과 최적화를 담당할 경력 VDI TA를 찾습니다.",
+        "text": "LG CNS 클라우드 스마트워크 VDI TA 모집은 2025년 6월 2일 06:00부터 6월 30일 23:00까지 진행되며, 전공 무관으로 상암 본사 근무입니다. 지원 자격은 최소 3년 이상의 VDI 구축·운영 경력과 Vmware ESXi, MS Hyper-V, Nutanix, 소만사·틸론 등 주요 VDI 플랫폼 운영 경험이 필수이며, 동료와의 원활한 협업과 책임감 있는 업무 수행 능력을 요구합니다. Powershell 스크립팅, Zabbix 모니터링 구축·운영, REST API 활용, OpenStack 경험자는 우대합니다. 우리 조직은 스마트워크 환경의 핵심인 VDI 서비스를 온프레미스 장비부터 Azure, HCI까지 통합 운영·최적화하며, 글로벌 VDI 인프라를 어디서나 효율적으로 관리합니다. 국내 최대 규모 VDI 사이트 운영 경험을 통해 업계 최고 수준의 아키텍트로 성장할 기회를 제공합니다. 주요 업무는 VDI Pre-Sales, 설계·구축·운영, 아키텍처 최적화를 포함하며, 서류전형 → One Day Interview → 처우협상 → 채용검진 절차로 진행됩니다. LG 그룹 채용사이트를 통한 온라인 지원만 가능하며, 해외여행·병역 요건 확인 후 지원해 주시기 바랍니다. 보훈대상자·장애인·기초생활수급자 등은 법규에 따라 우대됩니다."
+    },
+
+    "78" : {
+        "category": "startup",
+        "name": "Bookend Tech",
+        "link": "https://bookend.tech",
+        "field": [
+        "AI Editing",
+        "Digital Publishing",
+        "Content Platforms"
+        ],
+        "skills": [
+        "AI-powered copyediting",
+        "Multilingual translation",
+        "Text-to-video conversion",
+        "Creator-centric publishing"
+        ],
+        "description": "AI 편집 도구부터 크리에이터 전용 출판, 동영상 결합 독서 경험까지 통합하는 디지털 출판 플랫폼",
+        "text": "Bookend Tech는 AI 편집자 ‘센텐시파이’를 통해 전문 수준의 글쓰기와 번역을 한 번에 지원하고, 크리에이터 전용 출판 솔루션 ‘북엔드’를 통해 빠르고 알찬 출판 과정을 제공합니다. 또한 ‘먼치프레스’ 서비스로 텍스트와 동영상을 결합한 새로운 독서 경험을 제공하며, 문체 교정과 카테고리 분류, 번역 기능을 모두 자유자재로 제어할 수 있는 완벽한 문장 교정 서비스도 운영합니다. 유통 비용을 생략해 창작자 인세를 기존의 2~3배 수준인 20%로 높이고, 텍스트를 기반으로 동영상을 자동 생성하는 기술로 독자의 몰입도를 극대화합니다. Bookend Tech는 이러한 혁신 기술로 출판 생태계를 재구성하며, 창작자와 함께 미래의 콘텐츠 문화를 만들어 가고 있습니다."
+    },
+
+    "79" : {
+        "category": "startup",
+        "name": "프롬프트타운",
+        "link": "https://prompt.town/company",
+        "field": [
+        "AI 솔루션",
+        "서비스",
+        "비즈니스 자동화",
+        "데이터 분석",
+        "콘텐츠 생성"
+        ],
+        "skills": [
+        "AI 개발",
+        "소프트웨어 엔지니어링",
+        "머신러닝",
+        "자연어처리",
+        "비즈니스 분석"
+        ],
+        "description": "AI와 다양한 산업을 융합해 비즈니스 자동화부터 콘텐츠 생성까지 지원하는 AI 혁신 선도 기업",
+        "text": "프롬프트타운은 2023년 설립 이후 AI 개발자, 소프트웨어 엔지니어, 비즈니스 전문가들이 모여 AI 기술 혁신을 선도하는 IT기업입니다. 미션은 전문가·비전문가 구분 없이 누구나 AI로 문제를 해결하고 더 나은 삶을 누릴 수 있도록 지원하는 것이며, 비전은 “모든 아이디어가 현실이 되는 세상”을 만드는 것입니다. 창업팀 결성(2022)부터 창업 경진대회 수상, AI 기반 콘텐츠·그래픽 디자인·전문가 매칭 특허 출원(2023), 예비창업패키지 최우수·벤처기업 인증 획득(2024), CES 2025 참가(2025) 등 빠른 성장의 발자취를 남겼습니다. 광운대, 국립금오공대, 대구창조센터, 경기콘텐츠진흥원, 한국엔젤투자협회 등 다수 파트너와 협력해 AI 솔루션·서비스·바우처를 제공하며, “기술의 힘으로 세상을 더 풍요롭게”라는 슬로건 아래 AI 혁신의 중심에서 변화를 이끌고 있습니다."
+    },
+    "80" : {
+        "category": "startup",
+        "name": "SNTWorks",
+        "link": "https://www.sntworks.kr/pc",
+        "field": [
+        "Embedded HW Security",
+        "Embedded SW Security",
+        "IP Infringement Investigation",
+        "Side Channel Attack",
+        "Digital Forensics",
+        "Reverse Engineering"
+        ],
+        "skills": [
+        "Hardware reverse engineering",
+        "Software reverse engineering",
+        "Digital forensics",
+        "Cyber law analysis",
+        "Embedded security assessment",
+        "Exploitation techniques"
+        ],
+        "description": "임베디드 장치 보안과 디지털 포렌식 분야를 선도하는 전문 스타트업",
+        "text": "SNTWorks는 하드웨어·소프트웨어 역공학과 디지털 포렌식, 사이버법 이론을 바탕으로 임베디드 시스템 전반의 보안 문제를 해결하는 스타트업입니다. 역공학 팀과 서브채널 분석 팀을 구성하고, 벤처기업 인증과 R&D 센터 인정을 통해 ‘Reverse Engineering LAB’을 운영해 왔으며, 고객사에는 국방부, 대검찰청, 경찰청, 국가보안기술연구소, 한국전자통신연구원, 한국인터넷진흥원, 고려대학교 등이 있습니다. 주요 서비스로는 임베디드 시스템의 보안 평가, 하드·소프트웨어 취약점 분석 및 IP 침해 조사, 사이드채널 공격 실험, 포렌식 분석을 제공하며, 항상 새로운 솔루션을 탐색하여 임베디드 디바이스 보안의 미래를 열어갑니다."
+    },
+
+    "81" : {
+        "category": "startup",
+        "name": "Lablup Inc.",
+        "link": "https://lablup.com",
+        "field": [
+        "AI Infrastructure",
+        "MLOps Platform",
+        "Hybrid Edge–Cloud AI"
+        ],
+        "skills": [
+        "GPU-sharing containers",
+        "Fractional GPU orchestration",
+        "Multi-cloud deployment",
+        "On-device AI",
+        "High-performance computing"
+        ],
+        "description": "오픈소스 기반 AI 인프라 플랫폼 ‘Backend.AI’를 개발·운영하는 스타트업",
+        "text": "Lablup Inc.는 오픈소스 철학을 기반으로 컴퓨터 과학 연구와 AI 개발 환경을 혁신하는 스타트업입니다. 창립자 정규 신을 비롯한 연구·기술 리더들이 모여 Backend.AI 플랫폼을 통해 엣지-클라우드 하이브리드 AI 인프라를 제공하며, GPU-공유 컨테이너 및 프랙셔널 GPU 기능으로 비용 효율적인 대규모 모델 학습과 추론을 지원합니다. CES, MWC, NVIDIA GTC 등 글로벌 이벤트에서 기술을 발표했으며, 산업용 AI 솔루션부터 개인 개발자용 온디바이스 AI까지 폭넓은 활용 사례를 선보이고 있습니다."
+    },
+    "82" : {
+        "category": "startup",
+        "name": "SkyReve",
+        "link": "https://www.skyreve.cloud/kr",
+        "field": [
+        "BaaS (Backend-as-a-Service)",
+        "No-code 데이터베이스",
+        "실시간 로그 모니터링",
+        "브랜치 기반 배포",
+        "REST API 자동화",
+        "AI 연동",
+        "OAuth·QR 결제·이메일 로그인"
+        ],
+        "skills": [
+        "자동 스케일링",
+        "고가용성 배포",
+        "PIP 플레이어",
+        "OpenAI 연동",
+        "OAuth 구현",
+        "QR 결제 통합",
+        "HTTPS 보안 API"
+        ],
+        "description": "로우코드/노코드 방식으로 백엔드 구축·운영을 자동화해주는 완전관리형 BaaS",
+        "text": "SkyReve는 단 몇 번의 클릭만으로 데이터베이스 설계·CRUD, 브랜치별 빌드·배포, 실시간 로그 추적과 분석, REST API 생성까지 가능한 로우코드 백엔드 플랫폼입니다. OpenAI 연동을 통해 AI 기능을 손쉽게 추가하고, OAuth·QR 결제·이메일 로그인을 기본 제공하여 인증·결제 기능을 빠르게 구축할 수 있습니다. HTTPS 기반 보안 접근, PBKDF2·ECDSA·FHE 등 강력한 암호화, 자동 스케일링과 고가용성 배포로 운영 부담을 최소화하며, 프론트엔드 개발자와 비개발자 모두 직관적인 UI에서 백엔드를 완성할 수 있습니다."
+    },
+    "83" : {
+        "category": "junior",
+        "name": "Application Security Engineer",
+        "link": "https://about.daangn.com/jobs/6045408003/",
+        "field": [
+        "Application Security",
+        "Penetration Testing",
+        "DevSecOps"
+        ],
+        "skills": [
+        "Python",
+        "JavaScript",
+        "CCE/CVE/CWE 진단",
+        "보안 자동화",
+        "AWS/GCP"
+        ],
+        "description": "당근 서비스의 애플리케이션 보안 진단과 DevSecOps 환경 구축을 담당하는 주니어 채용",
+        "text": "당근마켓 보안팀의 Application Security Engineer로서 서비스 대상 모의해킹과 인프라 취약점 진단을 수행하고, Python 또는 JavaScript로 사내 보안 자동화 도구를 개발합니다. 전체 스택 아키텍처를 이해하여 DevSecOps 파이프라인을 구축·운영하며, 오픈소스 및 상용 보안 제품을 연계해 자동화 시스템을 설계합니다. AWS·GCP 클라우드 환경 경험과 신규 취약점 연구, 버그바운티 참여 경력이 있으면 더욱 환영합니다."
+    },
+    "84" : {
+        "category": "junior",
+        "name": "Software Engineer, Backend - 공통 서비스 개발",
+        "link": "https://about.daangn.com/jobs/5632438003/",
+        "field": [
+        "Platform & Backend Development",
+        "Developer Experience (DX)",
+        "Distributed Systems"
+        ],
+        "skills": [
+        "Kotlin",
+        "Golang",
+        "TypeScript",
+        "Kafka",
+        "AWS",
+        "GCP",
+        "Kubernetes",
+        "REST/gRPC API 설계",
+        "메시징 시스템 스키마 레지스트리"
+        ],
+        "description": "공통서비스개발팀의 플랫폼 및 백엔드 애플리케이션을 설계·구현하는 주니어 엔지니어 모집",
+        "text": "당근마켓 공통서비스개발팀에서 플랫폼과 백엔드 API를 만들며 내부 엔지니어 경험(DX)을 혁신할 Software Engineer, Backend를 찾습니다. Kotlin·Go·TypeScript로 대규모 트래픽을 다루는 백엔드 앱을 개발하고, Kafka와 스키마 레지스트리를 사용해 안정적인 메시징 파이프라인을 구축합니다. AWS·GCP·Kubernetes 환경에서 서비스 전체 라이프사이클을 책임지고, REST와 gRPC를 조화롭게 설계하며 기존 기술 부채를 관리·해소합니다. 분산 시스템 설계와 API 확장 경험이 2년 이상 있는 분을 환영하며, 복잡한 전사 영향도 높은 문제에 전략적으로 접근할 열정을 가진 분의 지원을 기다립니다."
+    },
+    "85" : {
+        "category": "junior",
+        "name": "Software Engineer, Backend - 로컬 비즈니스 (Kotlin)",
+        "link": "https://about.daangn.com/jobs/4513815003/",
+        "field": [
+        "로컬 비즈니스 플랫폼",
+        "Backend API 개발",
+        "MSA 아키텍처"
+        ],
+        "skills": [
+        "Kotlin",
+        "Java",
+        "MySQL",
+        "REST",
+        "gRPC",
+        "GraphQL",
+        "Clean Architecture",
+        "DDD",
+        "대규모 시스템 설계"
+        ],
+        "description": "로컬 비즈니스실의 ‘비즈프로필’ 플랫폼과 관련 백엔드 서비스를 Kotlin으로 개발할 주니어 엔지니어 모집",
+        "text": "당근마켓 로컬 비즈니스실에서 ‘비즈프로필’ 제품과 플랫폼을 모두 경험하며 개발할 Software Engineer, Backend를 찾습니다. Kotlin 또는 Java로 MySQL 기반의 안정적인 RDBMS 서비스를 구축하고, REST/gRPC/GraphQL API를 설계합니다. 수백만 건의 비즈프로필 트래픽을 견디는 MSA 환경에서 서비스 분리·통합 과정을 통해 시스템 성능과 유지보수성을 향상시키고, 지역 업소 데이터를 수집·정제하여 항상 최신화합니다. 빠른 배포, 크로스펑셔널 협업, 사용자 피드백 중심의 개발 문화를 즐기며, 대규모 분산 시스템과 DDD, 클린 아키텍처에 관심이 있는 분의 지원을 환영합니다."
+    },
+    "86" :  {
+        "category": "junior",
+        "name": "Software Engineer, Backend - 당근페이 (Kotlin)",
+        "link": "https://about.daangn.com/jobs/4511184003/",
+        "field": [
+        "핀테크 서비스",
+        "금융 트랜잭션",
+        "분산 시스템"
+        ],
+        "skills": [
+        "Kotlin",
+        "Spring Boot",
+        "Spring Batch",
+        "JPA",
+        "HTTP",
+        "gRPC",
+        "GraphQL",
+        "Netty",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "Central Dogma",
+        "Apache Flink",
+        "Grafana",
+        "Sentry",
+        "Datadog",
+        "AWS",
+        "Kubernetes",
+        "Argo CD",
+        "Argo Workflow",
+        "GitHub Actions"
+        ],
+        "description": "당근페이팀의 Kotlin 기반 금융 트랜잭션 플랫폼과 공통 서비스를 개발·운영할 백엔드 엔지니어 모집",
+        "text": "당근페이팀에서 중고 거래 송금과 동네 결제 기능을 지원하는 핵심 백엔드 서비스를 Kotlin과 Spring 생태계로 구축합니다. 서비스팀과 코어팀으로 나뉘어 사용자 문제 해결 기능과 API Gateway, 인증·계정·메시징 플랫폼, 백오피스 도구를 개발·운영하며, REST/gRPC/GraphQL/TCP 등 다양한 프로토콜을 다룹니다. MSA 환경에서 분산 트랜잭션의 정합성을 유지하고 Fault Tolerance·Resilience를 갖춘 미션 크리티컬 결제 시스템을 설계하며, 대규모 트래픽과 금융 데이터 보안을 경험할 수 있습니다. JVM 생태계에 익숙하고 RDBMS 이해도가 높으며, 빠른 실행력과 협업 능력을 갖춘 분을 환영합니다."
+    },
+    "87" : {
+        "category": "junior",
+        "name": "Software Engineer, Data",
+        "link": "https://about.daangn.com/jobs/4300801003/",
+        "field": [
+        "데이터 파이프라인",
+        "배치/스트리밍 처리",
+        "지표·실험 플랫폼",
+        "데이터 관측성"
+        ],
+        "skills": [
+        "Python",
+        "Java",
+        "Scala",
+        "Kotlin",
+        "Go",
+        "Spark",
+        "Flink",
+        "Beam",
+        "BigQuery",
+        "DBT",
+        "Airflow",
+        "Kubernetes",
+        "AWS",
+        "GCP"
+        ],
+        "description": "당근의 데이터 가치화 팀에서 확장 가능한 데이터 처리 시스템과 고품질 데이터 제품을 설계·운영할 백엔드 엔지니어 모집",
+        "text": "데이터 가치화 팀의 Software Engineer, Data로서 배치·스트리밍 모두 지원하는 고성능 데이터 파이프라인을 설계하고 자동화된 이벤트 로깅·수집 시스템을 구축합니다. KarrotMetrics 같은 지표 플랫폼과 실험 플랫폼을 함께 개발하며, DBT·Airflow 기반 워크플로우의 품질을 자동으로 검증하고 Observability를 확보해 당근 구성원들이 데이터 기반 의사결정을 폭발적으로 성장시킬 수 있도록 돕습니다. Python, Java, Scala, Kotlin, Go 등 언어에 능숙하고 Spark·Flink·Beam 같은 빅데이터 프레임워크를 다룬 경험이 있는 분, 클라우드(AWS/GCP)와 Kubernetes 환경에서 데이터 인프라를 설계·운영해본 분을 환영합니다."
+    },
+    "88" : {
+        "category": "junior",
+        "name": "Software Engineer, Machine Learning - 공통",
+        "link": "https://about.daangn.com/jobs/5248527003/",
+        "field": [
+        "추천 시스템",
+        "피드 품질 개선",
+        "광고 효율화",
+        "LLM 활용"
+        ],
+        "skills": [
+        "머신러닝 이론",
+        "딥러닝 (Recommendation, NLP, GNN, RL, Vision)",
+        "BigQuery",
+        "Cloud Dataflow",
+        "Kubeflow",
+        "TFX",
+        "TensorFlow Serving",
+        "Python",
+        "효율적 코드 아키텍처"
+        ],
+        "description": "당근의 다양한 서비스에 ML 모델을 적용해 개인화 추천과 광고 효율을 고도화할 ML 엔지니어",
+        "text": "당근의 Software Engineer, Machine Learning - 공통으로 홈 피드와 상세 페이지에 개인화 추천을 제공하고, 광고 플랫폼의 효율을 높이는 ML 모델을 설계·개발합니다. 피드 품질팀과 협업하여 사용자 참여와 다양성 발견을 촉진하는 추천·검색 모델을 개선하고, LLM을 활용해 컨텐츠 개인화를 강화합니다. 머신러닝 이론과 딥러닝 기본기가 탄탄하며, 대규모 프로덕션 환경에서 추천 시스템이나 광고 시스템을 운영해본 분, BigQuery·Dataflow·Kubeflow·TFX·TF Serving 경험이 있는 분을 환영합니다."
+    },
+    "89" : {
+        "category": "junior",
+        "name": "Software Engineer, iOS",
+        "link": "https://about.daangn.com/jobs/5282170003/r",
+        "field": [
+        "iOS 앱 개발",
+        "모바일 UX/UI",
+        "오픈소스 라이브러리",
+        "챕터 활동"
+        ],
+        "skills": [
+        "Swift",
+        "RxSwift",
+        "FlexLayout",
+        "PinLayout",
+        "Alamofire",
+        "Tuist",
+        "GitHub Actions",
+        "Firebase",
+        "fastlane",
+        "Dependency Injection",
+        "테스트 가능한 코드 작성",
+        "원활한 커뮤니케이션"
+        ],
+        "description": "당근 iOS 앱의 안정성과 완성도를 책임지는 iOS 엔지니어",
+        "text": "당근 iOS 엔지니어로서 중고거래, 동네생활, 채팅 등 다양한 서비스를 전담 개발하고, 재사용 가능한 오픈소스 라이브러리를 기획·개발·운영합니다. iOS 챕터 활동(엔지니어링 데이, 테크톡, 스터디)을 통해 동료와 기술을 공유하며 성장합니다. Swift와 RxSwift 기반 대규모 앱 개발 경험이 있고, Testable 코드 작성과 DI 활용에 익숙하며, 사용자 중심 사고로 새로운 기능 설계를 즐기는 분을 찾습니다. Tuist, fastlane, Firebase 등 당근이 사용하는 개발 도구 경험이 있다면 더욱 환영합니다. (3년 이상 경력 수준, 3개월 수습기간, 2025년 10월부터 주 5일 오피스 출근)"
+    },
+    "90" : {
+            "category": "junior",
+            "name": "인프라 QA",
+            "link": "https://careers.nhn.com/recruits/4087065215076761365?type=list&jobGroupId=3645799730550663017",
+            "field": [
+            "IaaS 품질 보증",
+            "테스트 자동화",
+            "지표 분석",
+            "CI/CD"
+            ],
+            "skills": [
+            "Java",
+            "Python",
+            "Selenium",
+            "API 테스트 자동화",
+            "SonarQube",
+            "Jenkins",
+            "Docker",
+            "테스트 프레임워크 기획·구축",
+            "품질 메트릭 분석",
+            "CI/CD 파이프라인 설계"
+            ],
+            "description": "NHN Cloud IaaS 서비스의 품질을 책임지는 인프라 QA 엔지니어",
+            "text": "NHN Cloud 인프라 QA팀의 일원으로 Compute, Network, Storage 등 IaaS 서비스 전반에 대한 테스트 전략 수립·기획·설계·수행과 보고 업무를 수행합니다. 테스트 자동화 프레임워크를 기획·구축·운영하고, SonarQube·Jenkins·Docker 등의 도구를 활용해 효율적인 테스트 환경을 구성합니다. 품질 지표 기반 분석을 통해 서비스 안정성과 테스트 효과를 지속적으로 개선하며, CI/CD 파이프라인에 자동화 테스트를 통합해 빠르고 안정적인 배포 프로세스를 지원합니다. Java/Python 기반 UI·API 테스트 자동화 경험이 있고, 2~6년 경력의 QA 또는 개발자 출신으로 비효율 개선에 적극적인 분을 찾습니다. 클라우드 운영 경험, 대규모 자동화 케이스 유지보수 경험, Shared Library 운영 경험이 있다면 더욱 환영합니다."
+        },
+        "91" : {
+        "category": "junior",
+        "name": "네트워크 가속 및 데이터 플레인 시스템 개발",
+        "link": "https://careers.nhn.com/recruits/4077875904193214256?type=list&jobGroupId=3645799730550663017",
+        "field": [
+        "네트워크 기능 가상화 (NFV)",
+        "고성능 패킷 처리",
+        "클라우드 보안",
+        "데이터 플레인 시스템"
+        ],
+        "skills": [
+        "Go",
+        "C/C++",
+        "FD.io VPP",
+        "GoVPP",
+        "DPDK",
+        "netmap",
+        "eBPF/XDP",
+        "REST API",
+        "gRPC",
+        "OpenAPI",
+        "Git",
+        "Docker",
+        "멀티스레드 동기화",
+        "lock-free 자료구조",
+        "OpenStack",
+        "OVS (Open vSwitch)"
+        ],
+        "description": "클라우드 환경에 특화된 고성능 네트워크 가속 및 데이터 플레인 플랫폼 개발자",
+        "text": "NHN Cloud 성능보안개발팀에서 FD.io VPP와 GoVPP 기반의 고성능 네트워크 플랫폼을 설계·개발하고, DPDK·netmap·eBPF/XDP 등을 활용해 패킷 처리 파이프라인을 최적화합니다. 컨트롤 플레인 애플리케이션을 Go 또는 C/C++로 구현하며, CI/CD 환경에서 빌드·배포 자동화를 주도합니다. L2–L4 프로토콜 전반에 대한 이해를 바탕으로 네트워크 가상화(NFV) 솔루션을 발전시키고, OpenStack 기반 네트워크 가상화 및 OVS 운영 경험을 통해 글로벌 CSP 수준의 안정성과 확장성을 확보합니다. 소프트웨어 개발 경력 5년 이상, CS 전공 지식, Go/C++ 프로젝트 참여 경험이 있는 분을 찾으며, FD.io VPP 플러그인 개발, DPDK·eBPF 기반 프로그래밍, 분산 환경 설계 경험이 있다면 더욱 환영합니다."
+    }
+}
