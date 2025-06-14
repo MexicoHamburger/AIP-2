@@ -68,7 +68,6 @@ const AnalyzingView = () => {
                 toolsTokens: state.toolsTokens,
                 profTokens: state.profTokens
             };
-            console.log(payload);
 
             const mergedTokens = [
                 ...state.langTokens,
@@ -80,7 +79,6 @@ const AnalyzingView = () => {
                 ...state.toolsTokens
             ];
             const uniqueMerged = [...new Set(mergedTokens)];
-            console.log(uniqueMerged);
             /* uniqueMerged에 Git이 있다면 miscTokens에서 빼는 작업이 필요함. 걔는 기능1에 넣으면 안 됨 */
             if (uniqueMerged.includes("Git")) {
                 payload.miscTokens = payload.miscTokens.filter(token => token !== "Git");
@@ -99,21 +97,35 @@ const AnalyzingView = () => {
                 }
             });
             const SKILLS_UNIQUE = [...new Set(SKILLS)];
-            console.log("skills :" + SKILLS_UNIQUE)
 
+            const firstPayload = {
+                LanguageHaveWorkedWith: payload.langTokens ?? [],
+                DatabaseHaveWorkedWith: payload.dbTokens ?? [],
+                PlatformHaveWorkedWith: payload.platformTokens ?? [],
+                WebframeHaveWorkedWith: payload.webTokens ?? [],
+                EmbeddedHaveWorkedWith: payload.embTokens ?? [],
+                MiscTechHaveWorkedWith: payload.miscTokens ?? [],
+                ToolsTechHaveWorkedWith: payload.toolsTokens ?? [],
+                ProfessionalTech: payload.profTokens ?? []
+            };
 
-            const res1 = await fetch("http://localhost:5000/analysis1", {
+            const secondPayload = [
+                ...(SKILLS_UNIQUE ?? []),
+                ...(payload.certTokens ?? []),
+                ...(payload.careerTokens ?? [])
+            ];
+            const res1 = await fetch("http://localhost:5000/feat1", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ tokens: SKILLS_UNIQUE })
+                body: JSON.stringify({ tokens: firstPayload })
             });
             const data1 = await res1.json();
             dispatch({ type: "SET_API1_RESULT", payload: data1 });
 
-            const res2 = await fetch("http://localhost:5000/analysis2", {
+            const res2 = await fetch("http://localhost:5000/feat2/rec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ tokens: SKILLS_UNIQUE })
+                body: JSON.stringify({ tokens: secondPayload })
             });
             const data2 = await res2.json();
             dispatch({ type: "SET_API2_RESULT", payload: data2 });
