@@ -1,7 +1,42 @@
-from flask import Flask
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+import torch
+import sys, os
+import json
+
+# RecommendModel 디렉토리를 sys.path에 추가
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from RecommendModel.bert4rec import BERT4Rec
 
 app = Flask(__name__)
+CORS(app)  # 모든 요청 허용
 
+# 기능 2 모델 로드
+MODEL_DIR = "../checkpoint_best"
+
+config_path = os.path.join(MODEL_DIR, "config.json")
+token2id_path = os.path.join(MODEL_DIR, "token2id.json")
+id2token_path = os.path.join(MODEL_DIR, "id2token.json")
+model_path = os.path.join(MODEL_DIR, "bert4rec.pt")
+
+for p in (config_path, token2id_path, id2token_path, model_path):
+    if not os.path.exists(p):
+        raise FileNotFoundError(f"필요한 파일이 없습니다: {p}")
+
+with open(config_path, encoding='utf-8') as f:
+    config = json.load(f)
+with open(token2id_path, encoding='utf-8') as f:
+    token2id = json.load(f)
+with open(id2token_path, encoding='utf-8') as f:
+    id2token = json.load(f)
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model_bert = BERT4Rec(config)
+model_bert.load_state_dict(torch.load(model_path, map_location=device))
+model_bert.to(device)
+model_bert.eval()
+
+# 홈 API
 @app.route('/')
 def home():
     return '''
@@ -9,6 +44,58 @@ def home():
     <p>Team2의 백엔드 서버입니다.</p>
     <a href="http://localhost:5173/">NextDev 홈페이지 바로가기</a>
     '''
+
+# 기능2: 추천 API
+@app.route("/feat2/rec", methods=["POST"])
+def recommend_tree():
+    try:
+        data = request.get_json()
+        seq = data.get("sequence", [])
+        if not isinstance(seq, list):
+            return jsonify({"error": "sequence는 리스트 형식이어야 합니다."}), 400
+
+        def get_top_k(seq_tokens, top_k):
+            token_ids = [token2id[t] for t in seq_tokens if t in token2id]
+            token_ids = token_ids[-(config["max_seq_length"] - 1):]
+            masked_ids = token_ids + [token2id["[MASK]"]]
+            pad = [0] * (config["max_seq_length"] - len(masked_ids))
+            input_ids = pad + masked_ids
+            input_tensor = torch.tensor([input_ids], dtype=torch.long, device=device)
+
+            with torch.no_grad():
+                logits = model_bert(input_tensor)
+                last_logits = logits[0, config["max_seq_length"] - 1].clone()
+                for t_id in set(input_ids):
+                    if t_id != 0:
+                        last_logits[t_id] = float('-inf')
+
+                topk_ids = torch.topk(last_logits, k=top_k).indices.tolist()
+                topk_tokens = [
+                    id2token[str(i)] if isinstance(id2token, dict) and isinstance(next(iter(id2token.keys())), str)
+                    else id2token[i]
+                    for i in topk_ids
+                ]
+            return topk_tokens
+
+        # 1차 추천 → Top-5 중 Top-3 사용
+        top3 = get_top_k(seq, top_k=5)[:3]
+
+        tree = []
+        for token in top3:
+            new_seq = seq + [token]
+            child_tokens = get_top_k(new_seq, top_k=2)
+            tree.append({
+                "token": token,
+                "children": child_tokens
+            })
+
+        return jsonify({
+            "input_sequence": seq,
+            "tree": tree
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
