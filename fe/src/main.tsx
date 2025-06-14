@@ -12,22 +12,33 @@ import DevopsInput from './components/DevopsInput'
 import MiscInput from './components/MiscInput'
 import ProfTech from './components/ProfTech'
 import MidResult from './components/MidResult'
+import CertInput from './components/CertInput'
+import CareerInput from './components/CareerInput'
+import AnalyzingView from './components/AnalyzingView'
+
+import { InputFormProvider } from './InputFormStore'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path ="/" element ={<Index />} />
-        <Route path ="/lang" element = {<LangInput />} />
-        <Route path ="/db-skills" element = {<DBInput />} />
-        <Route path ="/cloud-skills" element = {<CloudInput />} />
-        <Route path ="/web-skills" element = {<WebInput />} />
-        <Route path ="/embedded-skills" element = {<EmbeddedInput />} />
-        <Route path ="/devops-skills" element = {<DevopsInput />} />
-        <Route path ="/misc-skills" element = {<MiscInput />} />
-        <Route path ="/prof" element = {<ProfTech />} />
-        <Route path ="/midresult" element = {<MidResult />} />
-      </Routes>
-    </BrowserRouter>
+    <InputFormProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/lang" element={<LangInput />} />
+          <Route path="/db-skills" element={<DBInput />} />
+          <Route path="/cloud-skills" element={<CloudInput />} />
+          <Route path="/web-skills" element={<WebInput />} />
+          <Route path="/embedded-skills" element={<EmbeddedInput />} />
+          <Route path="/devops-skills" element={<DevopsInput />} />
+          <Route path="/misc-skills" element={<MiscInput />} />
+          <Route path="/prof" element={<ProfTech />} />
+          <Route path="/midresult" element={<MidResult />} />
+
+          <Route path="/cert" element={<CertInput />} />
+          <Route path="/career" element={<CareerInput />} />
+          <Route path="/analyzing" element={<AnalyzingView />} />
+        </Routes>
+      </BrowserRouter>
+    </InputFormProvider>
   </StrictMode>,
 )

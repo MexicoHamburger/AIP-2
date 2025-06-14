@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, CheckCircle, Loader2, ArrowRight } from "lucide-react";
+import { CheckCircle, Loader2, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 
@@ -121,6 +121,7 @@ const AnalysisProgress = () => {
                         <div className="flex justify-center pt-8 animate-fade-in" style={{ animationDelay: '1s' }}>
                             <Button
                                 className="cursor-pointer bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                                onClick = {()=>{navigate("/cert")}}
                             >
                                 다음 단계로
                                 <ArrowRight className="ml-2 h-5 w-5" />

@@ -1,8 +1,11 @@
 import ReusableSkillSelect from "@/components/ReusableSkillSelect";
 import { useNavigate } from "react-router";
 
+import { useInputForm } from "@/InputFormStore";
+
 const WebInput = () => {
     const navigate = useNavigate();
+    const [state, dispatch] = useInputForm();
     return (
         <ReusableSkillSelect
             title={
@@ -17,6 +20,7 @@ const WebInput = () => {
                 "Express", "FastAPI", "Flask", "Laravel", "NestJS", "Next.js",
                 "Node.js", "React", "Spring Boot", "Vue.js", "WordPress", "jQuery"]}
             onSubmit={(skills) => {
+                dispatch({ type: "SET_WEB", payload: skills });
                 navigate("/embedded-skills");
             }}
         />

@@ -1,8 +1,11 @@
 import ReusableSkillSelect from "@/components/ReusableSkillSelect";
 import { useNavigate } from "react-router";
+import { useInputForm } from "@/InputFormStore";
+
 
 const LangInput = () => {
   const navigate = useNavigate();
+const [state, dispatch] = useInputForm();
   return (
     <ReusableSkillSelect
       title="개발 언어 입력"
@@ -11,6 +14,7 @@ const LangInput = () => {
         "HTML/CSS", "Java", "JavaScript", "Kotlin", "PHP", "PowerShell",
         "Python", "Ruby", "Rust", "SQL", "TypeScript"]}
       onSubmit={(skills) => {
+        dispatch({type: "SET_LANGS", payload:skills});
         navigate("/db-skills");
       }}
     />
