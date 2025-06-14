@@ -3,10 +3,12 @@ from flask_cors import CORS
 import torch
 import sys, os
 import json
+import pandas as pd
 
 # RecommendModel 디렉토리를 sys.path에 추가
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from RecommendModel.bert4rec import BERT4Rec
+from CareerPrediction.inference.inference import run_inference
 
 app = Flask(__name__)
 CORS(app)  # 모든 요청 허용
@@ -44,6 +46,28 @@ def home():
     <p>Team2의 백엔드 서버입니다.</p>
     <a href="http://localhost:5173/">NextDev 홈페이지 바로가기</a>
     '''
+
+# 기능1: 커리어 예측 API
+@app.route("/feat1", methods=["POST"])
+def feature1_inference():
+    try:
+        data = request.get_json()
+        if not isinstance(data, dict):
+            return jsonify({"error": "입력은 JSON 딕셔너리 형식이어야 합니다."}), 400
+
+        # 추론 실행
+        df_result = run_inference(data)
+
+        # DataFrame을 JSON으로 변환
+        result_json = df_result.to_dict(orient="records")
+
+        return jsonify({
+            "input": data,
+            "results": result_json
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # 기능2: 추천 API
 @app.route("/feat2/rec", methods=["POST"])
