@@ -1,0 +1,50 @@
+{
+  "title": "AI-DevOps 스타트업 실전",
+  "practice_items": {
+    "step1": {
+      "category": "startup",
+      "name": "Lablup Inc.",
+      "reason": "AI 인프라와 MLOps 플랫폼에 강점을 가진 스타트업으로, TensorFlow/Python 기반 모델 학습 및 AWS와의 연동에 적합합니다. 실제 AI 학습·배포 파이프라인 예시에 잘 부합합니다.",
+      "fields": [
+        "AI Infrastructure",
+        "MLOps Platform",
+        "Hybrid Edge–Cloud AI"
+      ],
+      "skills": [
+        "GPU-sharing containers",
+        "Fractional GPU orchestration",
+        "Multi-cloud deployment",
+        "On-device AI",
+        "High-performance computing"
+      ],
+      "description": "오픈소스 기반 AI 인프라 플랫폼 ‘Backend.AI’를 개발·운영하는 스타트업입니다. 효율적인 리소스 관리와 AI 학습·배포 자동화에 특화되어 있습니다.",
+      "link": "https://lablup.com"
+    },
+    "step2": {
+      "category": "startup",
+      "name": "SkyReve",
+      "reason": "AWS 인프라 자동화, CI/CD, 실시간 로그 모니터링 등 DevOps에 필요한 요소를 쉽게 구현할 수 있는 BaaS입니다. Python 기반 운영 자동화와 모니터링 프로젝트 예시에 적합합니다.",
+      "fields": [
+        "BaaS (Backend-as-a-Service)",
+        "No-code 데이터베이스",
+        "실시간 로그 모니터링",
+        "브랜치 기반 배포",
+        "REST API 자동화",
+        "AI 연동",
+        "OAuth·QR 결제·이메일 로그인"
+      ],
+      "skills": [
+        "자동 스케일링",
+        "고가용성 배포",
+        "PIP 플레이어",
+        "OpenAI 연동",
+        "OAuth 구현",
+        "QR 결제 통합",
+        "HTTPS 보안 API"
+      ],
+      "description": "로우코드/노코드 방식으로 백엔드 구축 및 운영 자동화를 제공하는 완전관리형 BaaS입니다. 실시간 모니터링, CI/CD, 배포 등 DevOps 실무에 바로 적용할 수 있습니다.",
+      "link": "https://www.skyreve.cloud/kr"
+    }
+  },
+  "total_reason": "이전 경력과 추천 경로를 고려해 AI/DevOps 스타트업에 직접 적용 가능한 실무 중심의 실천 가이드라인으로 구성했습니다. 실제 활용 예시와 기술 도입 방안을 단계별로 안내해 실질적인 커리어 성장에 도움을 줍니다."
+}

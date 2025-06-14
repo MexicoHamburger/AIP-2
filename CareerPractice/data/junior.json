@@ -1,0 +1,201 @@
+[
+    {
+        "_comment" : "1",
+        "name" : "NAVER WEBTOON",
+        "job" : "Graphics Engineer (Frontend / React Native)",
+        "skills" : [
+            "JavaScript",
+            "React",
+            "React Native",
+            "Skia",
+            "WebGL",
+            "OpenGL ES",
+            "Metal",
+            "Shader",
+            "AVFoundation",
+            "MediaCodec",
+            "Swift",
+            "Kotlin"
+        ],
+        "work" : "Graphics pipeline",
+        "description" : "디지털 미디어 저작 도구 개발과 이미지·영상 렌더·인코딩 파이프라인 설계·최적화를 담당합니다.",
+        "link" : "https://recruit.navercorp.com/rcrt/view.do?annoId=30003402&sw=&subJobCdArr=&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr="
+    },
+    {
+        "_comment" : "2",
+        "name" : "NAVER Cloud",
+        "job" : "LLM Optimization Engineer",
+        "skills" : [
+            "Python",
+            "PyTorch",
+            "DeepSpeed",
+            "FSDP",
+            "Megatron-LM",
+            "NeMo",
+            "vLLM",
+            "Tensor Parallelism",
+            "FlashAttention",
+            "Kubernetes",
+            "Docker"
+        ],
+        "work" : "LLM optimization",
+        "description" : "LLM 경량화와 추론 엔진 최적화를 통해 학습·서빙 비용을 절감하고 성능을 향상시키는 연구·개발을 담당합니다.",
+        "link" : "https://recruit.navercorp.com/rcrt/view.do?annoId=30003422&sw=&subJobCdArr=&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr="
+    },
+    {
+        "_comment" : "3",
+        "name" : "NAVER Cloud",
+        "job" : "Backend Engineer",
+        "skills" : [
+            "Java",
+            "Kotlin",
+            "Spring",
+            "Spring WebFlux",
+            "REST API",
+            "Linux",
+            "MySQL",
+            "Redis",
+            "Kafka",
+            "Gradle",
+            "Jenkins",
+            "Kubernetes"
+        ],
+        "work" : "Data protection backend",
+        "description" : "NCP Key Management Service·Secret Manager의 고성능·고가용 백엔드와 이벤트 기반 분산 아키텍처를 설계·구현합니다.",
+        "link" : "https://recruit.navercorp.com/rcrt/view.do?annoId=30003468&sw=&subJobCdArr=&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr="
+    },
+    {
+        "_comment" : "4",
+        "name" : "Kakao",
+        "job" : "FE/BE",
+        "skills" : [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "Docker",
+            "Kubernetes",
+            "Kafka",
+            "MongoDB"
+        ],
+        "work" : "API platform development",
+        "description" : "Kakao Developers 프론트엔드·서버, JavaScript SDK, 어드민·포럼 사이트를 개발하며 플랫폼 생태계를 확장합니다.",
+        "link" : "https://careers.kakao.com/jobs/P-14092?skillSet=&part=TECHNOLOGY&company=KAKAO&keyword=&employeeType=&page=1"
+    },
+    {
+        "_comment" : "5",
+        "name" : "Kakao",
+        "job" : "LLM Engineer",
+        "skills" : [
+            "Python",
+            "PyTorch",
+            "CUDA",
+            "Distributed Training",
+            "Model Parallelism",
+            "Pruning",
+            "Distillation",
+            "Mixture of Experts",
+            "Hyperparameter Tuning",
+            "Data Engineering"
+        ],
+        "work" : "LLM research",
+        "description" : "Kanana LLM 시리즈의 구조 탐색·경량화·데이터 최적화를 통해 학습·추론 효율을 높이고 초거대 모델 품질을 향상시키는 연구를 수행합니다.",
+        "link" : "https://careers.kakao.com/jobs/P-14102?skillSet=&part=TECHNOLOGY&company=KAKAO&keyword=&employeeType=&page=1"
+    },
+    {
+        "_comment" : "6",
+        "name" : "Kakao",
+        "job" : "Android development",
+        "skills" : [
+            "Kotlin",
+            "Java",
+            "Android",
+            "MVVM",
+            "REST API",
+            "Room/SQLite",
+            "Git",
+            "Jetpack Compose",
+            "Multimodule",
+            "Unit Testing"
+        ],
+        "work" : "BizApp Android Developer",
+        "description" : "카카오톡 채널 홈·채팅방과 관리자센터 앱을 Kotlin 기반 MVVM 아키텍처로 개발·운영하여 비즈니스 기능을 확장합니다.",
+        "link" : "https://careers.kakao.com/jobs/P-14104"
+    },
+    {
+        "_comment" : "7",
+        "name" : "Coupang",
+        "job" : "Staff Back-end Engineer (Ads Creative & Integrity)",
+        "skills" : [
+            "Java",
+            "Spring",
+            "API Gateway",
+            "gRPC",
+            "Kafka",
+            "Airflow",
+            "Spark",
+            "Hive",
+            "Python",
+            "React"
+        ],
+        "work" : "Ads backend",
+        "description" : "Spring 기반 광고 데이터 서빙·Creative Optimization 백엔드와 대규모 분산 파이프라인·머신러닝 시스템을 설계·개발해 광고 효율과 시스템 확장성·안정성을 높입니다.",
+        "link" : "https://www.coupang.jobs/kr/jobs/6547181/staff-back-end-engineer-ads-creative-integrity/?gh_jid=6547181"
+    },
+    {
+        "_comment" : "8",
+        "name" : "Coupang",
+        "job" : "AI Engineer (Detection Engineering)",
+        "skills" : [
+            "Python",
+            "LangChain",
+            "LlamaIndex",
+            "LLM Fine-tuning",
+            "Prompt Engineering",
+            "Airflow",
+            "Kubernetes",
+            "EKS",
+            "MLOps",
+            "Data Versioning"
+        ],
+        "work" : "AI security automation",
+        "description" : "LLM 기반 탐지·분석 자동화 기능을 설계·구현하고, 보안 데이터셋 관리·MLOps 인프라 구축으로 위협 대응 효율을 높이는 역할을 담당합니다.",
+        "link" : "https://www.coupang.jobs/kr/jobs/6899148/ai-engineer-detection-engineering/?gh_jid=6899148"
+    },
+    {
+        "_comment" : "9",
+        "name" : "Woowa Bros.",
+        "job" : "ML Engineer AI Platform",
+        "skills" : [
+            "Python",
+            "Kubernetes",
+            "AWS",
+            "Spark",
+            "Airflow",
+            "Kafka",
+            "MLflow",
+            "BentoML",
+            "SQL"
+        ],
+        "work" : "AI platform engineering",
+        "description" : "배민 AI 프로덕트 팀들과 협업해 모델 학습·배포·모니터링 파이프라인과 확장형 서빙 인프라를 구축·운영하여 AI 서비스의 비즈니스 임팩트를 강화합니다.",
+        "link" : "https://career.woowahan.com/recruitment/R2505004/detail?jobCodes=&employmentTypeCodes=&serviceSectionCodes=&careerPeriod=&keyword=&category=jobGroupCodes%3ABA005001"
+    },
+    {
+        "_comment" : "10",
+        "job" : "Backend Engineer Delivery & Rider Services",
+        "skills" : [
+            "Java",
+            "Spring Boot",
+            "Spring Cloud",
+            "JPA",
+            "Kafka",
+            "Redis",
+            "JUnit",
+            "Git"
+        ],
+        "work" : "Delivery backend",
+        "description" : "주문부터 배달 완료까지 배차·관제·라이더 플랫폼을 Java Spring 기반 고가용 시스템으로 개발·운영하여 배민·B마트 실시간 딜리버리 서비스를 최적화합니다.",
+        "link" : "https://career.woowahan.com/recruitment/R2409006/detail?jobCodes=&employmentTypeCodes=&serviceSectionCodes=&careerPeriod=&keyword=&category=jobGroupCodes%3ABA005001"
+    }
+]
