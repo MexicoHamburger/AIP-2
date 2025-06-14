@@ -19,12 +19,12 @@ Let's think step by step.
     - 분석 결과: `{user_prediction}`
 
 3. **경력 추천 모델의 추천 경력 분석**: 
-    - 경력 추천 모델은 사용자의 이전 경력을 토대로 다음과 같은 경력 추천을 했습니다.
+    - 경력 추천 모델은 사용자의 이전 경력을 토대로 다음과 같은 경력 추천을 했습니다. 연속된 경력 활동, 다시 말해 `경력 시퀀스`를 추천한 것입니다.
     - 경력 추천: '{user_recommendation}`
 
 4. **질의 작성**: 
     - 각 step마다 추천된 경력에 관해 vector db에서 관련 item을 잘 검색할 수 있는 질의를 제작해야 합니다. 
-    - 각 step마다 추천된 경력에 관해 category를 다음 내에서만 분류합니다: club, intern, junior, cert, contest, hackathon, research, project, language, etc
+    - 각 step마다 추천된 경력에 관해 category를 다음 내에서만 분류합니다: club, intern, junior, cert, contest, hackathon, research, project, language, StartUp etc
     - 사용자의 이전 경력, 경력 예측 모델의 경력을 바탕으로, 제안된 경력 추천의 각 step에 대해 경력 맥락을 담아 효과적으로 실천 가이드라인을 제공할 수 있도록 질의를 생성합니다.
     - 경력 맥락은 질의에 이전 경력의 모든 내용을 포함하는 방식이 아니라, 경력의 주요한 방향에 대한 키워드 등을 담는 방식으로 포함해주세요.
 
@@ -72,7 +72,7 @@ step1.
 {user_history}
 경력 예측 모델 결과:
 {user_prediction}
-경력 추천 모델 결과:
+경력 추천 모델 결과: (연속된 경력 활동, 다시 말해 `경력 시퀀스`를 추천한 것입니다.)
 {user_recommendation}
 실천 가이드라인 결과:
 {career_practice}

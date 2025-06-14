@@ -149,7 +149,7 @@ async def _select_part(
 ) -> PracticeItem:
     parser = JsonOutputParser(pydantic_object=PracticeItem)
     llm = ChatOpenAI(
-        model="gpt-4.1",
+        model="gpt-4.1-2025-04-14",
         api_key=openai_api_key,
     )
     prompt = PromptTemplate(
@@ -201,7 +201,7 @@ async def _generate_upgrade_reason(
     chain = (
         prompt
         | ChatOpenAI(
-            model="gpt-4.1",
+            model="gpt-4.1-2025-04-14",
             api_key=openai_api_key,
         )
         | parser
@@ -222,7 +222,7 @@ async def _select_part_web_search(
 ) -> PracticeItem:
     parser = JsonOutputParser(pydantic_object=PracticeItem)
     llm = ChatOpenAI(
-        model="gpt-4.1",
+        model="gpt-4.1-2025-04-14",
         api_key=openai_api_key,
         model_kwargs={
             "tools": [{"type": "web_search"}],
@@ -270,7 +270,7 @@ async def run_career_practice(params: CareerPracticeParams) -> CareerPracticeRes
             query_item.step,
         )
         print(category, practice_query)
-        if category == "language" or category == "project" or category == "etc":
+        if category == "language" or category == "project" or category == "etc" or category == "StartUp":
             part =  await _select_part_web_search(category, practice_query)
             selected_items[step] = part
             continue
