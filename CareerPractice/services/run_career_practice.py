@@ -26,9 +26,10 @@ client = OpenAI(api_key=openai_api_key)
 
 
 class CareerPracticeParams(BaseModel):
-    user_prediction: str = Field(
-        description="사용자의 커리어 경력 예측 내용 문자열입니다."
-    )
+    # 성능 저하 및 추천 모델 결과와의 충돌 발생으로 제외, 사용자의 경력을 llm에 넣기 때문에 필요 없다 판단.
+    #user_prediction: str = Field(
+    #    description="사용자의 커리어 경력 예측 내용 문자열입니다."
+    #)
     user_history: List[str] = Field(description="사용자의 이력 토큰입니다.")
     user_recommendation: List[str] = Field(description="사용자의 이력 추천 토큰입니다.")
 
@@ -92,7 +93,6 @@ async def _generate_practice_queries(
     )
     variables = {
         "user_history": params.user_history,
-        "user_prediction": params.user_prediction,
         "user_recommendation": params.user_recommendation,
     }
     chain = (
@@ -143,10 +143,17 @@ def _candidates_to_str_summary(matches: list[dict]) -> str:
         ]
     )
 
+def serialize_selected_items(selected_items: Dict[str, PracticeItem]) -> str:
+    # Pydantic 모델들을 dict로 변환
+    serialized_dict = {key: item.model_dump() for key, item in selected_items.items()}
+    # JSON 문자열로 변환 (indent 옵션은 보기 좋게 출력, 필요없으면 삭제)
+    json_string = json.dumps(serialized_dict, ensure_ascii=False, indent=2)
+    return json_string
 
 async def _select_part(
-    category: str, practice_query: str, candidates_str: str
+    category: str, practice_query: str, candidates_str: str, selected_items: Dict[str, PracticeItem]
 ) -> PracticeItem:
+    selected_items_str = serialize_selected_items(selected_items)
     parser = JsonOutputParser(pydantic_object=PracticeItem)
     llm = ChatOpenAI(
         model="gpt-4.1-2025-04-14",
@@ -154,7 +161,7 @@ async def _select_part(
     )
     prompt = PromptTemplate(
         template=CareerPracticePrompt.RAG_PROMPT.value,
-        input_variables=["practice_query", "candidates"],
+        input_variables=["practice_query", "candidates", "selected_items_str"],
         partial_variables={
             "format_instructions": parser.get_format_instructions(),
         },
@@ -165,6 +172,7 @@ async def _select_part(
             {
                 "practice_query": practice_query,
                 "candidates": candidates_str,
+                "selected_items_str": selected_items_str
             }
         )
     except Exception as e:
@@ -176,13 +184,6 @@ async def _select_part(
         sys.exit(1)
 
 
-def serialize_selected_items(selected_items: Dict[str, PracticeItem]) -> str:
-    # Pydantic 모델들을 dict로 변환
-    serialized_dict = {key: item.model_dump() for key, item in selected_items.items()}
-    # JSON 문자열로 변환 (indent 옵션은 보기 좋게 출력, 필요없으면 삭제)
-    json_string = json.dumps(serialized_dict, ensure_ascii=False, indent=2)
-    return json_string
-
 # 부품 업그레이드 과정 설명을 제작하는 함수
 async def _generate_upgrade_reason(
     selected_items: Dict[str, PracticeItem],
@@ -193,7 +194,7 @@ async def _generate_upgrade_reason(
     parser = JsonOutputParser(pydantic_object=ReasonResponse)
     prompt = PromptTemplate(
         template=CareerPracticePrompt.REASON_PROMPT.value,
-        input_variables=["user_history", "user_prediction", "user_recommendation", "career_practice"],
+        input_variables=["user_history", "user_recommendation", "career_practice"],
         partial_variables={
             "format_instructions": parser.get_format_instructions(),
         },
@@ -209,7 +210,6 @@ async def _generate_upgrade_reason(
     result = await chain.ainvoke(
         {
             "user_history": params.user_history,
-            "user_prediction": params.user_prediction,
             "user_recommendation": params.user_recommendation,
             "career_practice": selected_items_str,
         }
@@ -284,7 +284,7 @@ async def run_career_practice(params: CareerPracticeParams) -> CareerPracticeRes
         candidates_str = _candidates_to_str_summary(matches)
 
         # 2-3. 단일 item 선택 (LLM 사용)
-        part = await _select_part(category, practice_query, candidates_str)
+        part = await _select_part(category, practice_query, candidates_str, selected_items)
         if not part.name or str(part.name).strip().lower() in ["none", "null", ""]:
             print(f"[{category}] 선택된 아이템 없음.")
             selected_items[step] = PracticeItem(

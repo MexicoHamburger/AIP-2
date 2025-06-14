@@ -12,9 +12,8 @@ load_dotenv()
 async def main():
     # dummy 2 (현재 사용중인 예시)
     params = CareerPracticeParams(
-        user_prediction="",
-        user_history=['Python', 'TYPE_Club|ROLE_BE', 'TYPE_Club|ROLE_DEVOPS'],
-        user_recommendation=['TYPE_Proj|ROLE_BE', 'TYPE_Intern|ROLE_AI']
+        user_history = ['Python', 'TensorFlow', 'Keras', 'AWS', 'CERT_DATA', 'TYPE_Intern|ROLE_AI', 'TYPE_Junior|ROLE_AI'],
+        user_recommendation = ['TYPE_StartUp|ROLE_AI', 'TYPE_StartUp|ROLE_DEVOPS']
     )
     try:
         result = await run_career_practice(params)
