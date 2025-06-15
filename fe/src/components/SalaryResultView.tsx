@@ -16,9 +16,9 @@ interface SalaryResultViewProps {
   title?: string;
 }
 
-const SalaryResultView: React.FC<SalaryResultViewProps> = ({ 
-  results, 
-  title = "급여 분석 결과" 
+const SalaryResultView: React.FC<SalaryResultViewProps> = ({
+  results,
+  title = "급여 분석 결과"
 }) => {
   const formatSalary = (salary: string) => {
     // "95,364,384 / 88,660,064 / 89,140,488 원" 형식을 파싱
@@ -26,7 +26,7 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
     if (numbers && numbers.length >= 3) {
       return {
         max: numbers[0],
-        avg: numbers[1], 
+        avg: numbers[1],
         min: numbers[2]
       };
     }
@@ -43,7 +43,7 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
       'embedded': 'bg-red-500/20 text-red-300 border-red-500/30',
       'back-end': 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30'
     };
-    
+
     for (const [key, value] of Object.entries(colors)) {
       if (stack.toLowerCase().includes(key.toLowerCase())) {
         return value;
@@ -64,8 +64,9 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {results.map((result, index) => {
           const salaryData = formatSalary(result.보완후연봉);
+          const stackArr = result.추천스택.split(",").map(s => s.trim());
           const currentSalary = result.예상연봉_현재?.replace(/[^\d,]/g, '') || 'N/A';
-          
+
           return (
             <Card key={index} className="bg-gray-900/50 border-gray-800/50 backdrop-blur-sm hover:bg-gray-900/70 transition-all duration-300 hover:scale-105">
               <CardHeader className="pb-4">
@@ -79,7 +80,7 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
                   </Badge>
                 </div>
               </CardHeader>
-              
+
               <CardContent className="space-y-6">
                 {/* 급여 정보 */}
                 <div className="space-y-4">
@@ -87,23 +88,34 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
                     <TrendingUp className="h-4 w-4" />
                     급여 범위
                   </div>
-                  
+
                   <div className="bg-gradient-to-r from-green-600/10 to-emerald-600/10 border border-green-500/20 rounded-lg p-4">
                     <div className="grid grid-cols-3 gap-3 text-center">
+                      {/* 최고 구간 */}
                       <div>
-                        <div className="text-xs text-gray-400 mb-1">최고</div>
+                        <div className="text-xs mb-1 font-semibold text-green-300">
+                          {stackArr[0] || "-"}
+                        </div>
                         <div className="text-sm font-bold text-green-300">
                           {salaryData.max}
                         </div>
                       </div>
+
+                      {/* 평균 구간 */}
                       <div>
-                        <div className="text-xs text-gray-400 mb-1">평균</div>
+                        <div className="text-xs mb-1 font-semibold text-blue-300">
+                          {stackArr[1] || "-"}
+                        </div>
                         <div className="text-sm font-bold text-blue-300">
                           {salaryData.avg}
                         </div>
                       </div>
+
+                      {/* 최소 구간 */}
                       <div>
-                        <div className="text-xs text-gray-400 mb-1">최소</div>
+                        <div className="text-xs mb-1 font-semibold text-orange-300">
+                          {stackArr[2] || "-"}
+                        </div>
                         <div className="text-sm font-bold text-orange-300">
                           {salaryData.min}
                         </div>
@@ -128,7 +140,7 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
                     <Briefcase className="h-4 w-4" />
                     직무 정보
                   </div>
-                  
+
                   <div className="space-y-3">
                     <div>
                       <div className="text-xs text-gray-400 mb-2">추천 스택</div>
@@ -140,7 +152,7 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
                         ))}
                       </div>
                     </div>
-                    
+
                     <div>
                       <div className="text-xs text-gray-400 mb-2">추천 직무</div>
                       <Badge className="bg-purple-500/20 text-purple-300 border-purple-500/30 text-xs">
