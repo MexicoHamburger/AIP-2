@@ -2,13 +2,14 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { DollarSign, TrendingUp, MapPin, Briefcase } from "lucide-react";
+import { DollarSign, TrendingUp, MapPin, Briefcase, Star } from "lucide-react";
 
 interface SalaryData {
   보완후연봉: string;
   예상연봉_현재: string;
   추천스택: string;
   추천직무: string;
+  예상만족도: number;
 }
 
 interface SalaryResultViewProps {
@@ -50,6 +51,38 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
       }
     }
     return 'bg-gray-500/20 text-gray-300 border-gray-500/30';
+  };
+
+  const renderStars = (score: number) => {
+    const fullStars = Math.floor(score / 2); // 10점을 5점으로 변환
+    const hasHalfStar = (score % 2) >= 1;
+    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+    return (
+      <div className="flex items-center gap-1">
+        {/* 꽉 찬 별 */}
+        {Array.from({ length: fullStars }).map((_, i) => (
+          <Star key={`full-${i}`} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+        ))}
+
+        {/* 반 별 */}
+        {hasHalfStar && (
+          <div className="relative">
+            <Star className="h-4 w-4 text-gray-600" />
+            <div className="absolute inset-0 overflow-hidden" style={{ width: '50%' }}>
+              <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+            </div>
+          </div>
+        )}
+
+        {/* 빈 별 */}
+        {Array.from({ length: emptyStars }).map((_, i) => (
+          <Star key={`empty-${i}`} className="h-4 w-4 text-gray-600" />
+        ))}
+
+        <span className="text-xs text-gray-400 ml-1">({score}/10)</span>
+      </div>
+    );
   };
 
   return (
@@ -158,6 +191,12 @@ const SalaryResultView: React.FC<SalaryResultViewProps> = ({
                       <Badge className="bg-purple-500/20 text-purple-300 border-purple-500/30 text-xs">
                         {result.추천직무}
                       </Badge>
+                    </div>
+                    <div>
+                      <div className="text-xs text-gray-400 mb-2">직무 만족도</div>
+                      <div className="bg-yellow-500/5 border border-yellow-500/20 rounded-lg p-3">
+                        {renderStars(result.예상만족도)}
+                      </div>
                     </div>
                   </div>
                 </div>
