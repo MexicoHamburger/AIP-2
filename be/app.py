@@ -59,7 +59,7 @@ def feature1_inference():
             return jsonify({"error": "입력은 JSON 딕셔너리 형식이어야 합니다."}), 400
 
         # 추론 실행
-        df_result = run_inference(data)
+        df_result = run_inference(data['tokens'])
 
         # DataFrame을 JSON으로 변환
         result_json = df_result.to_dict(orient="records")
