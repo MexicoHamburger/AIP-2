@@ -82,7 +82,7 @@ def predict_with_upskill(model, x_np, tok_have, tok_want, top_k=3, device="cpu")
     mask_w = np.isin(tok_want.classes_, list(have_tokens)).astype(np.float32)
     w_filtered = w*(1-mask_w)
     top_idx = w_filtered.argsort()[-top_k:][::-1]
-    return {"role_prob":r,"salary":s,"topk_stack_idx":top_idx}
+    return {"role_prob":r,"industry_prob":i, "salary":s,"satisfaction": t,"topk_stack_idx":top_idx}
 
 # ───────────────── 4. 로딩 (토크나이저 / 스케일러 / raw) ─
 with open(RAW_PATH, 'rb') as f:
@@ -122,18 +122,25 @@ def run_inference(dummy_input: Dict[str, List[str]],
 
     role_avg = {}
     dummy_set = set(dummy_have_tokens)
+    #for role in role_cols:
+    #    mask_role = raw["DevType"].str.contains(role, na=False)
+    #    common_cnt = raw.loc[mask_role, have_cols+other_multi].apply(
+    #        lambda row: len(dummy_set & set(sum(row, []))), axis=1)
+    #    similar_mask = common_cnt >= threshold
+    #    vals = raw.loc[mask_role & similar_mask, "CompTotal"].dropna()
+    #    role_avg[role] = vals.mean() if len(vals) else np.nan
     for role in role_cols:
         mask_role = raw["DevType"].str.contains(role, na=False)
-        common_cnt = raw.loc[mask_role, have_cols+other_multi].apply(
-            lambda row: len(dummy_set & set(sum(row, []))), axis=1)
-        similar_mask = common_cnt >= threshold
-        vals = raw.loc[mask_role & similar_mask, "CompTotal"].dropna()
+        vals = raw.loc[mask_role, "CompTotal"].dropna()
         role_avg[role] = vals.mean() if len(vals) else np.nan
-
+    ind_cols = raw["Industry"].fillna("Unknown").str.get_dummies(";").columns
+    top_ind_idx = out["industry_prob"].argsort()[-top_k:][::-1]
+    top_inds    = ind_cols[top_ind_idx]
     rows=[]
     for r_idx,r_name in zip(top_role_idx, top_roles):
         sal_before = scaler.inverse_transform(out["salary"][r_idx].reshape(1,-1))[0,0]
         ds_mean    = role_avg.get(r_name, np.nan)
+        sat_before = out["satisfaction"][r_idx]
         after=[]
         for s_tok in top_stacks:
             new_have=set(dummy_have_tokens)|{s_tok}
@@ -144,8 +151,10 @@ def run_inference(dummy_input: Dict[str, List[str]],
             after.append(f"{sal_after:,.0f}")
         rows.append({
             "추천 직무":r_name,
+            "추천 산업군": ", ".join(map(str, top_inds.tolist())),
             "예상 연봉(현재)":f"{sal_before:,.0f}",
-            "직무+스택 평균":f"{ds_mean:,.0f}",
+            "예상 만족도": f"{sat_before:.2f}",
+            "직무 평균 (DB)":f"{ds_mean:,.0f}",
             "추천 스택":", ".join(top_stacks),
             "보완 후 연봉": " / ".join(after)+" 원"
         })
@@ -154,14 +163,14 @@ def run_inference(dummy_input: Dict[str, List[str]],
 # ───────────────── 7. 예시 실행 ─────────────────────────
 if __name__ == "__main__":
     dummy = {
-        "LanguageHaveWorkedWith": ["C"],
-        "DatabaseHaveWorkedWith": [],
-        "PlatformHaveWorkedWith": [],
-        "WebframeHaveWorkedWith": ["FastAPI"],
+        "LanguageHaveWorkedWith": ["Python", "C"],
+        "DatabaseHaveWorkedWith": ["SQLite"],
+        "PlatformHaveWorkedWith": ["AWS"],
+        "WebframeHaveWorkedWith": ["FastAPI", "React", "Flack"],
         "EmbeddedHaveWorkedWith": ["GNU GCC"],
-        "MiscTechHaveWorkedWith": ["Torch/PyTorch"],
-        "ToolsTechHaveWorkedWith": [],
-        "ProfessionalTech": [],
+        "MiscTechHaveWorkedWith": ["Docker", "Numpy", "PyTorch"],
+        "ToolsTechHaveWorkedWith": ["Docker"],
+        "ProfessionalTech": ["AI-assisted Tech. Tool"],
     }
     df = run_inference(dummy)
     print(df.to_markdown(index=False))
